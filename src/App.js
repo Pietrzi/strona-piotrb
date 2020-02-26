@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './scss/style.scss';
 import {
   HashRouter,
   Route,
@@ -11,12 +11,11 @@ import Footer from './components/Footer';
 import Movie from './components/Movie';
 import MovieArt from './components/MovieArt';
 import Paint from './components/Paint';
-//import sample from './assets/Surfer1.mp4';
+
 
 
 function App() {
   return (
-    <>
       <HashRouter>
         <Navbar />
         <Switch>
@@ -27,7 +26,6 @@ function App() {
         </Switch>
         <Footer />
       </HashRouter>
-    </>
   );
 }
 
