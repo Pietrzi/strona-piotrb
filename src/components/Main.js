@@ -1,9 +1,9 @@
 import React from 'react';
-import sample from '../assets/Surfer1.mp4';
+import sample from '../assets/3333.mp4';
 
 const Main = () => {
     return (
-        <video src={sample} autoPlay={true} loop={true}></video>
+        <video src={sample} autoPlay={true} loop={true} muted></video>
     )
 }
 

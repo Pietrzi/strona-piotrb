@@ -6,8 +6,9 @@ const Footer = () => {
         <footer>
             <div className="centering__container">
                 <div className="icons__container">
-                    <p>V</p>
-                    <p>F</p>
+                    <a href="http://vimeo.com/manifiestafilm"><div className="footer__icon__container vimeo"></div></a>
+                    <a href="https://www.facebook.com/piotr.bartos.84"><div className="footer__icon__container face"></div></a>
+                    <a href="https://www.instagram.com/bartospiotr/"><div className="footer__icon__container insta"></div></a>
                 </div>
                 <div className="bio__container">
                     <NavLink to="/biocontact" className="bio__text">bio & kontakt</NavLink>
@@ -18,3 +19,7 @@ const Footer = () => {
 }
 
 export default Footer;
+
+// http://vimeo.com/manifiestafilm
+// https://www.facebook.com/piotr.bartos.84
+// https://www.instagram.com/bartospiotr/

@@ -9,13 +9,26 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 90px;
+        width: 150px;
 
-        p {
-            font-size: 1.5rem;
-            background-color: $color-mainblue;
-            padding: 5px 12px;
-            border-radius: 10px;
+        .footer__icon__container {
+            width: 40px;
+            height: 40px;
+        }
+
+        .vimeo {
+            background-image: url("../../assets/vimoennew.png");
+            background-size: cover;
+        }
+
+        .face {
+            background-image: url("../../assets/fbnnew.png");
+            background-size: cover;
+        }
+
+        .insta {
+            background-image: url("../../assets/instagramnnew.png");
+            background-size: cover;
         }
     }
 
