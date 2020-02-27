@@ -2,8 +2,8 @@ import React from 'react';
 
 const Paint = () => {
     return (
-        <div>
-            Paint
+        <div className="temp__box">
+            <h1>Paint</h1>
         </div>
     )
 }

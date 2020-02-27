@@ -3,8 +3,8 @@ import React from 'react';
 
 const BioContact = () => {
     return (
-        <div>
-            BioContact
+        <div className="temp__box">
+            <h1>BioContact</h1>
         </div>
     )
 }

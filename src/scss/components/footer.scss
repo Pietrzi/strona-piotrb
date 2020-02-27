@@ -2,11 +2,21 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 50px;
+    height: 60px;
     z-index: 2;
 
     .icons__container {
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90px;
+
+        p {
+            font-size: 1.5rem;
+            background-color: $color-mainblue;
+            padding: 5px 12px;
+            border-radius: 10px;
+        }
     }
 
     .bio__text {
@@ -16,6 +26,6 @@ footer {
         text-transform: uppercase;
         letter-spacing: 2px;
         padding: 1px 3px;
-        background-color: lightblue;
+        background-color: $color-mainblue;
     }
 }

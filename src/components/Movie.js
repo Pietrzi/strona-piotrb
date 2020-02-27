@@ -3,8 +3,8 @@ import React from 'react';
 
 const Movie = () => {
     return (
-        <div>
-            Movie
+        <div className="temp__box">
+            <h1>Movie</h1>
         </div>
     )
 }

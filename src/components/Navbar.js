@@ -7,7 +7,7 @@ const Navbar = (props) => {
         <nav>
             <div className="centering__container">
                 <div className="name__container">
-                    <p className="logo__name">piotr bartos</p>
+                    <NavLink to='/' className="logo__name">piotr bartos</NavLink>
                 </div>
                 <div className="navmenu__container">
                     <ul>

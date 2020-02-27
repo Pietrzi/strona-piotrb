@@ -1,12 +1,12 @@
 .button__container {
-  background: lightblue;
+  background: $color-mainblue;
   padding: 7px;
 
   .toggle__button {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background: lightblue;
+    background: $color-mainblue;
     height: 24px;
     width: 30px;
     border: none;
@@ -25,7 +25,7 @@
       background: black;
     }
   }
-  
+
   @media (min-width: 1002px) {
     display: none;
   }

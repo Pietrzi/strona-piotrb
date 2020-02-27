@@ -6,8 +6,8 @@ const Footer = () => {
         <footer>
             <div className="centering__container">
                 <div className="icons__container">
-                    <div>V</div>
-                    <div>F</div>
+                    <p>V</p>
+                    <p>F</p>
                 </div>
                 <div className="bio__container">
                     <NavLink to="/biocontact" className="bio__text">bio & kontakt</NavLink>
