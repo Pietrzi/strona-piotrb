@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import Movie from './components/Movie';
 import MovieArt from './components/MovieArt';
 import Paint from './components/Paint';
+import BioContact from './components/BioContact';
 
 
 
@@ -23,6 +24,7 @@ function App() {
           <Route path='/movie' component={Movie} />
           <Route path='/movieart' component={MovieArt} />
           <Route path='/paint' component={Paint} />
+          <Route path='/biocontact' component={BioContact} />
         </Switch>
         <Footer />
       </HashRouter>
