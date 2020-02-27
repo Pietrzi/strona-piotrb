@@ -1,0 +1,33 @@
+.button__container {
+  background: lightblue;
+  padding: 7px;
+
+  .toggle__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: lightblue;
+    height: 24px;
+    width: 30px;
+    border: none;
+    cursor: pointer;
+    padding: 0px;
+    box-sizing: border-box;
+  
+  
+    .toggle__button:focus {
+      outline: none;
+    }
+    
+    .toggle__button__line {
+      width: 30px;
+      height: 3px;
+      background: black;
+    }
+  }
+  
+  @media (min-width: 1002px) {
+    display: none;
+  }
+}
+

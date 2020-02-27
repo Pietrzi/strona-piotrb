@@ -44,7 +44,7 @@ class App extends React.Component {
       {backdrop}
       <HashRouter>
         <Navbar menuHandler={this.sideMenuClickHandler}/>
-        <SideMenu show={this.sideMenu}/>
+        <SideMenu show={this.state.sideMenu}/>
         <Switch>
           <Route exact path='/' component={Main} />
           <Route path='/movie' component={Movie} />

@@ -21,7 +21,7 @@ const Navbar = (props) => {
                             <NavLink className="menu__link__element" to='paint'>paint</NavLink>
                         </li>
                     </ul>
-                    <Hamburger click={props.hamburgerHandler}/>
+                    <Hamburger click={props.menuHandler}/>
                 </div>
             </div>
         </nav>
