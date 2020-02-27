@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/strona-piotrb/static/css/main.a75ef5d7.chunk.css",
+    "main.js": "/strona-piotrb/static/js/main.6fba5d8f.chunk.js",
+    "main.js.map": "/strona-piotrb/static/js/main.6fba5d8f.chunk.js.map",
+    "runtime-main.js": "/strona-piotrb/static/js/runtime-main.2f6be557.js",
+    "runtime-main.js.map": "/strona-piotrb/static/js/runtime-main.2f6be557.js.map",
+    "static/js/2.13a0c9ed.chunk.js": "/strona-piotrb/static/js/2.13a0c9ed.chunk.js",
+    "static/js/2.13a0c9ed.chunk.js.map": "/strona-piotrb/static/js/2.13a0c9ed.chunk.js.map",
+    "index.html": "/strona-piotrb/index.html",
+    "precache-manifest.44d9121174b24bcbad93182f1b38a950.js": "/strona-piotrb/precache-manifest.44d9121174b24bcbad93182f1b38a950.js",
+    "service-worker.js": "/strona-piotrb/service-worker.js",
+    "static/css/main.a75ef5d7.chunk.css.map": "/strona-piotrb/static/css/main.a75ef5d7.chunk.css.map",
+    "static/js/2.13a0c9ed.chunk.js.LICENSE.txt": "/strona-piotrb/static/js/2.13a0c9ed.chunk.js.LICENSE.txt",
+    "static/media/Surfer1.mp4": "/strona-piotrb/static/media/Surfer1.a2fd34b6.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f6be557.js",
+    "static/js/2.13a0c9ed.chunk.js",
+    "static/css/main.a75ef5d7.chunk.css",
+    "static/js/main.6fba5d8f.chunk.js"
+  ]
+}
