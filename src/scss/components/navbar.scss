@@ -22,6 +22,10 @@ nav {
         background-color: lightblue;
     }
 
+    .navmenu__container {
+        display: flex;
+    }
+
     ul {
         display: flex;
         justify-content: space-between;
