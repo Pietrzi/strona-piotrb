@@ -1,8 +1,8 @@
 import React from 'react';
 import Slide from './Slide';
-import firstPaint from "./assets/raz.jpg";
-import secondPaint from "./assets/dwa.jpg";
-import thirdPaint from "./assets/trzy.jpg";
+import firstPaint from "../assets/raz.png";
+import secondPaint from "../assets/dwa.png";
+import thirdPaint from "../assets/trzy.png";
 
 
 class Paint extends React.Component {
@@ -42,14 +42,14 @@ class Paint extends React.Component {
         }
 
         return (
-            <div className="temp__box">
+            <div className="paint__container">
                 {newImagesArray.map((image, i) =>
                 this.state.currentIndex === i ? (
                     <Slide key={i} url={image} alt="" />
                 ) : null
                 )}
-                <div>left</div>
-                <div>right</div>
+                <div className="left__arrow" onClick={this.prevSlide}>left</div>
+                <div className="right__arrow" onClick={this.nextSlide}>right</div>
             </div>
         )
     }

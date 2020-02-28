@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-export default function Slide() {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+const Slide = ({ url }) => {
+  return (
+    <div className="slide">
+      <img src={url} alt="paint-art" />
+    </div>
+  );
+};
+
+export default Slide;
