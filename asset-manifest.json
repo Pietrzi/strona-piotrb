@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/strona-piotrb/static/css/main.a75ef5d7.chunk.css",
-    "main.js": "/strona-piotrb/static/js/main.6fba5d8f.chunk.js",
-    "main.js.map": "/strona-piotrb/static/js/main.6fba5d8f.chunk.js.map",
+    "main.css": "/strona-piotrb/static/css/main.9fd4dcc1.chunk.css",
+    "main.js": "/strona-piotrb/static/js/main.f7e3b014.chunk.js",
+    "main.js.map": "/strona-piotrb/static/js/main.f7e3b014.chunk.js.map",
     "runtime-main.js": "/strona-piotrb/static/js/runtime-main.2f6be557.js",
     "runtime-main.js.map": "/strona-piotrb/static/js/runtime-main.2f6be557.js.map",
-    "static/js/2.13a0c9ed.chunk.js": "/strona-piotrb/static/js/2.13a0c9ed.chunk.js",
-    "static/js/2.13a0c9ed.chunk.js.map": "/strona-piotrb/static/js/2.13a0c9ed.chunk.js.map",
+    "static/js/2.2d668a13.chunk.js": "/strona-piotrb/static/js/2.2d668a13.chunk.js",
+    "static/js/2.2d668a13.chunk.js.map": "/strona-piotrb/static/js/2.2d668a13.chunk.js.map",
     "index.html": "/strona-piotrb/index.html",
-    "precache-manifest.44d9121174b24bcbad93182f1b38a950.js": "/strona-piotrb/precache-manifest.44d9121174b24bcbad93182f1b38a950.js",
+    "precache-manifest.6a02eba8ddfae5aa07e1f3373b2f40cd.js": "/strona-piotrb/precache-manifest.6a02eba8ddfae5aa07e1f3373b2f40cd.js",
     "service-worker.js": "/strona-piotrb/service-worker.js",
-    "static/css/main.a75ef5d7.chunk.css.map": "/strona-piotrb/static/css/main.a75ef5d7.chunk.css.map",
-    "static/js/2.13a0c9ed.chunk.js.LICENSE.txt": "/strona-piotrb/static/js/2.13a0c9ed.chunk.js.LICENSE.txt",
-    "static/media/Surfer1.mp4": "/strona-piotrb/static/media/Surfer1.a2fd34b6.mp4"
+    "static/css/main.9fd4dcc1.chunk.css.map": "/strona-piotrb/static/css/main.9fd4dcc1.chunk.css.map",
+    "static/js/2.2d668a13.chunk.js.LICENSE.txt": "/strona-piotrb/static/js/2.2d668a13.chunk.js.LICENSE.txt",
+    "static/media/3333.mp4": "/strona-piotrb/static/media/3333.93b38923.mp4",
+    "static/media/dwa.png": "/strona-piotrb/static/media/dwa.90aa8139.png",
+    "static/media/style.scss": "/strona-piotrb/static/media/vimoennew.43b59ec5.png",
+    "static/media/raz.png": "/strona-piotrb/static/media/raz.d1f07c2c.png",
+    "static/media/trzy.png": "/strona-piotrb/static/media/trzy.79f959c4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2f6be557.js",
-    "static/js/2.13a0c9ed.chunk.js",
-    "static/css/main.a75ef5d7.chunk.css",
-    "static/js/main.6fba5d8f.chunk.js"
+    "static/js/2.2d668a13.chunk.js",
+    "static/css/main.9fd4dcc1.chunk.css",
+    "static/js/main.f7e3b014.chunk.js"
   ]
 }
