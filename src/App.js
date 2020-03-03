@@ -14,6 +14,7 @@ import Paint from './components/Paint';
 import BioContact from './components/BioContact';
 import Backdrop from './components/Backdrop';
 import SideMenu from './components/SideMenu';
+import Film from './components/Film';
 
 
 
@@ -51,6 +52,7 @@ class App extends React.Component {
           <Route path='/movieart' component={MovieArt} />
           <Route path='/paint' component={Paint} />
           <Route path='/biocontact' component={BioContact} />
+          <Route path='/film' component={Film} />
         </Switch>
         <Footer />
       </HashRouter>

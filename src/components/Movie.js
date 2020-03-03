@@ -1,18 +1,19 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 
 const Movie = () => {
     return (
         <div className="movies__container">
             <div className="movies__box">
-                <div className="movie__display"></div>
-                <div className="movie__display"></div>
-                <div className="movie__display"></div>
-                <div className="movie__display"></div>
-                <div className="movie__display"></div>
-                <div className="movie__display"></div>
-                <div className="movie__display"></div>
-                <div className="movie__display"></div>
+                <NavLink to="/film" className="movie__display"></NavLink>
+                <NavLink to="/film" className="movie__display"></NavLink>
+                <NavLink to="/film" className="movie__display"></NavLink>
+                <NavLink to="/film" className="movie__display"></NavLink>
+                <NavLink to="/film" className="movie__display"></NavLink>
+                <NavLink to="/film" className="movie__display"></NavLink>
+                <NavLink to="/film" className="movie__display"></NavLink>
+                <NavLink to="/film" className="movie__display"></NavLink>
             </div>
         </div>
     )
