@@ -1,11 +1,13 @@
 .movies__container {
-    height: 100%;
+    position: relative;
+    min-height: 100vh;
     width: 100%;
     background-color: black;
     padding-top: 150px;
+    overflow-y: scroll;
 
     .movies__box {
-        height: 70%;
+        height: auto;
         width: 80%;
         margin: 0 auto;
         display: flex;
@@ -16,7 +18,13 @@
             height: 250px;
             width: 250px;
             margin: 0 20px 40px 20px;
-            background-color: $color-mainblue;
+            //background-color: $color-mainblue;
+            background-image: url('../../assets/telko.png');
+            background-size: cover;
+        }
+
+        @media (max-width: 730px) {
+            width: 100%;
         }
     }
 
