@@ -1,0 +1,26 @@
+.movies__container {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding-top: 150px;
+
+    .movies__box {
+        height: 70%;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .movie__display {
+            height: 250px;
+            width: 250px;
+            margin: 0 20px 40px 20px;
+            background-color: $color-mainblue;
+        }
+    }
+
+    @media (max-width: 510px) {
+        padding-top: 100px;
+    }
+}

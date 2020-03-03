@@ -10,6 +10,7 @@ footer {
         justify-content: space-between;
         align-items: center;
         width: 150px;
+        
 
         .footer__icon__container {
             width: 40px;
@@ -19,11 +20,13 @@ footer {
         .vimeo {
             background-image: url("../../assets/vimoennew.png");
             background-size: cover;
+            z-index: 100;
         }
 
         .face {
             background-image: url("../../assets/fbnnew.png");
             background-size: cover;
+            z-index: 100;
         }
 
         .insta {
