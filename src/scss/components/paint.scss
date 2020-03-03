@@ -19,9 +19,11 @@
         position: absolute;
         top: 50%;
         left: 50px;
+        height: 50px;
+        width: 50px;
         transform: translateY(-50%);
-        font-size: 30px;
-        color: red;
+        background-image: url('../../assets/lewa.png');
+        background-size: contain;
       }
     
       .right__arrow {
@@ -29,8 +31,10 @@
         position: absolute;
         top: 50%;
         right: 50px;
+        height: 50px;
+        width: 50px;
         transform: translateY(-50%);
-        font-size: 30px;
-        color: red;
+        background-image: url('../../assets/prawa.png');
+        background-size: contain;
       }
 }

@@ -48,8 +48,8 @@ class Paint extends React.Component {
                     <Slide key={i} url={image} alt="" />
                 ) : null
                 )}
-                <div className="left__arrow" onClick={this.prevSlide}>left</div>
-                <div className="right__arrow" onClick={this.nextSlide}>right</div>
+                <div className="left__arrow" onClick={this.prevSlide}></div>
+                <div className="right__arrow" onClick={this.nextSlide}></div>
             </div>
         )
     }
