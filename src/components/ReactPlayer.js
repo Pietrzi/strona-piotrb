@@ -11,8 +11,8 @@ class Reactplayer extends React.Component {
                 <ReactPlayer
                 className='react-player'
                 url={video}
-                width='60%'
-                height='60%'
+                width='100%'
+                height='100%'
                 controls={true}
                 />
             </div>
