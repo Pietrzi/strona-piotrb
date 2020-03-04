@@ -9,6 +9,7 @@
 @import './components/hamburger.scss';
 @import './components/sidemenu.scss';
 @import './components/film';
+@import './components/reactplayer.scss';
 
 
 * {
@@ -22,6 +23,8 @@ body {
     overflow-x: hidden;
     font-family: 'Lato';
     width: 100vw;
+    min-height: 100vh;
+    background-color: black;
 }
 
 #root {
