@@ -10,7 +10,7 @@ const Footer = () => {
                     <a href="https://www.facebook.com/piotr.bartos.84"><div className="footer__icon__container face"></div></a>
                     <a href="https://www.instagram.com/bartospiotr/"><div className="footer__icon__container insta"></div></a>
                 </div>
-                <div className="bio__container">
+                <div>
                     <NavLink to="/biocontact" className="bio__text">bio & kontakt</NavLink>
                 </div>
             </div>

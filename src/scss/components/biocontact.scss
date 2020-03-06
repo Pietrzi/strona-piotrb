@@ -1,0 +1,16 @@
+.bio__container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../assets/telko.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .bio__content__container {
+        width: 800px;
+        height: 600px;
+        padding: 20px;
+        background-color: rgba($color: lightblue, $alpha: 0.3);
+    }
+}
