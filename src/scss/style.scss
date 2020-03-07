@@ -16,26 +16,10 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    overflow-x: hidden;
     font-family: 'Lato';
-    width: 100vw;
-    min-height: 100vh;
     background-color: black;
 }
 
-#root {
-    width: 100vw;
-}
-
-.temp__box {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}

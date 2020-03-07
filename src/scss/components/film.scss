@@ -1,22 +1,18 @@
 .film__container {
-    //width: 100%;
+    width: 100%;
     height: 100vh;
-    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    .film__box {
-        height: 500px;
-        width: 800px;
-        //border: 1px solid red;
-        // position: relative;
-        // padding-top: 56.25%;
-
-        // .react__player {
-        //     // position: absolute;
-        //     // top: 0;
-        //     // left: 0;
-        //   }
+    @media (max-width: 600px) {
+        display: block;
+        padding-top: 200px;
     }
+}
+
+.film__box {
+    height: 500px;
+    width: 100%;
+    max-width: 800px;
 }
