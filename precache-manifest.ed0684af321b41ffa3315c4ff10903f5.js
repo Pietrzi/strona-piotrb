@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ad20d426f2f5e75a02ef1cd6f628af70",
+    "revision": "7de22b0f90898d80fd4f1026bf02b409",
     "url": "/strona-piotrb/index.html"
   },
   {
-    "revision": "63ac89f64d33c8ae77c7",
-    "url": "/strona-piotrb/static/css/main.6f02f17d.chunk.css"
+    "revision": "cc0a3bb08dc992f10e88",
+    "url": "/strona-piotrb/static/css/main.f82a467e.chunk.css"
   },
   {
     "revision": "7d9560b0013178336f5f",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/strona-piotrb/static/js/2.53d0653f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "63ac89f64d33c8ae77c7",
+    "revision": "cc0a3bb08dc992f10e88",
     "url": "/strona-piotrb/static/js/main.7eaba326.chunk.js"
   },
   {
