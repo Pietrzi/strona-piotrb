@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e16cee7f1bb304324087b542e6841343",
+    "revision": "1cef17cb84cc904bab11cc16956fef58",
     "url": "/strona-piotrb/index.html"
   },
   {
-    "revision": "1bab141c0018aa23dd4d",
-    "url": "/strona-piotrb/static/css/main.4fe6b32e.chunk.css"
+    "revision": "d3ce8785d3cd127f6545",
+    "url": "/strona-piotrb/static/css/main.e22150c4.chunk.css"
   },
   {
     "revision": "8842326b10b2d9f56277",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/strona-piotrb/static/js/2.fe7806b2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1bab141c0018aa23dd4d",
+    "revision": "d3ce8785d3cd127f6545",
     "url": "/strona-piotrb/static/js/main.3bac09e5.chunk.js"
   },
   {
@@ -26,6 +26,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "93b389237f58fe30a08f6d8280f1629c",
     "url": "/strona-piotrb/static/media/3333.93b38923.mp4"
+  },
+  {
+    "revision": "78deb42ef66d893e3626e1c7f25a35ca",
+    "url": "/strona-piotrb/static/media/890.78deb42e.png"
+  },
+  {
+    "revision": "a4b3ea76914cf5e4a85b2100364bc76c",
+    "url": "/strona-piotrb/static/media/899.a4b3ea76.png"
   },
   {
     "revision": "22ab91f22bf93698c0ef8e68b9ad8747",
