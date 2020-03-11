@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1cef17cb84cc904bab11cc16956fef58",
+    "revision": "0200e4808e5903d40f5b7ced9dff4d8d",
     "url": "/strona-piotrb/index.html"
   },
   {
-    "revision": "d3ce8785d3cd127f6545",
+    "revision": "baa7d007ade5c96e8919",
     "url": "/strona-piotrb/static/css/main.e22150c4.chunk.css"
   },
   {
-    "revision": "8842326b10b2d9f56277",
-    "url": "/strona-piotrb/static/js/2.fe7806b2.chunk.js"
+    "revision": "d44a50bceb73d7472122",
+    "url": "/strona-piotrb/static/js/2.cf2d6ed1.chunk.js"
   },
   {
     "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/strona-piotrb/static/js/2.fe7806b2.chunk.js.LICENSE.txt"
+    "url": "/strona-piotrb/static/js/2.cf2d6ed1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d3ce8785d3cd127f6545",
-    "url": "/strona-piotrb/static/js/main.3bac09e5.chunk.js"
+    "revision": "baa7d007ade5c96e8919",
+    "url": "/strona-piotrb/static/js/main.d4b664a0.chunk.js"
   },
   {
     "revision": "5daa5a49bc00596e9feb",
@@ -182,6 +182,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f0098e6c5f18e41d4e99ef26d5f1cef9",
     "url": "/strona-piotrb/static/media/tn_i1.f0098e6c.jpg"
+  },
+  {
+    "revision": "df628b4befe09bde00e06818a438ea79",
+    "url": "/strona-piotrb/static/media/vid.df628b4b.mp4"
   },
   {
     "revision": "8e8c8e1188e432acab942176fce24691",
