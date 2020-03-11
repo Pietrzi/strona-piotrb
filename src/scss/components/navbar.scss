@@ -4,6 +4,8 @@ nav {
     width: 100%;
     height: 100px;
     z-index: 2;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .centering__container {
@@ -16,12 +18,13 @@ nav {
 
     .logo__name {
         text-decoration: none;
-        color: black;
+        color: white;
+        //color: black;
         text-transform: uppercase;
         font-size: 2.2rem;
         letter-spacing: 5px;
         padding: 5px 10px;
-        background-color: $color-mainblue;
+        //background-color: $color-mainblue;
 
         @media (max-width: 410px) {
             font-size: 1.5rem;
@@ -41,13 +44,13 @@ nav {
                 list-style-type: none;
     
                 .menu__link__element {
-                    color: black;
+                    color:white;
                     text-decoration: none;
                     text-transform: uppercase;
                     font-size: 1.6rem;
                     letter-spacing: 3px;
                     padding: 5px 7px;
-                    background-color: $color-mainblue;
+                    //background-color: $color-mainblue;
                 }
             }
 

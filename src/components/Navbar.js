@@ -15,7 +15,7 @@ const Navbar = (props) => {
                             <NavLink className="menu__link__element" to='/movie'>film</NavLink>
                         </li>
                         <li>
-                            <NavLink className="menu__link__element" to='movieart'>video - art</NavLink>
+                            <NavLink className="menu__link__element" to='movieart'>video-art</NavLink>
                         </li>
                         <li>
                             <NavLink className="menu__link__element" to='paint'>paint</NavLink>

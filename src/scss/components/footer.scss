@@ -18,13 +18,13 @@ footer {
         }
 
         .vimeo {
-            background-image: url("../../assets/vimoennew.png");
+            background-image: url("../../assets/vimoe-new.png");
             background-size: cover;
             z-index: 100;
         }
 
         .face {
-            background-image: url("../../assets/fbnnew.png");
+            background-image: url("../../assets/facebook-new.png");
             background-size: cover;
             z-index: 100;
             position: relative;
@@ -32,18 +32,18 @@ footer {
         }
 
         .insta {
-            background-image: url("../../assets/instagramnnew.png");
+            background-image: url("../../assets/instagram-new.png");
             background-size: cover;
         }
     }
 
     .bio__text {
         text-decoration: none;
-        color: black;
+        color: white;
         font-size: 1rem;
         text-transform: uppercase;
         letter-spacing: 2px;
         padding: 1px 3px;
-        background-color: $color-mainblue;
+        //background-color: $color-mainblue;
     }
 }
