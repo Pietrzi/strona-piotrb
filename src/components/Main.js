@@ -1,5 +1,5 @@
 import React from 'react';
-import sample from '../assets/3333.mp4';
+import sample from '../assets/vid.mp4';
 
 const Main = () => {
     return (
