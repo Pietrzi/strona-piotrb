@@ -57,13 +57,17 @@ class App extends React.Component {
     }
     let movieDisplay;
     if (this.state.movieDisplay) {
-      movieDisplay = <MovieDisplay />
+      movieDisplay = <MovieDisplay movieNoHandler={this.noForMovieHandler}/>
     }
     return (
       <>
       {backdrop}
       <HashRouter>
-        <Navbar movieHandler={this.yesForMovieHandler} menuHandler={this.sideMenuClickHandler}/>
+        <Navbar 
+          movieYesHandler={this.yesForMovieHandler}
+          movieNoHandler={this.noForMovieHandler}
+          menuHandler={this.sideMenuClickHandler}
+          />
         <SideMenu show={this.state.sideMenu}/>
         <Switch>
           <Route exact path='/' component={Main} />
@@ -74,10 +78,12 @@ class App extends React.Component {
           <Route path='/film1' component={Film1} />
           <Route path='/film2' component={Film2} />
         </Switch>
-        <Footer />
+        <Footer
+          movieNoHandler={this.noForMovieHandler}
+        />
         {movieDisplay}
       </HashRouter>
-      </>
+      </>   //<Route path='/app/pulpit' render={(props) => <Pulpit {...props} addPlan={this.showAddPlan}values={values} />}></Route>
   );
   }
   

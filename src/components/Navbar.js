@@ -6,18 +6,18 @@ const Navbar = (props) => {
     return (
         <nav>
             <div className="centering__container">
-                <div className="name__container">
+                <div onClick={props.movieNoHandler} className="name__container">
                     <NavLink to='/' className="logo__name">piotr bartos</NavLink>
                 </div>
                 <div className="navmenu__container">
                     <ul>
-                        <li onClick={props.movieHandler}>
+                        <li onClick={props.movieYesHandler}>
                             <NavLink className="menu__link__element" to='/movie'>film</NavLink>
                         </li>
-                        <li>
+                        <li onClick={props.movieNoHandler}>
                             <NavLink className="menu__link__element" to='movieart'>video-art</NavLink>
                         </li>
-                        <li>
+                        <li onClick={props.movieNoHandler}>
                             <NavLink className="menu__link__element" to='paint'>paint</NavLink>
                         </li>
                     </ul>
