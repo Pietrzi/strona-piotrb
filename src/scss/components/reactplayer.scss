@@ -1,17 +1,37 @@
-.player-wrapper {
-  position: relative;
-  padding-top: 56.25% 
-}
-   
-.react-player {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+.player__holder {
+  color: white;
 
-.react-player video {
-  position: relative;
-  left: 0;
-  top: 0;
-  transform: none;
+  .player-wrapper {
+    position: relative;
+    padding-top: 56.25% 
+  }
+     
+  .react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .react-player video {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: none;
+  }
+
+  .player__film__title {
+    padding: 5px;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .pol__desc {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .eng__desc {
+    text-align: center;
+  }
 }
