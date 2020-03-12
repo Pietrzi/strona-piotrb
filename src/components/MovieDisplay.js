@@ -7,7 +7,19 @@ const MovieDisplay = (props) => {
         <div className="movies__container">
             <div className="movies__box">
                 <div className="lefty"></div>
-                <div className="movie__box">
+                <NavLink onClick={props.movieNoHandler} to="/film1">
+                    <div className="movie__display achgdyby"></div>
+                </NavLink>
+                <NavLink onClick={props.movieNoHandler} to="/film2">
+                    <div className="movie__display egzul"></div>
+                </NavLink>
+                <NavLink onClick={props.movieNoHandler} to="/film1">
+                    <div className="movie__display achgdyby"></div>
+                </NavLink>
+                <NavLink onClick={props.movieNoHandler} to="/film2">
+                    <div className="movie__display egzul"></div>
+                </NavLink>
+                {/* <div className="movie__box">
                     <NavLink onClick={props.movieNoHandler} to="/film1">
                         <div className="movie__display"></div>
                     </NavLink>
@@ -80,7 +92,7 @@ const MovieDisplay = (props) => {
                             And when he doesn't eat and work he looks at the moon.
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="righty"></div>
             </div>
         </div>
