@@ -1,8 +1,8 @@
 import React from 'react';
-import Reactplayer from './ReactPlayer';
+import Reactplayer from './ReactPlayer1';
 
 
-const Film = () => {
+const Film1 = () => {
     return (
         <div className="film__container">
             <div className="film__box">
@@ -12,4 +12,4 @@ const Film = () => {
     )
 }
 
-export default Film;
+export default Film1;

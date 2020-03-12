@@ -11,7 +11,7 @@ const Navbar = (props) => {
                 </div>
                 <div className="navmenu__container">
                     <ul>
-                        <li>
+                        <li onClick={props.movieHandler}>
                             <NavLink className="menu__link__element" to='/movie'>film</NavLink>
                         </li>
                         <li>

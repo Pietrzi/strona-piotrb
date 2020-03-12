@@ -14,13 +14,16 @@ import Paint from './components/Paint';
 import BioContact from './components/BioContact';
 import Backdrop from './components/Backdrop';
 import SideMenu from './components/SideMenu';
-import Film from './components/Film';
+import Film1 from './components/Film1';
+import Film2 from './components/Film2';
+import MovieDisplay from './components/MovieDisplay';
 
 
 
 class App extends React.Component {
   state = {
-    sideMenu: false
+    sideMenu: false,
+    movieDisplay: false
   }
 
   sideMenuClickHandler = () => {
@@ -35,16 +38,32 @@ class App extends React.Component {
     })
   }
 
+  yesForMovieHandler = () => {
+    this.setState({
+      movieDisplay: true
+    })
+  }
+
+  noForMovieHandler = () => {
+    this.setState({
+      movieDisplay: false
+    })
+  }
+
   render() {
     let backdrop;
     if (this.state.sideMenu) {
       backdrop = <Backdrop click={this.backdropClickHandler}/>
     }
+    let movieDisplay;
+    if (this.state.movieDisplay) {
+      movieDisplay = <MovieDisplay />
+    }
     return (
       <>
       {backdrop}
       <HashRouter>
-        <Navbar menuHandler={this.sideMenuClickHandler}/>
+        <Navbar movieHandler={this.yesForMovieHandler} menuHandler={this.sideMenuClickHandler}/>
         <SideMenu show={this.state.sideMenu}/>
         <Switch>
           <Route exact path='/' component={Main} />
@@ -52,9 +71,11 @@ class App extends React.Component {
           <Route path='/movieart' component={MovieArt} />
           <Route path='/paint' component={Paint} />
           <Route path='/biocontact' component={BioContact} />
-          <Route path='/film' component={Film} />
+          <Route path='/film1' component={Film1} />
+          <Route path='/film2' component={Film2} />
         </Switch>
         <Footer />
+        {movieDisplay}
       </HashRouter>
       </>
   );
