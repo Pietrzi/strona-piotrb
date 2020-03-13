@@ -7,18 +7,30 @@ const MovieDisplay = (props) => {
         <div className="movies__container">
             <div className="movies__box">
                 <div className="lefty"></div>
-                <NavLink onClick={props.movieNoHandler} to="/film1">
-                    <div className="movie__display achgdyby"></div>
-                </NavLink>
-                <NavLink onClick={props.movieNoHandler} to="/film2">
-                    <div className="movie__display egzul"></div>
-                </NavLink>
-                <NavLink onClick={props.movieNoHandler} to="/film1">
-                    <div className="movie__display achgdyby"></div>
-                </NavLink>
-                <NavLink onClick={props.movieNoHandler} to="/film2">
-                    <div className="movie__display egzul"></div>
-                </NavLink>
+                <div className="movie__box">
+                    <NavLink onClick={props.movieNoHandler} to="/film1">
+                        <div className="movie__display achgdyby"></div>
+                    </NavLink>
+                    <div className="movie__title__box">ach gdyby tak błądzę</div>
+                </div>
+                <div className="movie__box">
+                    <NavLink onClick={props.movieNoHandler} to="/film2">
+                        <div className="movie__display egzul"></div>
+                    </NavLink>
+                    <div className="movie__title__box">egzul</div>
+                </div>
+                <div className="movie__box">
+                    <NavLink onClick={props.movieNoHandler} to="/film1">
+                        <div className="movie__display achgdyby"></div>
+                    </NavLink>
+                    <div className="movie__title__box">ach gdyby tak błądzę</div>
+                </div>
+                <div className="movie__box">
+                    <NavLink onClick={props.movieNoHandler} to="/film2">
+                        <div className="movie__display egzul"></div>
+                    </NavLink>
+                    <div className="movie__title__box">egzul</div>
+                </div>
                 {/* <div className="movie__box">
                     <NavLink onClick={props.movieNoHandler} to="/film1">
                         <div className="movie__display"></div>
