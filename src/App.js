@@ -17,13 +17,15 @@ import SideMenu from './components/SideMenu';
 import Film1 from './components/Film1';
 import Film2 from './components/Film2';
 import MovieDisplay from './components/MovieDisplay';
+import MovieArtDisplay from './components/MovieDisplay';
 
 
 
 class App extends React.Component {
   state = {
     sideMenu: false,
-    movieDisplay: false
+    movieDisplay: false,
+    movieArtDisplay: false
   }
 
   sideMenuClickHandler = () => {
@@ -50,6 +52,18 @@ class App extends React.Component {
     })
   }
 
+  yesForMovieArtHandler = () => {
+    this.setState({
+      movieArtDisplay: true
+    })
+  }
+
+  noForMovieArtHandler = () => {
+    this.setState({
+      movieArtDisplay: false
+    })
+  }
+
   render() {
     let backdrop;
     if (this.state.sideMenu) {
@@ -59,6 +73,10 @@ class App extends React.Component {
     if (this.state.movieDisplay) {
       movieDisplay = <MovieDisplay movieNoHandler={this.noForMovieHandler}/>
     }
+    let movieArtDisplay;
+    if (this.state.movieArtDisplay) {
+      movieArtDisplay = <MovieArtDisplay movieArtNoHandler={this.noForMovieArtHandler}/>
+    }
     return (
       <>
       {backdrop}
@@ -66,6 +84,8 @@ class App extends React.Component {
         <Navbar 
           movieYesHandler={this.yesForMovieHandler}
           movieNoHandler={this.noForMovieHandler}
+          movieArtYesHandler={this.yesForMovieArtHandler}
+          movieArtNoHandler={this.noForMovieArtHandler}
           menuHandler={this.sideMenuClickHandler}
           />
         <SideMenu show={this.state.sideMenu}/>
@@ -80,10 +100,12 @@ class App extends React.Component {
         </Switch>
         <Footer
           movieNoHandler={this.noForMovieHandler}
+          movieArtNoHandler={this.noForMovieArtHandler}
         />
         {movieDisplay}
+        {movieArtDisplay}
       </HashRouter>
-      </>   //<Route path='/app/pulpit' render={(props) => <Pulpit {...props} addPlan={this.showAddPlan}values={values} />}></Route>
+      </>  
   );
   }
   

@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 
 
-const MovieDisplay = (props) => {
+const MovieArtDisplay = (props) => {
     return (
         <div className="movies__container">
             <div className="movies__box">
@@ -11,7 +11,7 @@ const MovieDisplay = (props) => {
                     <NavLink 
                         to="/film1"
                         onClick={() => {
-                            props.movieNoHandler();
+                            props.movieArtNoHandler();
                     }}>
                         <div className="movie__display achgdyby"></div>
                     </NavLink>
@@ -21,7 +21,7 @@ const MovieDisplay = (props) => {
                     <NavLink 
                         to="/film2"
                         onClick={() => {
-                            props.movieNoHandler();
+                            props.movieArtNoHandler();
                     }}>
                         <div className="movie__display egzul"></div>
                     </NavLink>
@@ -31,7 +31,7 @@ const MovieDisplay = (props) => {
                     <NavLink 
                         to="/film1"
                         onClick={() => {
-                            props.movieNoHandler();
+                            props.movieArtNoHandler();
                     }}>
                         <div className="movie__display achgdyby"></div>
                     </NavLink>
@@ -41,7 +41,7 @@ const MovieDisplay = (props) => {
                     <NavLink 
                         to="/film2"
                         onClick={() => {
-                            props.movieNoHandler();
+                            props.movieArtNoHandler();
                     }}>
                         <div className="movie__display egzul"></div>
                     </NavLink>
@@ -53,4 +53,4 @@ const MovieDisplay = (props) => {
     )
 }
 
-export default MovieDisplay;
+export default MovieArtDisplay;
