@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/strona-piotrb/precache-manifest.4587b976e8eac28fe14456051b6048d1.js"
+  "/strona-piotrb/precache-manifest.128e3f910f3fb2d43cbbbfebfeb78453.js"
 );
 
 self.addEventListener('message', (event) => {
