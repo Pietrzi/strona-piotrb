@@ -10,7 +10,9 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Movie from './components/Movie';
 import MovieArt from './components/MovieArt';
-import Paint from './components/Paint';
+import Paint1 from './components/Paint1';
+import Paint2 from './components/Paint2';
+import Paint3 from './components/Paint3';
 import BioContact from './components/BioContact';
 import Backdrop from './components/Backdrop';
 import SideMenu from './components/SideMenu';
@@ -115,7 +117,9 @@ class App extends React.Component {
           <Route exact path='/' component={Main} />
           <Route path='/movie' component={Movie} />
           <Route path='/movieart' component={MovieArt} />
-          <Route path='/paint' component={Paint} />
+          <Route path='/raz' component={Paint1} />
+          <Route path='/dwa' component={Paint2} />
+          <Route path='/trzy' component={Paint3} />
           <Route path='/biocontact' component={BioContact} />
           <Route path='/film1' render={(props) => <Film1 {...props} movieYesHandler={this.yesForMovieHandler}/>}></Route>
           <Route path='/film2' render={(props) => <Film2 {...props} movieYesHandler={this.yesForMovieHandler}/>}></Route>

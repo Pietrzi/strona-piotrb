@@ -22,7 +22,7 @@ const Navbar = (props) => {
                                 props.movieArtNoHandler();
                                 props.noBioHandler();
                         }}>
-                            <NavLink className="menu__link__element" to='/movie'>film</NavLink>
+                            <NavLink className="menu__link__element" to='movie'>film</NavLink>
                         </li>
                         <li 
                             onClick={() => {
@@ -32,13 +32,42 @@ const Navbar = (props) => {
                         }}>
                             <NavLink className="menu__link__element" to='movieart'>video-art</NavLink>
                         </li>
-                        <li 
-                            onClick={() => {
-                                props.movieNoHandler();
-                                props.movieArtNoHandler();
-                                props.noBioHandler();
-                        }}>
-                            <NavLink className="menu__link__element" to='paint'>paint</NavLink>
+                        <li className="dropdown"
+                            // onClick={() => {
+                            //     props.movieNoHandler();
+                            //     props.movieArtNoHandler();
+                            //     props.noBioHandler();
+                        // 
+                        >
+                            <div className="menu__link__element">paint</div>
+                            {/* <div className="dopdown__container"> */}
+                                <div className="dropdown__content">
+                                    <li
+                                        onClick={() => {
+                                            props.movieNoHandler();
+                                            props.movieArtNoHandler();
+                                            props.noBioHandler();
+                                    }}>
+                                        <NavLink  to="raz">raz</NavLink>
+                                    </li>
+                                    <li
+                                        onClick={() => {
+                                            props.movieNoHandler();
+                                            props.movieArtNoHandler();
+                                            props.noBioHandler();
+                                    }}>
+                                        <NavLink to="dwa">dwa</NavLink>
+                                    </li>
+                                    <li
+                                        onClick={() => {
+                                            props.movieNoHandler();
+                                            props.movieArtNoHandler();
+                                            props.noBioHandler();
+                                    }}>
+                                        <NavLink to="trzy">trzy</NavLink>
+                                    </li>
+                                </div>
+                            {/* </div> */}
                         </li>
                     </ul>
                     <Hamburger click={props.menuHandler}/>

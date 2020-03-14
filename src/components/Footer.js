@@ -8,6 +8,8 @@ const Footer = (props) => {
                 <div className="icons__container">
                     <a 
                         href="http://vimeo.com/manifiestafilm"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         onClick={() => {
                             props.movieNoHandler();
                             props.movieArtNoHandler();
@@ -17,6 +19,8 @@ const Footer = (props) => {
                     </a>
                     <a
                         href="https://www.facebook.com/piotr.bartos.84"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         onClick={() => {
                             props.movieNoHandler();
                             props.movieArtNoHandler();
@@ -26,6 +30,8 @@ const Footer = (props) => {
                     </a>
                     <a
                         href="https://www.instagram.com/bartospiotr/"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         onClick={() => {
                             props.movieNoHandler();
                             props.movieArtNoHandler();
