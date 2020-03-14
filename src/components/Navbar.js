@@ -11,6 +11,7 @@ const Navbar = (props) => {
                     onClick={() => {
                         props.movieNoHandler();
                         props.movieArtNoHandler();
+                        props.noBioHandler();
                     }}>
                     <NavLink to='/' className="logo__name">piotr bartos</NavLink>
                 </div>
@@ -19,6 +20,7 @@ const Navbar = (props) => {
                         <li onClick={() => {
                                 props.movieYesHandler();
                                 props.movieArtNoHandler();
+                                props.noBioHandler();
                         }}>
                             <NavLink className="menu__link__element" to='/movie'>film</NavLink>
                         </li>
@@ -26,6 +28,7 @@ const Navbar = (props) => {
                             onClick={() => {
                                 props.movieNoHandler();
                                 props.movieArtYesHandler();
+                                props.noBioHandler();
                         }}>
                             <NavLink className="menu__link__element" to='movieart'>video-art</NavLink>
                         </li>
@@ -33,6 +36,7 @@ const Navbar = (props) => {
                             onClick={() => {
                                 props.movieNoHandler();
                                 props.movieArtNoHandler();
+                                props.noBioHandler();
                         }}>
                             <NavLink className="menu__link__element" to='paint'>paint</NavLink>
                         </li>

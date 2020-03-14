@@ -11,6 +11,7 @@ const Footer = (props) => {
                         onClick={() => {
                             props.movieNoHandler();
                             props.movieArtNoHandler();
+                            props.noBioHandler();
                     }}>
                             <div className="footer__icon__container vimeo"></div>
                     </a>
@@ -19,6 +20,7 @@ const Footer = (props) => {
                         onClick={() => {
                             props.movieNoHandler();
                             props.movieArtNoHandler();
+                            props.noBioHandler();
                     }}>
                             <div className="footer__icon__container face"></div>
                     </a>
@@ -27,6 +29,7 @@ const Footer = (props) => {
                         onClick={() => {
                             props.movieNoHandler();
                             props.movieArtNoHandler();
+                            props.noBioHandler();
                     }}>
                             <div className="footer__icon__container insta"></div>
                     </a>
@@ -35,6 +38,7 @@ const Footer = (props) => {
                     onClick={() => {
                         props.movieNoHandler();
                         props.movieArtNoHandler();
+                        props.yesBioHandler();
                     }}>
                     <NavLink to="/biocontact" className="bio__text">bio & kontakt</NavLink>
                 </div>

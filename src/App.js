@@ -19,7 +19,8 @@ import Film2 from './components/Film2';
 import FilmArt1 from './components/FilmArt1';
 import FilmArt2 from './components/FilmArt2';
 import MovieDisplay from './components/MovieDisplay';
-import MovieArtDisplay from './components/MovieDisplay';
+import MovieArtDisplay from './components/MovieArtDisplay';
+import BioDisplay from './components/BioDisplay';
 
 
 
@@ -27,7 +28,8 @@ class App extends React.Component {
   state = {
     sideMenu: false,
     movieDisplay: false,
-    movieArtDisplay: false
+    movieArtDisplay: false,
+    bioDisplay: false
   }
 
   sideMenuClickHandler = () => {
@@ -66,6 +68,18 @@ class App extends React.Component {
     })
   }
 
+  yesBioHandler = () => {
+    this.setState({
+      bioDisplay: true
+    })
+  }
+
+  noBioHandler = () => {
+    this.setState({
+      bioDisplay: false
+    })
+  }
+
   render() {
     let backdrop;
     if (this.state.sideMenu) {
@@ -79,6 +93,10 @@ class App extends React.Component {
     if (this.state.movieArtDisplay) {
       movieArtDisplay = <MovieArtDisplay movieArtNoHandler={this.noForMovieArtHandler}/>
     }
+    let bioDisplay;
+    if (this.state.bioDisplay) {
+      bioDisplay = <BioDisplay/>
+    }
     return (
       <>
       {backdrop}
@@ -88,6 +106,8 @@ class App extends React.Component {
           movieNoHandler={this.noForMovieHandler}
           movieArtYesHandler={this.yesForMovieArtHandler}
           movieArtNoHandler={this.noForMovieArtHandler}
+          yesBioHandler={this.yesBioHandler}
+          noBioHandler={this.noBioHandler}
           menuHandler={this.sideMenuClickHandler}
           />
         <SideMenu show={this.state.sideMenu}/>
@@ -99,17 +119,20 @@ class App extends React.Component {
           <Route path='/biocontact' component={BioContact} />
           <Route path='/film1' render={(props) => <Film1 {...props} movieYesHandler={this.yesForMovieHandler}/>}></Route>
           <Route path='/film2' render={(props) => <Film2 {...props} movieYesHandler={this.yesForMovieHandler}/>}></Route>
-          <Route path='/filmart1' render={(props) => <Film1 {...props} movieArtYesHandler={this.yesForMovieArtHandler}/>}></Route>
-          <Route path='/filmart2' render={(props) => <Film2 {...props} movieArtYesHandler={this.yesForMovieArtHandler}/>}></Route>
+          <Route path='/filmart1' render={(props) => <FilmArt1 {...props} movieArtYesHandler={this.yesForMovieArtHandler}/>}></Route>
+          <Route path='/filmart2' render={(props) => <FilmArt2 {...props} movieArtYesHandler={this.yesForMovieArtHandler}/>}></Route>
         </Switch>
         <Footer
           movieNoHandler={this.noForMovieHandler}
           movieArtNoHandler={this.noForMovieArtHandler}
+          yesBioHandler={this.yesBioHandler}
+          noBioHandler={this.noBioHandler}
         />
         {movieDisplay}
         {movieArtDisplay}
       </HashRouter>
-      </>  //<Route exact path='/app' render={(props) => <Welcome {...props} passName={this.passName}/>}></Route>
+      {bioDisplay}
+      </>  
   );
   }
   
