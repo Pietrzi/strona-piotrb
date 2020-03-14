@@ -9,7 +9,7 @@ const MovieArtDisplay = (props) => {
                 <div className="lefty"></div>
                 <div className="movie__box">
                     <NavLink 
-                        to="/film1"
+                        to="/filmart1"
                         onClick={() => {
                             props.movieArtNoHandler();
                     }}>
@@ -19,7 +19,7 @@ const MovieArtDisplay = (props) => {
                 </div>
                 <div className="movie__box">
                     <NavLink 
-                        to="/film2"
+                        to="/filmart2"
                         onClick={() => {
                             props.movieArtNoHandler();
                     }}>
@@ -29,7 +29,7 @@ const MovieArtDisplay = (props) => {
                 </div>
                 <div className="movie__box">
                     <NavLink 
-                        to="/film1"
+                        to="/filmart1"
                         onClick={() => {
                             props.movieArtNoHandler();
                     }}>
@@ -39,7 +39,7 @@ const MovieArtDisplay = (props) => {
                 </div>
                 <div className="movie__box">
                     <NavLink 
-                        to="/film2"
+                        to="/filmart2"
                         onClick={() => {
                             props.movieArtNoHandler();
                     }}>

@@ -16,6 +16,8 @@ import Backdrop from './components/Backdrop';
 import SideMenu from './components/SideMenu';
 import Film1 from './components/Film1';
 import Film2 from './components/Film2';
+import FilmArt1 from './components/FilmArt1';
+import FilmArt2 from './components/FilmArt2';
 import MovieDisplay from './components/MovieDisplay';
 import MovieArtDisplay from './components/MovieDisplay';
 
@@ -95,8 +97,10 @@ class App extends React.Component {
           <Route path='/movieart' component={MovieArt} />
           <Route path='/paint' component={Paint} />
           <Route path='/biocontact' component={BioContact} />
-          <Route path='/film1' component={Film1} />
-          <Route path='/film2' component={Film2} />
+          <Route path='/film1' render={(props) => <Film1 {...props} movieYesHandler={this.yesForMovieHandler}/>}></Route>
+          <Route path='/film2' render={(props) => <Film2 {...props} movieYesHandler={this.yesForMovieHandler}/>}></Route>
+          <Route path='/filmart1' render={(props) => <Film1 {...props} movieArtYesHandler={this.yesForMovieArtHandler}/>}></Route>
+          <Route path='/filmart2' render={(props) => <Film2 {...props} movieArtYesHandler={this.yesForMovieArtHandler}/>}></Route>
         </Switch>
         <Footer
           movieNoHandler={this.noForMovieHandler}
@@ -105,7 +109,7 @@ class App extends React.Component {
         {movieDisplay}
         {movieArtDisplay}
       </HashRouter>
-      </>  
+      </>  //<Route exact path='/app' render={(props) => <Welcome {...props} passName={this.passName}/>}></Route>
   );
   }
   

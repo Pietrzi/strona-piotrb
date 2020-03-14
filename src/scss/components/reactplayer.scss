@@ -34,4 +34,14 @@
   .eng__desc {
     text-align: center;
   }
+
+  .back__arrow {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background-image: url('../../assets/899.png');
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+  }
 }
