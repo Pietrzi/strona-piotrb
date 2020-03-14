@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e80d9a6d0cfb5781825f0b2df08d84da",
+    "revision": "a3863af6e8f618a2604560ae33c262cc",
     "url": "/strona-piotrb/index.html"
   },
   {
-    "revision": "1a1b714e341416872107",
-    "url": "/strona-piotrb/static/css/main.3b5ea588.chunk.css"
+    "revision": "6e59a67a155523cee4e3",
+    "url": "/strona-piotrb/static/css/main.baf8cb48.chunk.css"
   },
   {
-    "revision": "7d73f1eee971ec20e288",
-    "url": "/strona-piotrb/static/js/2.8ba5d4d1.chunk.js"
+    "revision": "ae323b0c6384575880c8",
+    "url": "/strona-piotrb/static/js/2.93f1532f.chunk.js"
   },
   {
     "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/strona-piotrb/static/js/2.8ba5d4d1.chunk.js.LICENSE.txt"
+    "url": "/strona-piotrb/static/js/2.93f1532f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1a1b714e341416872107",
-    "url": "/strona-piotrb/static/js/main.1045f5a1.chunk.js"
+    "revision": "6e59a67a155523cee4e3",
+    "url": "/strona-piotrb/static/js/main.5670af01.chunk.js"
   },
   {
     "revision": "5daa5a49bc00596e9feb",
