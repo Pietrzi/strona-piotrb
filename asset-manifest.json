@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/strona-piotrb/static/css/main.103a90e7.chunk.css",
-    "main.js": "/strona-piotrb/static/js/main.5e1a609e.chunk.js",
-    "main.js.map": "/strona-piotrb/static/js/main.5e1a609e.chunk.js.map",
+    "main.js": "/strona-piotrb/static/js/main.918caa8f.chunk.js",
+    "main.js.map": "/strona-piotrb/static/js/main.918caa8f.chunk.js.map",
     "runtime-main.js": "/strona-piotrb/static/js/runtime-main.2f6be557.js",
     "runtime-main.js.map": "/strona-piotrb/static/js/runtime-main.2f6be557.js.map",
     "static/js/2.7c14ae44.chunk.js": "/strona-piotrb/static/js/2.7c14ae44.chunk.js",
     "static/js/2.7c14ae44.chunk.js.map": "/strona-piotrb/static/js/2.7c14ae44.chunk.js.map",
     "index.html": "/strona-piotrb/index.html",
-    "precache-manifest.aaa6382717aa4dfd2a04b76947a2dffd.js": "/strona-piotrb/precache-manifest.aaa6382717aa4dfd2a04b76947a2dffd.js",
+    "precache-manifest.ea4657e14c7dc1fd9cafbb6bdfaf6567.js": "/strona-piotrb/precache-manifest.ea4657e14c7dc1fd9cafbb6bdfaf6567.js",
     "service-worker.js": "/strona-piotrb/service-worker.js",
     "static/css/main.103a90e7.chunk.css.map": "/strona-piotrb/static/css/main.103a90e7.chunk.css.map",
     "static/js/2.7c14ae44.chunk.js.LICENSE.txt": "/strona-piotrb/static/js/2.7c14ae44.chunk.js.LICENSE.txt",
@@ -56,6 +56,6 @@
     "static/js/runtime-main.2f6be557.js",
     "static/js/2.7c14ae44.chunk.js",
     "static/css/main.103a90e7.chunk.css",
-    "static/js/main.5e1a609e.chunk.js"
+    "static/js/main.918caa8f.chunk.js"
   ]
 }
