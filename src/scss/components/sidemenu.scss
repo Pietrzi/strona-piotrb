@@ -1,6 +1,6 @@
 .side__menu {
     height: 100vh;
-    background: $color-mainblue;
+    background: white;
     box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
     position: fixed;
     top: 0;
@@ -24,13 +24,14 @@
         //border-top: 1px solid black;
 
         &:hover {
-          background-color: darken($color-mainblue, 10%);
+          background-color: darken(white, 10%);
         }
 
         .menu__link__element {
           text-decoration: none;
           color: black;
           font-size: 1.2rem;
+          text-transform: uppercase;
         }
       }
     }

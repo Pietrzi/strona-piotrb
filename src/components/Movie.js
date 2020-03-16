@@ -4,7 +4,9 @@ import sample from '../assets/3333.mp4';
 
 const Movie = () => {
     return (
-        <video src={sample} autoPlay={true} loop={true} muted></video>
+        <div className="full__screen__video__container">
+            <video src={sample} autoPlay={true} loop={true} muted></video>
+        </div>
     )
 }
 

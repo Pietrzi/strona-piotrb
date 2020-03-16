@@ -1,12 +1,12 @@
 .button__container {
-  background: $color-mainblue;
+  background: white;
   padding: 7px;
 
   .toggle__button {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background: $color-mainblue;
+    background: white;
     height: 24px;
     width: 30px;
     border: none;

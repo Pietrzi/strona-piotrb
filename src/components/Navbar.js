@@ -42,30 +42,30 @@ const Navbar = (props) => {
                             <div className="menu__link__element">paint</div>
                             {/* <div className="dopdown__container"> */}
                                 <div className="dropdown__content">
-                                    <li
+                                    <div
                                         onClick={() => {
                                             props.movieNoHandler();
                                             props.movieArtNoHandler();
                                             props.noBioHandler();
                                     }}>
                                         <NavLink  to="raz">raz</NavLink>
-                                    </li>
-                                    <li
+                                    </div>
+                                    <div
                                         onClick={() => {
                                             props.movieNoHandler();
                                             props.movieArtNoHandler();
                                             props.noBioHandler();
                                     }}>
                                         <NavLink to="dwa">dwa</NavLink>
-                                    </li>
-                                    <li
+                                    </div>
+                                    <div
                                         onClick={() => {
                                             props.movieNoHandler();
                                             props.movieArtNoHandler();
                                             props.noBioHandler();
                                     }}>
                                         <NavLink to="trzy">trzy</NavLink>
-                                    </li>
+                                    </div>
                                 </div>
                             {/* </div> */}
                         </li>

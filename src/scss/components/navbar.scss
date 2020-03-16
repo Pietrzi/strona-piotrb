@@ -67,10 +67,11 @@ nav {
 
     .dropdown__content {
         position: absolute;
+        transform: translateX(65%);
         display: none;
         top: 45px;
 
-        li {
+        div {
             padding: 3px 0;
 
             a {
