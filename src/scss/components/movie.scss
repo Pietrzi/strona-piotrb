@@ -27,6 +27,20 @@
                 background-image: url('../../assets/telko.png');
                 background-size: cover;
                 background-position: center;
+
+                @media (max-width: 1200px) {
+                    height: 230px;
+                    width: 230px;
+                }
+
+                @media (max-width: 1000px) {
+                    height: 400px;
+                    width: 100%;
+                }
+
+                @media (max-width: 700px) {
+                    height: 300px;
+                }
             }
 
             .achgdyby {
@@ -49,8 +63,22 @@
                 text-transform: uppercase;
             }
 
-            @media (max-width: 730px) {
-                width: 100%;
+            @media (max-width: 1200px) {
+                width: 230px;
+            }
+
+            // @media (max-width: 730px) {
+            //     width: 100%;
+            // }
+
+            @media (max-width: 1000px) {
+                width: 70%;
+                margin-bottom: 40px;
+            }
+
+            @media (max-width: 700px) {
+                width: 80%;
+                margin-bottom: 40px;
             }
         }
 
@@ -62,6 +90,15 @@
             background-size: contain;
             background-position: center;
             align-self: center;
+
+            @media (max-width: 1200px) {
+                height: 40px;
+                width: 40px;
+            }
+
+            @media (max-width: 1000px) {
+                display: none;
+            }
         }
 
         .righty {
@@ -72,11 +109,41 @@
             background-size: contain;
             background-position: center;
             align-self: center;
+
+            @media (max-width: 1200px) {
+                height: 40px;
+                width: 40px;
+            }
+
+            @media (max-width: 1000px) {
+                display: none;
+            }
+        }
+
+        @media (max-width: 1200px) {
+            width: 100%;
+        }
+
+        @media (max-width: 1000px) {
+            //align-items: center;
+            flex-wrap: wrap;
         }
     }
 
-    @media (max-width: 510px) {
-        padding-top: 100px;
+    @media (max-width: 1000px) {
+        top: 0;
+        bottom: 0;
+        height: auto;
+        overflow-y: scroll;
+        padding-top: 1100px;
+    }
+
+    @media (max-width: 700px) {
+        top: 0;
+        bottom: 0;
+        height: auto;
+        overflow-y: scroll;
+        padding-top: 880px;
     }
     // @media (max-width: 1300px) {
     //     transform: translateX(calc((100% - 100vw) / 3));
