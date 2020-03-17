@@ -37,6 +37,44 @@
     }
   }
   
-  .side__menu.open {
-    transform: translateX(0);
+.side__menu.open {
+  transform: translateX(0);
+}
+
+.side__dropdown {
+  position: relative;
+
+  .side__dropdown__content {
+      position: absolute;
+      display: none;
+      top: 45px;
+      z-index: 500;
+
+      div {
+        width: 300px;
+        padding: 3px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 24px;
+            cursor: pointer;
+        }
+      }
   }
+
+  &:hover {
+      .side__dropdown__content {
+          display: block;
+          z-index: 300;
+
+          &:hover {
+              display: block;
+              z-index: 300;
+          }
+      }
+  }
+}

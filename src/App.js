@@ -112,7 +112,15 @@ class App extends React.Component {
           noBioHandler={this.noBioHandler}
           menuHandler={this.sideMenuClickHandler}
           />
-        <SideMenu show={this.state.sideMenu}/>
+        <SideMenu 
+          show={this.state.sideMenu}
+          movieYesHandler={this.yesForMovieHandler}
+          movieNoHandler={this.noForMovieHandler}
+          movieArtYesHandler={this.yesForMovieArtHandler}
+          movieArtNoHandler={this.noForMovieArtHandler}
+          yesBioHandler={this.yesBioHandler}
+          noBioHandler={this.noBioHandler}
+        />
         <Switch>
           <Route exact path='/' component={Main} />
           <Route path='/movie' component={Movie} />
