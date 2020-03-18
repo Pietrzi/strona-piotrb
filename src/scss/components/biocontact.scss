@@ -149,3 +149,12 @@
         }
     }
 }
+
+.pic__background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../assets/jupipic.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
