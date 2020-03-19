@@ -1,13 +1,14 @@
 .side__menu {
-    height: 100vh;
+    //height: 100vh;
     background: black;
     box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
     position: fixed;
     top: 0;
-    width: 70%;
-    max-width: 300px;
+    width: 100%;
+    // width: 70%;
+    // max-width: 300px;
     z-index: 200;
-    transform: translateX(-102%);
+    transform: translateY(-102%);
     transition: transform 0.3s ease-out;
 
     ul {
@@ -47,11 +48,13 @@
   .side__dropdown__content {
       position: absolute;
       display: none;
+      background-color: black;
       top: 45px;
       z-index: 500;
 
       div {
-        width: 300px;
+        width: 700px;
+        //width: 100%;
         padding: 3px 0;
         display: flex;
         justify-content: center;
