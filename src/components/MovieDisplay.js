@@ -9,9 +9,10 @@ const MovieDisplay = (props) => {
                 <div className="lefty"></div>
                 <div className="movie__box">
                     <NavLink 
-                        to="/film1"
+                        to="/film"
                         onClick={() => {
                             props.movieNoHandler();
+                            props.film1YesHandler();
                     }}>
                         <div className="movie__display achgdyby"></div>
                     </NavLink>
@@ -19,7 +20,7 @@ const MovieDisplay = (props) => {
                 </div>
                 <div className="movie__box">
                     <NavLink 
-                        to="/film2"
+                        to="/film"
                         onClick={() => {
                             props.movieNoHandler();
                     }}>
@@ -29,7 +30,7 @@ const MovieDisplay = (props) => {
                 </div>
                 <div className="movie__box">
                     <NavLink 
-                        to="/film1"
+                        to="/film"
                         onClick={() => {
                             props.movieNoHandler();
                     }}>
@@ -39,7 +40,7 @@ const MovieDisplay = (props) => {
                 </div>
                 <div className="movie__box">
                     <NavLink 
-                        to="/film2"
+                        to="/film"
                         onClick={() => {
                             props.movieNoHandler();
                     }}>

@@ -23,6 +23,7 @@ import FilmArt2 from './components/FilmArt2';
 import MovieDisplay from './components/MovieDisplay';
 import MovieArtDisplay from './components/MovieArtDisplay';
 import BioDisplay from './components/BioDisplay';
+import MovieBackground from './components/MovieBackground';
 
 
 
@@ -31,7 +32,11 @@ class App extends React.Component {
     sideMenu: false,
     movieDisplay: false,
     movieArtDisplay: false,
-    bioDisplay: false
+    bioDisplay: false,
+    film1: false,
+    film2: false,
+    filmArt1: false,
+    filmArt2: false,
   }
 
   sideMenuClickHandler = () => {
@@ -82,6 +87,54 @@ class App extends React.Component {
     })
   }
 
+  yesFilm1Handler = () => {
+    this.setState({
+      film1: true
+    })
+  }
+
+  noFilm1Handler = () => {
+    this.setState({
+      film1: false
+    })
+  }
+
+  yesFilm2Handler = () => {
+    this.setState({
+      film2: true
+    })
+  }
+
+  noFilm2Handler = () => {
+    this.setState({
+      film2: false
+    })
+  }
+
+  yesFilmArt1Handler = () => {
+    this.setState({
+      filmArt1: true
+    })
+  }
+
+  noFilmArt1Handler = () => {
+    this.setState({
+      filmArt1: false
+    })
+  }
+
+  yesFilmArt2Handler = () => {
+    this.setState({
+      film2Art: true
+    })
+  }
+
+  noFilmArt2Handler = () => {
+    this.setState({
+      filmArt2: false
+    })
+  }
+
   render() {
     let backdrop;
     if (this.state.sideMenu) {
@@ -89,7 +142,7 @@ class App extends React.Component {
     }
     let movieDisplay;
     if (this.state.movieDisplay) {
-      movieDisplay = <MovieDisplay movieNoHandler={this.noForMovieHandler}/>
+      movieDisplay = <MovieDisplay movieNoHandler={this.noForMovieHandler} film1YesHandler={this.yesFilm1Handler}/>
     }
     let movieArtDisplay;
     if (this.state.movieArtDisplay) {
@@ -98,6 +151,11 @@ class App extends React.Component {
     let bioDisplay;
     if (this.state.bioDisplay) {
       bioDisplay = <BioDisplay/>
+    }
+
+    let film1Display;
+    if (this.state.film1) {
+      film1Display = <Film1 />
     }
     return (
       <>
@@ -129,8 +187,9 @@ class App extends React.Component {
           <Route path='/dwa' component={Paint2} />
           <Route path='/trzy' component={Paint3} />
           <Route path='/biocontact' component={BioContact} />
-          <Route path='/film1' render={(props) => <Film1 {...props} movieYesHandler={this.yesForMovieHandler}/>}></Route>
-          <Route path='/film2' render={(props) => <Film2 {...props} movieYesHandler={this.yesForMovieHandler}/>}></Route>
+          <Route path='/film' component={MovieBackground} />
+          {/* <Route path='/film1' render={(props) => <Film1 {...props} movieYesHandler={this.yesForMovieHandler}/>}></Route>
+          <Route path='/film2' render={(props) => <Film2 {...props} movieYesHandler={this.yesForMovieHandler}/>}></Route> */}
           <Route path='/filmart1' render={(props) => <FilmArt1 {...props} movieArtYesHandler={this.yesForMovieArtHandler}/>}></Route>
           <Route path='/filmart2' render={(props) => <FilmArt2 {...props} movieArtYesHandler={this.yesForMovieArtHandler}/>}></Route>
         </Switch>
@@ -142,6 +201,7 @@ class App extends React.Component {
         />
         {movieDisplay}
         {movieArtDisplay}
+        {film1Display}
       </HashRouter>
       {bioDisplay}
       </>  
