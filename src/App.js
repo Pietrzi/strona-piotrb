@@ -23,6 +23,8 @@ import Film4 from './components/Film4';
 import Film5 from './components/Film4';
 import FilmArt1 from './components/FilmArt1';
 import FilmArt2 from './components/FilmArt2';
+import FilmArt3 from './components/FilmArt3';
+import FilmArt4 from './components/FilmArt4';
 import MovieDisplay from './components/MovieDisplay';
 import MovieArtDisplay from './components/MovieArtDisplay';
 import BioDisplay from './components/BioDisplay';
@@ -44,6 +46,8 @@ class App extends React.Component {
     film5: false,
     filmArt1: false,
     filmArt2: false,
+    filmArt3: false,
+    filmArt4: false
   }
 
   sideMenuClickHandler = () => {
@@ -142,6 +146,18 @@ class App extends React.Component {
     })
   }
 
+  yesFilm5Handler = () => {
+    this.setState({
+      film5: true
+    })
+  }
+
+  noFilm5Handler = () => {
+    this.setState({
+      film5: false
+    })
+  }
+
   yesFilmArt1Handler = () => {
     this.setState({
       filmArt1: true
@@ -163,6 +179,30 @@ class App extends React.Component {
   noFilmArt2Handler = () => {
     this.setState({
       filmArt2: false
+    })
+  }
+
+  yesFilmArt3Handler = () => {
+    this.setState({
+      film3Art: true
+    })
+  }
+
+  noFilmArt3Handler = () => {
+    this.setState({
+      filmArt3: false
+    })
+  }
+
+  yesFilmArt4Handler = () => {
+    this.setState({
+      film4Art: true
+    })
+  }
+
+  noFilmArt4Handler = () => {
+    this.setState({
+      filmArt4: false
     })
   }
 
@@ -191,18 +231,44 @@ class App extends React.Component {
 
     let film2Display;
     if (this.state.film2) {
-      film1Display = <Film2 />
+      film2Display = <Film2 />
     }
 
     let film3Display;
     if (this.state.film3) {
-      film1Display = <Film3 />
+      film3Display = <Film3 />
     }
 
     let film4Display;
     if (this.state.film4) {
-      film1Display = <Film4 />
+      film4Display = <Film4 />
     }
+
+    let film5Display;
+    if (this.state.film4) {
+      film5Display = <Film5 />
+    }
+
+    let filmArt1Display;
+    if (this.state.filmArt1) {
+      filmArt1Display = <FilmArt1 />
+    }
+
+    let filmArt2Display;
+    if (this.state.filmArt2) {
+      filmArt2Display = <FilmArt2 />
+    }
+
+    let filmArt3Display;
+    if (this.state.filmArt3) {
+      filmArt3Display = <FilmArt3 />
+    }
+
+    let filmArt4Display;
+    if (this.state.filmArt4) {
+      filmArt4Display = <FilmArt4 />
+    }
+
     return (
       <>
       {backdrop}
@@ -235,9 +301,8 @@ class App extends React.Component {
           <Route path='/biocontact' component={BioContact} />
           <Route path='/film' component={MovieBackground} />
           <Route path='/filmart' component={MovieArtBackground} />
-          
-          <Route path='/filmart1' render={(props) => <FilmArt1 {...props} movieArtYesHandler={this.yesForMovieArtHandler}/>}></Route>
-          <Route path='/filmart2' render={(props) => <FilmArt2 {...props} movieArtYesHandler={this.yesForMovieArtHandler}/>}></Route>
+          {/* <Route path='/filmart1' render={(props) => <FilmArt1 {...props} movieArtYesHandler={this.yesForMovieArtHandler}/>}></Route>
+          <Route path='/filmart2' render={(props) => <FilmArt2 {...props} movieArtYesHandler={this.yesForMovieArtHandler}/>}></Route> */}
         </Switch>
         <Footer
           movieNoHandler={this.noForMovieHandler}
@@ -251,6 +316,11 @@ class App extends React.Component {
         {film2Display}
         {film3Display}
         {film4Display}
+        {film5Display}
+        {filmArt1Display}
+        {filmArt2Display}
+        {filmArt3Display}
+        {filmArt4Display}
       </HashRouter>
       {bioDisplay}
       </>  
