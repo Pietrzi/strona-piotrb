@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8635156fd743d5b9503885409339d1d5",
+    "revision": "e1f8fed7bbbbb9326b8e042d3b0be7e2",
     "url": "/strona-piotrb/index.html"
   },
   {
-    "revision": "a2626fa131d663c5f12d",
-    "url": "/strona-piotrb/static/css/main.95211360.chunk.css"
+    "revision": "4268d47fa948dfe036ad",
+    "url": "/strona-piotrb/static/css/main.6b5adf50.chunk.css"
   },
   {
     "revision": "3ccdccacf70937091fd8",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/strona-piotrb/static/js/2.d5b649bf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a2626fa131d663c5f12d",
-    "url": "/strona-piotrb/static/js/main.0899caa0.chunk.js"
+    "revision": "4268d47fa948dfe036ad",
+    "url": "/strona-piotrb/static/js/main.87345abb.chunk.js"
   },
   {
     "revision": "5daa5a49bc00596e9feb",
@@ -28,8 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/strona-piotrb/static/media/1.152fada4.png"
   },
   {
-    "revision": "c0a0e3e07978bc84f08ed80631a88ebd",
-    "url": "/strona-piotrb/static/media/2.c0a0e3e0.png"
+    "revision": "d39ea66ffbad9557bf5cd8e6b9e83786",
+    "url": "/strona-piotrb/static/media/2.d39ea66f.png"
+  },
+  {
+    "revision": "e21b63546a9b8162e5a3296cc3ad6494",
+    "url": "/strona-piotrb/static/media/3.e21b6354.png"
   },
   {
     "revision": "2aa53274c2d17bfae13f4962ef4bd340",
@@ -38,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "93b389237f58fe30a08f6d8280f1629c",
     "url": "/strona-piotrb/static/media/3333.93b38923.mp4"
+  },
+  {
+    "revision": "20e9e1591c83ec08979ac2f80069ad26",
+    "url": "/strona-piotrb/static/media/4.20e9e159.png"
   },
   {
     "revision": "78deb42ef66d893e3626e1c7f25a35ca",
@@ -66,10 +74,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ae823c95d7c0583c0ade05e5ee76e16d",
     "url": "/strona-piotrb/static/media/pasek.ae823c95.mp4"
-  },
-  {
-    "revision": "c2d4e24612cf1c72b47b498483c103c3",
-    "url": "/strona-piotrb/static/media/telko.c2d4e246.png"
   },
   {
     "revision": "f3e7ad35ca54c7cec2e5c5a9aea8808b",
