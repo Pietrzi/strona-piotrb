@@ -24,9 +24,6 @@
             .movie__display {
                 height: 250px;
                 width: 250px;
-                background-image: url('../../assets/telko.png');
-                background-size: cover;
-                background-position: center;
 
                 @media (max-width: 1200px) {
                     height: 230px;
@@ -53,6 +50,24 @@
                 background-image: url('../../assets/2.png');
                 background-size: cover;
                 background-position: center;
+            }
+
+            .flowfol {
+                background-image: url('../../assets/3.png');
+                background-size: cover;
+                background-position: center;
+                width: 222px;
+                height: 222px;
+                margin: 14px auto 13px;
+            }
+
+            .zaba {
+                background-image: url('../../assets/4.png');
+                background-size: cover;
+                background-position: center;
+                width: 225px;
+                height: 222px;
+                margin: 14px auto 13px;
             }
 
             .movie__title__box {

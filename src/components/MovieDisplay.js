@@ -34,9 +34,9 @@ const MovieDisplay = (props) => {
                         onClick={() => {
                             props.movieNoHandler();
                     }}>
-                        <div className="movie__display achgdyby"></div>
+                        <div className="movie__display flowfol"></div>
                     </NavLink>
-                    <div className="movie__title__box">ach gdyby tak błądzę</div>
+                    <div className="movie__title__box">floating on fire</div>
                 </div>
                 <div className="movie__box">
                     <NavLink 
@@ -44,9 +44,9 @@ const MovieDisplay = (props) => {
                         onClick={() => {
                             props.movieNoHandler();
                     }}>
-                        <div className="movie__display egzul"></div>
+                        <div className="movie__display zaba"></div>
                     </NavLink>
-                    <div className="movie__title__box">egzul</div>
+                    <div className="movie__title__box">chłopiec z żabą</div>
                 </div>
                 <div className="righty"></div>
             </div>
