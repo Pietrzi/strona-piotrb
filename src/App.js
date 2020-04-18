@@ -18,6 +18,8 @@ import Backdrop from './components/Backdrop';
 import SideMenu from './components/SideMenu';
 import Film1 from './components/Film1';
 import Film2 from './components/Film2';
+import Film3 from './components/Film3';
+import Film4 from './components/Film4';
 import FilmArt1 from './components/FilmArt1';
 import FilmArt2 from './components/FilmArt2';
 import MovieDisplay from './components/MovieDisplay';
@@ -35,6 +37,8 @@ class App extends React.Component {
     bioDisplay: false,
     film1: false,
     film2: false,
+    film3: false,
+    film4: false,
     filmArt1: false,
     filmArt2: false,
   }
@@ -111,6 +115,30 @@ class App extends React.Component {
     })
   }
 
+  yesFilm3Handler = () => {
+    this.setState({
+      film3: true
+    })
+  }
+
+  noFilm3Handler = () => {
+    this.setState({
+      film3: false
+    })
+  }
+
+  yesFilm4Handler = () => {
+    this.setState({
+      film4: true
+    })
+  }
+
+  noFilm4Handler = () => {
+    this.setState({
+      film4: false
+    })
+  }
+
   yesFilmArt1Handler = () => {
     this.setState({
       filmArt1: true
@@ -142,7 +170,7 @@ class App extends React.Component {
     }
     let movieDisplay;
     if (this.state.movieDisplay) {
-      movieDisplay = <MovieDisplay movieNoHandler={this.noForMovieHandler} film1YesHandler={this.yesFilm1Handler}/>
+      movieDisplay = <MovieDisplay movieNoHandler={this.noForMovieHandler} film1YesHandler={this.yesFilm1Handler} film2YesHandler={this.yesFilm2Handler} film3YesHandler={this.yesFilm3Handler} film4YesHandler={this.yesFilm4Handler}/>
     }
     let movieArtDisplay;
     if (this.state.movieArtDisplay) {
@@ -156,6 +184,21 @@ class App extends React.Component {
     let film1Display;
     if (this.state.film1) {
       film1Display = <Film1 />
+    }
+
+    let film2Display;
+    if (this.state.film2) {
+      film1Display = <Film2 />
+    }
+
+    let film3Display;
+    if (this.state.film3) {
+      film1Display = <Film3 />
+    }
+
+    let film4Display;
+    if (this.state.film4) {
+      film1Display = <Film4 />
     }
     return (
       <>
@@ -202,6 +245,9 @@ class App extends React.Component {
         {movieDisplay}
         {movieArtDisplay}
         {film1Display}
+        {film2Display}
+        {film3Display}
+        {film4Display}
       </HashRouter>
       {bioDisplay}
       </>  

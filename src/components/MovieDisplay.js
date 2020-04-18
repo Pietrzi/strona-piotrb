@@ -23,6 +23,7 @@ const MovieDisplay = (props) => {
                         to="/film"
                         onClick={() => {
                             props.movieNoHandler();
+                            props.film2YesHandler();
                     }}>
                         <div className="movie__display egzul"></div>
                     </NavLink>
@@ -33,6 +34,7 @@ const MovieDisplay = (props) => {
                         to="/film"
                         onClick={() => {
                             props.movieNoHandler();
+                            props.film3YesHandler();
                     }}>
                         <div className="movie__display flowfol"></div>
                     </NavLink>
@@ -43,6 +45,7 @@ const MovieDisplay = (props) => {
                         to="/film"
                         onClick={() => {
                             props.movieNoHandler();
+                            props.film4YesHandler();
                     }}>
                         <div className="movie__display zaba"></div>
                     </NavLink>
