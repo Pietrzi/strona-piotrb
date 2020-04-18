@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
 import { withRouter } from 'react-router-dom';
-//import video from '../assets/3333.mp4';
 
 class Reactplayer extends React.Component {
     
