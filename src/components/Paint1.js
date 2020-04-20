@@ -1,39 +1,25 @@
 import React from 'react';
 import Slide from './Slide';
-import Paint1 from "../assets/tn_5.jpg";
-import Paint2 from "../assets/tn_6.jpg";
-import Paint3 from "../assets/tn_10.jpg";
-import Paint4 from "../assets/tn_11.jpg";
-import Paint5 from "../assets/tn_13.jpg";
-import Paint6 from "../assets/tn_14.jpg";
-import Paint7 from "../assets/tn_18.jpg";
-import Paint8 from "../assets/tn_25.jpg";
-import Paint9 from "../assets/tn_42.jpg";
-import Paint10 from "../assets/tn_48.jpg";
-import Paint11 from "../assets/tn_49.jpg";
-import Paint12 from "../assets/tn_50.jpg";
-// import Paint13 from "../assets/tn_51.jpg";
-// import Paint14 from "../assets/tn_56.jpg";
-// import Paint15 from "../assets/tn_4848484.jpg";
-// import Paint16 from "../assets/tn_a(1).jpg";
-// import Paint17 from "../assets/tn_a(2).jpg";
-// import Paint18 from "../assets/tn_a(3).jpg";
-// import Paint19 from "../assets/tn_a(4).jpg";
-// import Paint20 from "../assets/tn_a(5).jpg";
-// import Paint21 from "../assets/tn_a(6).jpg";
-// import Paint22 from "../assets/tn_a(7).jpg";
-// import Paint23 from "../assets/tn_a(8).jpg";
-// import Paint24 from "../assets/tn_a(9).jpg";
-// import Paint25 from "../assets/tn_a(10).jpg";
-// import Paint26 from "../assets/tn_a(11).jpg";
-// import Paint27 from "../assets/tn_a(12).jpg";
-// import Paint28 from "../assets/tn_a(13).jpg";
-// import Paint29 from "../assets/tn_a(14).jpg";
-// import Paint30 from "../assets/tn_a1.jpg";
-// import Paint31 from "../assets/tn_b1.jpg";
-// import Paint32 from "../assets/tn_d1.jpg";
-// import Paint33 from "../assets/tn_h1.jpg";
-// import Paint34 from "../assets/tn_i1.jpg";
+import Paint1 from "../assets/tn_13.jpg";
+import Paint2 from "../assets/tn_14.jpg";
+import Paint3 from "../assets/tn_18.jpg";
+import Paint4 from "../assets/tn_19.jpg";
+import Paint5 from "../assets/tn_34.jpg";
+import Paint6 from "../assets/tn_42.jpg";
+import Paint7 from "../assets/tn_47.jpg";
+import Paint8 from "../assets/tn_49.jpg";
+import Paint9 from "../assets/tn_50.jpg";
+import Paint10 from "../assets/tn_51.jpg";
+import Paint11 from "../assets/tn_9999.png";
+import Paint12 from "../assets/tn_54545.jpg";
+import Paint13 from "../assets/tn_4848484.jpg";
+import Paint14 from "../assets/tn_444444444.jpg";
+import Paint15 from "../assets/tn_32323232332323.jpg";
+import Paint16 from "../assets/tn_2121212121212121.jpg";
+import Paint17 from "../assets/tn_a1.jpg";
+import Paint18 from "../assets/tn_b1.jpg";
+import Paint19 from "../assets/tn_i1.jpg";
+
 
 
 class Paint extends React.Component {
@@ -41,7 +27,7 @@ class Paint extends React.Component {
         super();
         this.state = {
           currentIndex: 0,
-          images: [Paint1, Paint2, Paint3, Paint4, Paint5, Paint6, Paint7, Paint8, Paint9, Paint10, Paint11, Paint12]
+          images: [Paint1, Paint2, Paint3, Paint4, Paint5, Paint6, Paint7, Paint8, Paint9, Paint10, Paint11, Paint12, Paint13, Paint14, Paint15, Paint16, Paint17, Paint18, Paint19]
         };
     }
 
