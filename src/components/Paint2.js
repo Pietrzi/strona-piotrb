@@ -47,10 +47,10 @@ class Paint extends React.Component {
     render() {
 
         const index = this.state.currentIndex;
-        let newImagesArray = this.state.images.slice(index, index + 11);
-        if (newImagesArray.length < 11) {
+        let newImagesArray = this.state.images.slice(index, index + 16);
+        if (newImagesArray.length < 16) {
         newImagesArray = newImagesArray.concat(
-            this.state.images.slice(0, 11 - newImagesArray.length)
+            this.state.images.slice(0, 16 - newImagesArray.length)
         );
         }
 
