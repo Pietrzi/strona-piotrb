@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8be3a207b33786c40f7bc116f141ba11",
+    "revision": "07b941738ec47b7710767183c7a05d9c",
     "url": "/strona-piotrb/index.html"
   },
   {
-    "revision": "91cf66f100daa17a0739",
-    "url": "/strona-piotrb/static/css/main.6b5adf50.chunk.css"
+    "revision": "1d6a224eecc8c68cee27",
+    "url": "/strona-piotrb/static/css/main.85540dc8.chunk.css"
   },
   {
     "revision": "07d00f6b186a661c7e12",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/strona-piotrb/static/js/2.8fc405fe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "91cf66f100daa17a0739",
-    "url": "/strona-piotrb/static/js/main.50065b43.chunk.js"
+    "revision": "1d6a224eecc8c68cee27",
+    "url": "/strona-piotrb/static/js/main.a616c067.chunk.js"
   },
   {
     "revision": "5daa5a49bc00596e9feb",
@@ -74,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ae823c95d7c0583c0ade05e5ee76e16d",
     "url": "/strona-piotrb/static/media/pasek.ae823c95.mp4"
+  },
+  {
+    "revision": "320a3b4e2f8c732351ee69c4599ec252",
+    "url": "/strona-piotrb/static/media/sciezki.320a3b4e.png"
   },
   {
     "revision": "f3e7ad35ca54c7cec2e5c5a9aea8808b",
