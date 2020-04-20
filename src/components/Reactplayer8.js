@@ -1,40 +1,40 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
 import { withRouter } from 'react-router-dom';
-//import video from '../assets/3333.mp4';
 
 class Reactplayer extends React.Component {
-
+    
     render() {
         return (
             <div className="player__holder">
                 <div className='player-wrapper'>
                     <ReactPlayer
                     className='react-player'
-                    url='https://vimeo.com/89629067'
+                    url='https://vimeo.com/270135300'
                     width='100%'
                     height='100%'
                     controls={true}
                     />
                 </div>
                 <div className="player__film__title">
-                    egzul
+                    ach gdyby tak błądzę
                 </div>
                 <div className="player__film__description">
                     <div className="pol__desc">
-                        Egzul pracuje, żeby jeść. Je, żeby pracować. A kiedy nie je i nie pracuje to patrzy w księżyc.
+                    Oszczędności w portach na granicy światów widać gołym okiem, gołym uchem słychać niewykwalifikowany personel. Ale nic to, najważniejsze dla wędrowca to światło w szczelinie zobaczyć i się nie przestraszyć. Film inspirowany Tybetańska Księgą umarłych. Film można zobaczyć w całości na CDA premium.
                     </div>
-                    <div className="eng__desc">
-                        Egzul works to eat.
-                        Eat to work.
-                        And when he doesn't eat and work he looks at the moon.
-                    </div>
+                    {/* <div className="eng__desc">
+                        Savings kept in harbors on the border of worlds can be seen with a naked eye.
+                        Unqualified staff can be heard with a naked ear. But that's nothing.
+                        The most important thing for a wanderer is to see the light in the gap and not to be scared.
+                    </div> */}
                 </div>
                 <div 
                     className="back__arrow"
                     onClick={() => {
                         this.props.history.goBack();
-                        this.props.movieArtYesHandler();
+                        this.props.movieYesHandler();
+                        this.props.noFilm1Handler();
                     }}>
                 </div>
             </div>

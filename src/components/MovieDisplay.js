@@ -6,7 +6,7 @@ const MovieDisplay = (props) => {
     return (
         <div className="movies__container">
             <div className="movies__box">
-                <div className="lefty"></div>
+                {/* <div className="lefty"></div> */}
                 <div className="movie__box">
                     <NavLink 
                         to="/film"
@@ -51,7 +51,18 @@ const MovieDisplay = (props) => {
                     </NavLink>
                     <div className="movie__title__box">chłopiec z żabą</div>
                 </div>
-                <div className="righty"></div>
+                <div className="movie__box">
+                    <NavLink 
+                        to="/film"
+                        onClick={() => {
+                            props.movieNoHandler();
+                            props.film5YesHandler();
+                    }}>
+                        <div className="movie__display sciezki"></div>
+                    </NavLink>
+                    <div className="movie__title__box">ścieżki tekstu</div>
+                </div>
+                {/* <div className="righty"></div> */}
             </div>
         </div>
     )

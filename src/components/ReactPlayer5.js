@@ -10,25 +10,24 @@ class Reactplayer extends React.Component {
                 <div className='player-wrapper'>
                     <ReactPlayer
                     className='react-player'
-                    url='https://vimeo.com/270135300'
+                    url='https://vimeo.com/204944898'
                     width='100%'
                     height='100%'
                     controls={true}
                     />
                 </div>
                 <div className="player__film__title">
-                    ach gdyby tak błądzę
+                    ścieżki tekstu
                 </div>
                 <div className="player__film__description">
                     <div className="pol__desc">
-                        Oszczędności w portach na granicy światów widać gołym okiem, gołym uchem słychać niewykwalifikowany personel.
-                        Ale nic to, najważniejsze dla wędrowca to światło w szczelinie zobaczyć i się nie przestraszyć.
+                    "Poezja tradycyjna opisuje obraz. Poezja konkretna pisze obrazem" Stanisław Dróżdż.
                     </div>
-                    <div className="eng__desc">
+                    {/* <div className="eng__desc">
                         Savings kept in harbors on the border of worlds can be seen with a naked eye.
                         Unqualified staff can be heard with a naked ear. But that's nothing.
                         The most important thing for a wanderer is to see the light in the gap and not to be scared.
-                    </div>
+                    </div> */}
                 </div>
                 <div 
                     className="back__arrow"

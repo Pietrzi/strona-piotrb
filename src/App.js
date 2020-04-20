@@ -172,7 +172,7 @@ class App extends React.Component {
 
   yesFilmArt2Handler = () => {
     this.setState({
-      film2Art: true
+      filmArt2: true
     })
   }
 
@@ -184,7 +184,7 @@ class App extends React.Component {
 
   yesFilmArt3Handler = () => {
     this.setState({
-      film3Art: true
+      filmArt3: true
     })
   }
 
@@ -196,7 +196,7 @@ class App extends React.Component {
 
   yesFilmArt4Handler = () => {
     this.setState({
-      film4Art: true
+      filmArt4: true
     })
   }
 
@@ -213,11 +213,11 @@ class App extends React.Component {
     }
     let movieDisplay;
     if (this.state.movieDisplay) {
-      movieDisplay = <MovieDisplay movieNoHandler={this.noForMovieHandler} film1YesHandler={this.yesFilm1Handler} film2YesHandler={this.yesFilm2Handler} film3YesHandler={this.yesFilm3Handler} film4YesHandler={this.yesFilm4Handler}/>
+      movieDisplay = <MovieDisplay movieNoHandler={this.noForMovieHandler} film1YesHandler={this.yesFilm1Handler} film2YesHandler={this.yesFilm2Handler} film3YesHandler={this.yesFilm3Handler} film4YesHandler={this.yesFilm4Handler} film5YesHandler={this.yesFilm5Handler}/>
     }
     let movieArtDisplay;
     if (this.state.movieArtDisplay) {
-      movieArtDisplay = <MovieArtDisplay movieArtNoHandler={this.noForMovieArtHandler}/>
+      movieArtDisplay = <MovieArtDisplay movieArtNoHandler={this.noForMovieArtHandler} filmArt1YesHandler={this.yesFilmArt1Handler} filmArt2YesHandler={this.yesFilmArt2Handler} filmArt3YesHandler={this.yesFilmArt3Handler} filmArt4YesHandler={this.yesFilmArt4Handler}/>
     }
     let bioDisplay;
     if (this.state.bioDisplay) {
@@ -245,7 +245,7 @@ class App extends React.Component {
     }
 
     let film5Display;
-    if (this.state.film4) {
+    if (this.state.film5) {
       film5Display = <Film5 />
     }
 
