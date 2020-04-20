@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/strona-piotrb/static/css/main.85540dc8.chunk.css",
-    "main.js": "/strona-piotrb/static/js/main.17947baa.chunk.js",
-    "main.js.map": "/strona-piotrb/static/js/main.17947baa.chunk.js.map",
+    "main.css": "/strona-piotrb/static/css/main.aae748cb.chunk.css",
+    "main.js": "/strona-piotrb/static/js/main.fd75b11e.chunk.js",
+    "main.js.map": "/strona-piotrb/static/js/main.fd75b11e.chunk.js.map",
     "runtime-main.js": "/strona-piotrb/static/js/runtime-main.2f6be557.js",
     "runtime-main.js.map": "/strona-piotrb/static/js/runtime-main.2f6be557.js.map",
     "static/js/2.8fc405fe.chunk.js": "/strona-piotrb/static/js/2.8fc405fe.chunk.js",
     "static/js/2.8fc405fe.chunk.js.map": "/strona-piotrb/static/js/2.8fc405fe.chunk.js.map",
     "index.html": "/strona-piotrb/index.html",
-    "precache-manifest.9461bb8848227976798c6801be55442b.js": "/strona-piotrb/precache-manifest.9461bb8848227976798c6801be55442b.js",
+    "precache-manifest.e77de0b1387aae988432307d895d1f38.js": "/strona-piotrb/precache-manifest.e77de0b1387aae988432307d895d1f38.js",
     "service-worker.js": "/strona-piotrb/service-worker.js",
-    "static/css/main.85540dc8.chunk.css.map": "/strona-piotrb/static/css/main.85540dc8.chunk.css.map",
+    "static/css/main.aae748cb.chunk.css.map": "/strona-piotrb/static/css/main.aae748cb.chunk.css.map",
     "static/js/2.8fc405fe.chunk.js.LICENSE.txt": "/strona-piotrb/static/js/2.8fc405fe.chunk.js.LICENSE.txt",
-    "static/media/style.scss": "/strona-piotrb/static/media/vimoe-new.8e8c8e11.png",
-    "static/media/33.mp4": "/strona-piotrb/static/media/33.2aa53274.mp4",
-    "static/media/3333.mp4": "/strona-piotrb/static/media/3333.93b38923.mp4",
-    "static/media/JUPI.mp4": "/strona-piotrb/static/media/JUPI.70da8963.mp4",
+    "static/media/style.scss": "/strona-piotrb/static/media/zaba2.ba4dfe2b.png",
+    "static/media/bio.mp4": "/strona-piotrb/static/media/bio.c2136d97.mp4",
+    "static/media/kulkii.mp4": "/strona-piotrb/static/media/kulkii.2e1bd098.mp4",
+    "static/media/madzia.mp4": "/strona-piotrb/static/media/madzia.f254a7ae.mp4",
     "static/media/pasek.mp4": "/strona-piotrb/static/media/pasek.ae823c95.mp4",
     "static/media/tn_10.jpg": "/strona-piotrb/static/media/tn_10.f3e7ad35.jpg",
     "static/media/tn_11.jpg": "/strona-piotrb/static/media/tn_11.f47122fb.jpg",
@@ -56,7 +56,7 @@
   "entrypoints": [
     "static/js/runtime-main.2f6be557.js",
     "static/js/2.8fc405fe.chunk.js",
-    "static/css/main.85540dc8.chunk.css",
-    "static/js/main.17947baa.chunk.js"
+    "static/css/main.aae748cb.chunk.css",
+    "static/js/main.fd75b11e.chunk.js"
   ]
 }
