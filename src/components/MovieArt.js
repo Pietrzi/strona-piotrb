@@ -1,5 +1,5 @@
 import React from 'react';
-import sample from '../assets/33.mp4';
+import sample from '../assets/kulkii.mp4';
 
 const MovieArt = () => {
     return (

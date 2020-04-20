@@ -14,7 +14,6 @@ const Footer = (props) => {
                             props.movieNoHandler();
                             props.movieArtNoHandler();
                             props.noBioHandler();
-                            props.history.goBack();
                     }}>
                             <div className="footer__icon__container vimeo"></div>
                     </a>
@@ -26,7 +25,6 @@ const Footer = (props) => {
                             props.movieNoHandler();
                             props.movieArtNoHandler();
                             props.noBioHandler();
-                            props.history.goBack();
                     }}>
                             <div className="footer__icon__container face"></div>
                     </a>
@@ -38,7 +36,6 @@ const Footer = (props) => {
                             props.movieNoHandler();
                             props.movieArtNoHandler();
                             props.noBioHandler();
-                            props.history.goBack();
                     }}>
                             <div className="footer__icon__container insta"></div>
                     </a>

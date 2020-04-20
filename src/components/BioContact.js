@@ -1,5 +1,5 @@
 import React from 'react';
-import sample from '../assets/JUPI.mp4';
+import sample from '../assets/bio.mp4';
 
 class BioContact extends React.Component {
     constructor(props) {
