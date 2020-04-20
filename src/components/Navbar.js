@@ -12,6 +12,15 @@ const Navbar = (props) => {
                         props.movieNoHandler();
                         props.movieArtNoHandler();
                         props.noBioHandler();
+                        props.noFilm1Handler();
+                        props.noFilm2Handler();
+                        props.noFilm3Handler();
+                        props.noFilm4Handler();
+                        props.noFilm5Handler();
+                        props.noFilmArt1Handler();
+                        props.noFilmArt2Handler();
+                        props.noFilmArt3Handler();
+                        props.noFilmArt4Handler();
                     }}>
                     <NavLink to='/' className="logo__name">piotr bartos</NavLink>
                 </div>
@@ -21,6 +30,15 @@ const Navbar = (props) => {
                                 props.movieYesHandler();
                                 props.movieArtNoHandler();
                                 props.noBioHandler();
+                                props.noFilm1Handler();
+                                props.noFilm2Handler();
+                                props.noFilm3Handler();
+                                props.noFilm4Handler();
+                                props.noFilm5Handler();
+                                props.noFilmArt1Handler();
+                                props.noFilmArt2Handler();
+                                props.noFilmArt3Handler();
+                                props.noFilmArt4Handler();
                         }}>
                             <NavLink className="menu__link__element" to='movie'>film</NavLink>
                         </li>
@@ -29,6 +47,15 @@ const Navbar = (props) => {
                                 props.movieNoHandler();
                                 props.movieArtYesHandler();
                                 props.noBioHandler();
+                                props.noFilm1Handler();
+                                props.noFilm2Handler();
+                                props.noFilm3Handler();
+                                props.noFilm4Handler();
+                                props.noFilm5Handler();
+                                props.noFilmArt1Handler();
+                                props.noFilmArt2Handler();
+                                props.noFilmArt3Handler();
+                                props.noFilmArt4Handler();
                         }}>
                             <NavLink className="menu__link__element" to='movieart'>video-art</NavLink>
                         </li>
@@ -46,6 +73,15 @@ const Navbar = (props) => {
                                         props.movieNoHandler();
                                         props.movieArtNoHandler();
                                         props.noBioHandler();
+                                        props.noFilm1Handler();
+                                        props.noFilm2Handler();
+                                        props.noFilm3Handler();
+                                        props.noFilm4Handler();
+                                        props.noFilm5Handler();
+                                        props.noFilmArt1Handler();
+                                        props.noFilmArt2Handler();
+                                        props.noFilmArt3Handler();
+                                        props.noFilmArt4Handler();
                                 }}>
                                     <NavLink  to="raz">raz</NavLink>
                                 </div>
@@ -54,6 +90,15 @@ const Navbar = (props) => {
                                         props.movieNoHandler();
                                         props.movieArtNoHandler();
                                         props.noBioHandler();
+                                        props.noFilm1Handler();
+                                        props.noFilm2Handler();
+                                        props.noFilm3Handler();
+                                        props.noFilm4Handler();
+                                        props.noFilm5Handler();
+                                        props.noFilmArt1Handler();
+                                        props.noFilmArt2Handler();
+                                        props.noFilmArt3Handler();
+                                        props.noFilmArt4Handler();
                                 }}>
                                     <NavLink to="dwa">dwa</NavLink>
                                 </div>
@@ -62,6 +107,15 @@ const Navbar = (props) => {
                                         props.movieNoHandler();
                                         props.movieArtNoHandler();
                                         props.noBioHandler();
+                                        props.noFilm1Handler();
+                                        props.noFilm2Handler();
+                                        props.noFilm3Handler();
+                                        props.noFilm4Handler();
+                                        props.noFilm5Handler();
+                                        props.noFilmArt1Handler();
+                                        props.noFilmArt2Handler();
+                                        props.noFilmArt3Handler();
+                                        props.noFilmArt4Handler();
                                 }}>
                                     <NavLink to="trzy">trzy</NavLink>
                                 </div>

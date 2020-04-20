@@ -14,6 +14,7 @@ const Footer = (props) => {
                             props.movieNoHandler();
                             props.movieArtNoHandler();
                             props.noBioHandler();
+                            props.history.goBack();
                     }}>
                             <div className="footer__icon__container vimeo"></div>
                     </a>
@@ -25,6 +26,7 @@ const Footer = (props) => {
                             props.movieNoHandler();
                             props.movieArtNoHandler();
                             props.noBioHandler();
+                            props.history.goBack();
                     }}>
                             <div className="footer__icon__container face"></div>
                     </a>
@@ -36,6 +38,7 @@ const Footer = (props) => {
                             props.movieNoHandler();
                             props.movieArtNoHandler();
                             props.noBioHandler();
+                            props.history.goBack();
                     }}>
                             <div className="footer__icon__container insta"></div>
                     </a>
@@ -45,6 +48,15 @@ const Footer = (props) => {
                         props.movieNoHandler();
                         props.movieArtNoHandler();
                         props.yesBioHandler();
+                        props.noFilm1Handler();
+                        props.noFilm2Handler();
+                        props.noFilm3Handler();
+                        props.noFilm4Handler();
+                        props.noFilm5Handler();
+                        props.noFilmArt1Handler();
+                        props.noFilmArt2Handler();
+                        props.noFilmArt3Handler();
+                        props.noFilmArt4Handler();
                     }}>
                     <NavLink to="/biocontact" className="bio__text">bio & kontakt</NavLink>
                 </div>

@@ -35,6 +35,7 @@ class Reactplayer extends React.Component {
                     onClick={() => {
                         this.props.history.goBack();
                         this.props.movieYesHandler();
+                        this.props.noFilm2Handler();
                     }}>
                 </div>
             </div>

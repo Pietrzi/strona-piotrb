@@ -33,8 +33,8 @@ class Reactplayer extends React.Component {
                     className="back__arrow"
                     onClick={() => {
                         this.props.history.goBack();
-                        this.props.movieYesHandler();
-                        this.props.noFilm1Handler();
+                        this.props.movieArtYesHandler();
+                        this.props.noFilmArt3Handler();
                     }}>
                 </div>
             </div>
