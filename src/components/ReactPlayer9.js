@@ -8,7 +8,7 @@ class Reactplayer extends React.Component {
     render() {
         return (
             <div className="player__holder">
-                <div className='player-wrapper'>
+                <div className='player-wrapper player9'>
                     <ReactPlayer
                     className='react-player'
                     url='https://vimeo.com/89629067'
