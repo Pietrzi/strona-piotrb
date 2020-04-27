@@ -10,18 +10,18 @@ class Reactplayer extends React.Component {
                 <div className='player-wrapper player6'>
                     <ReactPlayer
                     className='react-player'
-                    url='https://vimeo.com/270135300'
+                    url='https://vimeo.com/362426611?fbclid=IwAR2-EgIZF6zO-1rrLOKnw01loBDEsffW-IyzGa5ck6_nypLa0HO8NZGmaoY'
                     width='100%'
                     height='100%'
                     controls={true}
                     />
                 </div>
                 <div className="player__film__title">
-                    ach gdyby tak błądzę
+                    kulki
                 </div>
                 <div className="player__film__description">
                     <div className="pol__desc">
-                    Oszczędności w portach na granicy światów widać gołym okiem, gołym uchem słychać niewykwalifikowany personel. Ale nic to, najważniejsze dla wędrowca to światło w szczelinie zobaczyć i się nie przestraszyć. Film inspirowany Tybetańska Księgą umarłych. Film można zobaczyć w całości na CDA premium.
+                    Film pt. KULKI Piotra Bartosa i Filipa Zawady opowiada o filozoficznych rozważaniach kulek. Ponieważ słowo filozofia nie kojarzy się z czymś komercyjnym, a kulki są mniejszymi celebrytami niż Tom Cruise animacja ta nie mogła nie powstać. Połączenie czegoś co jest nic nie warte i całkowicie nieznane tworzy wartość, którą ciężko jest zlekceważyć w XXI wieku.
                     </div>
                     {/* <div className="eng__desc">
                         Savings kept in harbors on the border of worlds can be seen with a naked eye.

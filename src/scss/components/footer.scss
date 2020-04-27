@@ -10,7 +10,7 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 150px;
+        width: 180px;
         
 
         .footer__icon__container {
@@ -35,6 +35,13 @@ footer {
         .insta {
             background-image: url("../../assets/instagram-new.png");
             background-size: cover;
+        }
+
+        .mural {
+            background-image: url("../../assets/KINOMURAL.png");
+            background-size: cover;
+            position: relative;
+            bottom: 2px;
         }
     }
 

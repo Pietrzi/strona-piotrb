@@ -39,6 +39,17 @@ const Footer = (props) => {
                     }}>
                             <div className="footer__icon__container insta"></div>
                     </a>
+                    <a
+                        href="http://kinomural.com/pl"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={() => {
+                            props.movieNoHandler();
+                            props.movieArtNoHandler();
+                            props.noBioHandler();
+                    }}>
+                            <div className="footer__icon__container mural"></div>
+                    </a>
                 </div>
                 <div 
                     onClick={() => {
@@ -54,6 +65,7 @@ const Footer = (props) => {
                         props.noFilmArt2Handler();
                         props.noFilmArt3Handler();
                         props.noFilmArt4Handler();
+                        props.noFilmArt5Handler();
                     }}>
                     <NavLink to="/biocontact" className="bio__text">bio & kontakt</NavLink>
                 </div>

@@ -9,47 +9,58 @@ const MovieArtDisplay = (props) => {
                 {/* <div className="lefty"></div> */}
                 <div className="movie__box">
                     <NavLink 
-                        to="/filmart"
+                        to="/film"
                         onClick={() => {
                             props.movieArtNoHandler();
                             props.filmArt1YesHandler();
                     }}>
-                        <div className="movie__display achgdyby"></div>
+                        <div className="movie__display kulki"></div>
                     </NavLink>
-                    <div className="movie__title__box">ach gdyby tak błądzę</div>
+                    <div className="movie__title__box">kulki</div>
                 </div>
                 <div className="movie__box">
                     <NavLink 
-                        to="/filmart"
+                        to="/film"
                         onClick={() => {
                             props.movieArtNoHandler();
                             props.filmArt2YesHandler();
                     }}>
-                        <div className="movie__display egzul"></div>
+                        <div className="movie__display flagi"></div>
                     </NavLink>
-                    <div className="movie__title__box">egzul</div>
+                    <div className="movie__title__box">flagi</div>
                 </div>
                 <div className="movie__box">
                     <NavLink 
-                        to="/filmart"
+                        to="/film"
                         onClick={() => {
                             props.movieArtNoHandler();
                             props.filmArt3YesHandler();
                     }}>
-                        <div className="movie__display achgdyby"></div>
+                        <div className="movie__display znikam"></div>
                     </NavLink>
-                    <div className="movie__title__box">ach gdyby tak błądzę</div>
+                    <div className="movie__title__box">znikam</div>
                 </div>
                 <div className="movie__box">
                     <NavLink 
-                        to="/filmart"
+                        to="/film"
                         onClick={() => {
                             props.movieArtNoHandler();
                             props.filmArt4YesHandler();
                     }}>
-                        <div className="movie__display egzul"></div>
+                        <div className="movie__display samoloty"></div>
                     </NavLink>
-                    <div className="movie__title__box">egzul</div>
+                    <div className="movie__title__box">samoloty</div>
+                </div>
+                <div className="movie__box">
+                    <NavLink 
+                        to="/film"
+                        onClick={() => {
+                            props.movieArtNoHandler();
+                            props.filmArt5YesHandler();
+                    }}>
+                        <div className="movie__display domw"></div>
+                    </NavLink>
+                    <div className="movie__title__box">dom wariatów</div>
                 </div>
                 {/* <div className="righty"></div> */}
             </div>

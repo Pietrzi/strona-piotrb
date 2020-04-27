@@ -21,6 +21,7 @@ const Navbar = (props) => {
                         props.noFilmArt2Handler();
                         props.noFilmArt3Handler();
                         props.noFilmArt4Handler();
+                        props.noFilmArt5Handler();
                     }}>
                     <NavLink to='/' className="logo__name">piotr bartos</NavLink>
                 </div>
@@ -39,6 +40,7 @@ const Navbar = (props) => {
                                 props.noFilmArt2Handler();
                                 props.noFilmArt3Handler();
                                 props.noFilmArt4Handler();
+                                props.noFilmArt5Handler();
                         }}>
                             <NavLink className="menu__link__element" to='movie'>film</NavLink>
                         </li>
@@ -56,6 +58,7 @@ const Navbar = (props) => {
                                 props.noFilmArt2Handler();
                                 props.noFilmArt3Handler();
                                 props.noFilmArt4Handler();
+                                props.noFilmArt5Handler();
                         }}>
                             <NavLink className="menu__link__element" to='movieart'>video-art</NavLink>
                         </li>
@@ -82,6 +85,7 @@ const Navbar = (props) => {
                                         props.noFilmArt2Handler();
                                         props.noFilmArt3Handler();
                                         props.noFilmArt4Handler();
+                                        props.noFilmArt5Handler();
                                 }}>
                                     <NavLink  to="raz">raz</NavLink>
                                 </div>
@@ -99,6 +103,7 @@ const Navbar = (props) => {
                                         props.noFilmArt2Handler();
                                         props.noFilmArt3Handler();
                                         props.noFilmArt4Handler();
+                                        props.noFilmArt5Handler();
                                 }}>
                                     <NavLink to="dwa">dwa</NavLink>
                                 </div>
@@ -116,6 +121,7 @@ const Navbar = (props) => {
                                         props.noFilmArt2Handler();
                                         props.noFilmArt3Handler();
                                         props.noFilmArt4Handler();
+                                        props.noFilmArt5Handler();
                                 }}>
                                     <NavLink to="trzy">trzy</NavLink>
                                 </div>

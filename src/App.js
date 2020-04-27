@@ -25,6 +25,7 @@ import FilmArt1 from './components/FilmArt1';
 import FilmArt2 from './components/FilmArt2';
 import FilmArt3 from './components/FilmArt3';
 import FilmArt4 from './components/FilmArt4';
+import FilmArt5 from './components/FilmArt5';
 import MovieDisplay from './components/MovieDisplay';
 import MovieArtDisplay from './components/MovieArtDisplay';
 import BioDisplay from './components/BioDisplay';
@@ -47,7 +48,8 @@ class App extends React.Component {
     filmArt1: false,
     filmArt2: false,
     filmArt3: false,
-    filmArt4: false
+    filmArt4: false,
+    filmArt5: false
   }
 
   sideMenuClickHandler = () => {
@@ -206,6 +208,20 @@ class App extends React.Component {
     })
   }
 
+  yesFilmArt5Handler = () => {
+    this.setState({
+      filmArt5: true
+    })
+  }
+
+  noFilmArt5Handler = () => {
+    this.setState({
+      filmArt5: false
+    })
+  }
+
+  // src="/strona-piotrb/static/js/2.e4e2e808.chunk.js"
+
   render() {
     let backdrop;
     if (this.state.sideMenu) {
@@ -217,7 +233,7 @@ class App extends React.Component {
     }
     let movieArtDisplay;
     if (this.state.movieArtDisplay) {
-      movieArtDisplay = <MovieArtDisplay movieArtNoHandler={this.noForMovieArtHandler} filmArt1YesHandler={this.yesFilmArt1Handler} filmArt2YesHandler={this.yesFilmArt2Handler} filmArt3YesHandler={this.yesFilmArt3Handler} filmArt4YesHandler={this.yesFilmArt4Handler}/>
+      movieArtDisplay = <MovieArtDisplay movieArtNoHandler={this.noForMovieArtHandler} filmArt1YesHandler={this.yesFilmArt1Handler} filmArt2YesHandler={this.yesFilmArt2Handler} filmArt3YesHandler={this.yesFilmArt3Handler} filmArt4YesHandler={this.yesFilmArt4Handler} filmArt5YesHandler={this.yesFilmArt5Handler}/>
     }
     let bioDisplay;
     if (this.state.bioDisplay) {
@@ -269,6 +285,11 @@ class App extends React.Component {
       filmArt4Display = <FilmArt4 movieArtYesHandler={this.yesForMovieArtHandler} noFilmArt4Handler={this.noFilmArt4Handler}/>
     }
 
+    let filmArt5Display;
+    if (this.state.filmArt5) {
+      filmArt5Display = <FilmArt5 movieArtYesHandler={this.yesForMovieArtHandler} noFilmArt5Handler={this.noFilmArt5Handler}/>
+    }
+
     return (
       <>
       {backdrop}
@@ -290,6 +311,7 @@ class App extends React.Component {
           noFilmArt2Handler={this.noFilmArt2Handler}
           noFilmArt3Handler={this.noFilmArt3Handler}
           noFilmArt4Handler={this.noFilmArt4Handler}
+          noFilmArt5Handler={this.noFilmArt5Handler}
 
           />
         <SideMenu 
@@ -309,6 +331,7 @@ class App extends React.Component {
           noFilmArt2Handler={this.noFilmArt2Handler}
           noFilmArt3Handler={this.noFilmArt3Handler}
           noFilmArt4Handler={this.noFilmArt4Handler}
+          noFilmArt5Handler={this.noFilmArt5Handler}
         />
         <Switch>
           <Route exact path='/' component={Main} />
@@ -337,6 +360,7 @@ class App extends React.Component {
           noFilmArt2Handler={this.noFilmArt2Handler}
           noFilmArt3Handler={this.noFilmArt3Handler}
           noFilmArt4Handler={this.noFilmArt4Handler}
+          noFilmArt5Handler={this.noFilmArt5Handler}
         />
         {movieDisplay}
         {movieArtDisplay}
@@ -349,6 +373,7 @@ class App extends React.Component {
         {filmArt2Display}
         {filmArt3Display}
         {filmArt4Display}
+        {filmArt5Display}
       </HashRouter>
       {bioDisplay}
       </>  
