@@ -30,7 +30,6 @@ import MovieDisplay from './components/MovieDisplay';
 import MovieArtDisplay from './components/MovieArtDisplay';
 import BioDisplay from './components/BioDisplay';
 import MovieBackground from './components/MovieBackground';
-import MovieArtBackground from './components/MovieArtBackground';
 
 
 
@@ -342,7 +341,6 @@ class App extends React.Component {
           <Route path='/trzy' component={Paint3} />
           <Route path='/biocontact' component={BioContact} />
           <Route path='/film' component={MovieBackground} />
-          <Route path='/filmart' component={MovieArtBackground} />
           {/* <Route path='/filmart1' render={(props) => <FilmArt1 {...props} movieArtYesHandler={this.yesForMovieArtHandler}/>}></Route>
           <Route path='/filmart2' render={(props) => <FilmArt2 {...props} movieArtYesHandler={this.yesForMovieArtHandler}/>}></Route> */}
         </Switch>

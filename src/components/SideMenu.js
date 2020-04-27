@@ -8,7 +8,6 @@ const SideMenu = (props) => {
         sideMenuClasses = 'side__menu open'
     }
 
-    console.log(props);
     return (
         <div className={sideMenuClasses}>
             <ul>
