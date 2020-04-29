@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/strona-piotrb/static/css/main.494f0cee.chunk.css",
-    "main.js": "/strona-piotrb/static/js/main.fee539f7.chunk.js",
-    "main.js.map": "/strona-piotrb/static/js/main.fee539f7.chunk.js.map",
+    "main.css": "/strona-piotrb/static/css/main.3e3704cb.chunk.css",
+    "main.js": "/strona-piotrb/static/js/main.cc8ab2ae.chunk.js",
+    "main.js.map": "/strona-piotrb/static/js/main.cc8ab2ae.chunk.js.map",
     "runtime-main.js": "/strona-piotrb/static/js/runtime-main.2f6be557.js",
     "runtime-main.js.map": "/strona-piotrb/static/js/runtime-main.2f6be557.js.map",
-    "static/js/2.e4e2e808.chunk.js": "/strona-piotrb/static/js/2.e4e2e808.chunk.js",
-    "static/js/2.e4e2e808.chunk.js.map": "/strona-piotrb/static/js/2.e4e2e808.chunk.js.map",
+    "static/js/2.bac2ef60.chunk.js": "/strona-piotrb/static/js/2.bac2ef60.chunk.js",
+    "static/js/2.bac2ef60.chunk.js.map": "/strona-piotrb/static/js/2.bac2ef60.chunk.js.map",
     "index.html": "/strona-piotrb/index.html",
-    "precache-manifest.e89b606e96e3ae6c260c7d2f96dfb985.js": "/strona-piotrb/precache-manifest.e89b606e96e3ae6c260c7d2f96dfb985.js",
+    "precache-manifest.fb16f2eb8d119462e53f4bfd392a0faa.js": "/strona-piotrb/precache-manifest.fb16f2eb8d119462e53f4bfd392a0faa.js",
     "service-worker.js": "/strona-piotrb/service-worker.js",
-    "static/css/main.494f0cee.chunk.css.map": "/strona-piotrb/static/css/main.494f0cee.chunk.css.map",
-    "static/js/2.e4e2e808.chunk.js.LICENSE.txt": "/strona-piotrb/static/js/2.e4e2e808.chunk.js.LICENSE.txt",
+    "static/css/main.3e3704cb.chunk.css.map": "/strona-piotrb/static/css/main.3e3704cb.chunk.css.map",
+    "static/js/2.bac2ef60.chunk.js.LICENSE.txt": "/strona-piotrb/static/js/2.bac2ef60.chunk.js.LICENSE.txt",
     "static/media/88.jpg": "/strona-piotrb/static/media/88.50506f12.jpg",
-    "static/media/style.scss": "/strona-piotrb/static/media/zaba2.ba4dfe2b.png",
+    "static/media/style.scss": "/strona-piotrb/static/media/znikam.5bbe7d2b.png",
     "static/media/bio.mp4": "/strona-piotrb/static/media/bio.c2136d97.mp4",
     "static/media/kulkii.mp4": "/strona-piotrb/static/media/kulkii.2e1bd098.mp4",
     "static/media/madzia.mp4": "/strona-piotrb/static/media/madzia.f254a7ae.mp4",
-    "static/media/pasek.mp4": "/strona-piotrb/static/media/pasek.ae823c95.mp4",
     "static/media/tn_08080800.jpg": "/strona-piotrb/static/media/tn_08080800.60d89e94.jpg",
     "static/media/tn_10.jpg": "/strona-piotrb/static/media/tn_10.5934dd0e.jpg",
     "static/media/tn_11.jpg": "/strona-piotrb/static/media/tn_11.2823e6b9.jpg",
@@ -67,8 +66,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2f6be557.js",
-    "static/js/2.e4e2e808.chunk.js",
-    "static/css/main.494f0cee.chunk.css",
-    "static/js/main.fee539f7.chunk.js"
+    "static/js/2.bac2ef60.chunk.js",
+    "static/css/main.3e3704cb.chunk.css",
+    "static/js/main.cc8ab2ae.chunk.js"
   ]
 }
