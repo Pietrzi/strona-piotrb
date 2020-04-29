@@ -22,162 +22,70 @@
             height: auto;
 
             .movie__display {
-                height: 250px;
-                width: 250px;
+                background-size: cover;
+                background-position: center;
+                width: 222px;
+                height: 222px;
+                margin: 14px auto 13px;
 
-                @media (max-width: 1200px) {
-                    height: 230px;
-                    width: 230px;
+                @media (max-width: 1300px) {
+                    height: 200px;
+                    width: 200px;
                 }
 
-                @media (max-width: 1000px) {
-                    height: 400px;
-                    width: 100%;
-                }
+                // @media (max-width: 1200px) {
+                //     height: 230px;
+                //     width: 230px;
+                // }
 
-                @media (max-width: 700px) {
-                    height: 300px;
-                }
+                // @media (max-width: 1000px) {
+                //     height: 400px;
+                //     width: 100%;
+                // }
+
+                // @media (max-width: 700px) {
+                //     height: 300px;
+                // }
             }
 
             .achgdyby {
                 background-image: url('../../assets/Ach2.png');
-                background-size: cover;
-                background-position: center;
-                width: 222px;
-                height: 222px;
-                margin: 14px auto 13px;
-
-                @media (max-width: 1300px) {
-                    height: 200px;
-                    width: 200px;
-                }
             }
     
             .egzul {
                 background-image: url('../../assets/Egzul2.png');
-                background-size: cover;
-                background-position: center;
-                width: 222px;
-                height: 222px;
-                margin: 14px auto 13px;
-
-                @media (max-width: 1300px) {
-                    height: 200px;
-                    width: 200px;
-                }
             }
 
             .flowfol {
                 background-image: url('../../assets/floofwall2.png');
-                background-size: cover;
-                background-position: center;
-                width: 222px;
-                height: 222px;
-                margin: 14px auto 13px;
-
-                @media (max-width: 1300px) {
-                    height: 200px;
-                    width: 200px;
-                }
             }
 
             .zaba {
                 background-image: url('../../assets/zaba2.png');
-                background-size: cover;
-                background-position: center;
-                width: 225px;
-                height: 222px;
-                margin: 14px auto 13px;
-
-                @media (max-width: 1300px) {
-                    height: 200px;
-                    width: 200px;
-                }
             }
 
             .sciezki {
                 background-image: url('../../assets/sciezki2.png');
-                background-size: cover;
-                background-position: center;
-                width: 225px;
-                height: 222px;
-                margin: 14px auto 13px;
-
-                @media (max-width: 1300px) {
-                    height: 200px;
-                    width: 200px;
-                }
             }
 
             .kulki {
                 background-image: url('../../assets/kulki.png');
-                background-size: cover;
-                background-position: center;
-                width: 225px;
-                height: 222px;
-                margin: 14px auto 13px;
-
-                @media (max-width: 1300px) {
-                    height: 200px;
-                    width: 200px;
-                }
             }
 
             .flagi {
                 background-image: url('../../assets/flagi.png');
-                background-size: cover;
-                background-position: center;
-                width: 225px;
-                height: 222px;
-                margin: 14px auto 13px;
-
-                @media (max-width: 1300px) {
-                    height: 200px;
-                    width: 200px;
-                }
             }
 
             .znikam {
                 background-image: url('../../assets/znikam.png');
-                background-size: cover;
-                background-position: center;
-                width: 225px;
-                height: 222px;
-                margin: 14px auto 13px;
-
-                @media (max-width: 1300px) {
-                    height: 200px;
-                    width: 200px;
-                }
             }
 
             .samoloty {
                 background-image: url('../../assets/samoloty.png');
-                background-size: cover;
-                background-position: center;
-                width: 225px;
-                height: 222px;
-                margin: 14px auto 13px;
-
-                @media (max-width: 1300px) {
-                    height: 200px;
-                    width: 200px;
-                }
             }
 
             .domw {
                 background-image: url('../../assets/asia.png');
-                background-size: cover;
-                background-position: center;
-                width: 225px;
-                height: 222px;
-                margin: 14px auto 13px;
-
-                @media (max-width: 1300px) {
-                    height: 200px;
-                    width: 200px;
-                }
             }
 
             .movie__title__box {
