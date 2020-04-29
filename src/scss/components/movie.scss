@@ -125,22 +125,8 @@
                 width: 400px;
                 margin-bottom: 40px;
                 position: relative;
-                top: 420px;
+                top: 560px;
             }
-
-            // @media (max-width: 730px) {
-            //     width: 100%;
-            // }
-
-            // @media (max-width: 1000px) {
-            //     width: 70%;
-            //     margin-bottom: 40px;
-            // }
-
-            // @media (max-width: 700px) {
-            //     width: 80%;
-            //     margin-bottom: 40px;
-            // }
         }
 
         @media (max-width: 1200px) {
@@ -157,8 +143,8 @@
         }
 
         @media (max-width: 736px) {
-            height: 450px;
-            padding-top: 400px;
+            height: 400px;
+            padding-top: 420px;
             overflow-x: hidden;
         }
     }
