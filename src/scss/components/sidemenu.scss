@@ -7,7 +7,7 @@
     width: 100%;
     // width: 70%;
     // max-width: 300px;
-    z-index: 200;
+    z-index: 9999;
     transform: translateY(-102%);
     transition: transform 0.3s ease-out;
 
@@ -53,7 +53,7 @@
       z-index: 500;
 
       div {
-        width: 700px;
+        width: 1150px;
         //width: 100%;
         padding: 3px 0;
         display: flex;
@@ -72,7 +72,7 @@
   &:hover {
       .side__dropdown__content {
           display: block;
-          z-index: 300;
+          z-index: 9999;
 
           &:hover {
               display: block;

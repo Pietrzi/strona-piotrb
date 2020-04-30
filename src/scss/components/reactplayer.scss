@@ -1,11 +1,33 @@
 .player__holder {
   color: white;
 
-  .player-wrapper {
-    // width: 600px;
-    // margin: 0 auto;
+  @media (max-width: 700px) {
     position: relative;
-    padding-top: 56.25% 
+    bottom: 120px;
+    height: 430px;
+    overflow-y: auto;
+  }
+
+  // @media (max-height: 600px) {
+  //   position: relative;
+  //   bottom: 120px;
+  //   height: 430px;
+  // }
+
+  .player-wrapper {
+    margin: 0 auto;
+    position: relative;
+    padding-top: 56.25%;
+
+    @media (max-width: 950px) {
+      max-width: 80%;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 700px) {
+      max-width: 90%;
+      margin: 0 auto;
+    }
   }
      
   .react-player {
@@ -26,11 +48,23 @@
     font-size: 24px;
     text-transform: uppercase;
     text-align: center;
+
+    @media (max-width: 700px) {
+      padding: 2px;
+      font-size: 21px;
+    }
   }
 
   .pol__desc {
     text-align: center;
     margin-bottom: 10px;
+
+    @media (max-width: 700px) {
+      padding: 10px 12px;
+      text-align: justify;
+      font-size: 15px;
+      text-indent: 30px;
+    }
   }
 
   .eng__desc {
@@ -56,8 +90,13 @@
 }
 
 .player4 {
-  @media (max-width: 1450px) {
+  @media (max-width: 1650px) {
     width: 600px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 1450px) {
+    width: 550px;
     margin: 0 auto;
   }
 }
@@ -66,5 +105,72 @@
   @media (max-width: 1450px) {
     width: 680px;
     margin: 0 auto;
+  }
+}
+
+.player6 {
+  @media (max-width: 1450px) {
+    width: 680px;
+    margin: 0 auto;
+  }
+  @media (max-width: 1250px) {
+    width: 640px;
+    margin: 0 auto;
+  }
+}
+
+.player8 {
+  @media (max-width: 1450px) {
+    width: 680px;
+    margin: 0 auto;
+  }
+  @media (max-width: 1250px) {
+    width: 640px;
+    margin: 0 auto;
+  }
+}
+
+
+.holder__zaba {
+
+  @media(min-width: 701px) and (max-width: 1450px) {
+    position: relative;
+    top: 30px;
+  }
+}
+
+.zabaplt {
+  @media (min-width: 1451px) and (max-width: 1650px) {
+    position: relative;
+    bottom: 30px;
+  }
+
+  @media (min-width: 701px) and (max-width: 1450px) {
+    position: relative;
+    bottom: 30px;
+  }
+}
+
+.zabapldb {
+  @media (max-width: 1650px) {
+    position: relative;
+    bottom: 10px;
+  }
+
+  @media (max-width: 1450px) {
+    position: relative;
+    bottom: 10px;
+  }
+}
+
+.zabaarr {
+  @media (max-width: 1650px) {
+    position: relative;
+    bottom: 40px;
+  }
+
+  @media (max-width: 1450px) {
+    position: relative;
+    bottom: 40px;
   }
 }

@@ -21,7 +21,7 @@ class Reactplayer extends React.Component {
                 </div>
                 <div className="player__film__description">
                     <div className="pol__desc">
-                    "Poezja tradycyjna opisuje obraz. Poezja konkretna pisze obrazem" Stanisław Dróżdż.
+                    Video-artową realizację inspirowaną twórczością Stanisława Dróżdża, z udziałem Chóru Komentujących Wrocławian. "Poezja tradycyjna opisuje obraz. Poezja konkretna pisze obrazem" Stanisław Dróżdż. 
                     </div>
                     {/* <div className="eng__desc">
                         Savings kept in harbors on the border of worlds can be seen with a naked eye.
