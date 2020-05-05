@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/strona-piotrb/static/css/main.252eb683.chunk.css",
-    "main.js": "/strona-piotrb/static/js/main.4f4efbb3.chunk.js",
-    "main.js.map": "/strona-piotrb/static/js/main.4f4efbb3.chunk.js.map",
+    "main.css": "/strona-piotrb/static/css/main.2e8a5c9d.chunk.css",
+    "main.js": "/strona-piotrb/static/js/main.96ffe560.chunk.js",
+    "main.js.map": "/strona-piotrb/static/js/main.96ffe560.chunk.js.map",
     "runtime-main.js": "/strona-piotrb/static/js/runtime-main.2f6be557.js",
     "runtime-main.js.map": "/strona-piotrb/static/js/runtime-main.2f6be557.js.map",
     "static/js/2.bac2ef60.chunk.js": "/strona-piotrb/static/js/2.bac2ef60.chunk.js",
     "static/js/2.bac2ef60.chunk.js.map": "/strona-piotrb/static/js/2.bac2ef60.chunk.js.map",
     "index.html": "/strona-piotrb/index.html",
-    "precache-manifest.906bd00b5751480129466c969aabc168.js": "/strona-piotrb/precache-manifest.906bd00b5751480129466c969aabc168.js",
+    "precache-manifest.ecd45b0bf9a2abe13b28e69a4408353e.js": "/strona-piotrb/precache-manifest.ecd45b0bf9a2abe13b28e69a4408353e.js",
     "service-worker.js": "/strona-piotrb/service-worker.js",
-    "static/css/main.252eb683.chunk.css.map": "/strona-piotrb/static/css/main.252eb683.chunk.css.map",
+    "static/css/main.2e8a5c9d.chunk.css.map": "/strona-piotrb/static/css/main.2e8a5c9d.chunk.css.map",
     "static/js/2.bac2ef60.chunk.js.LICENSE.txt": "/strona-piotrb/static/js/2.bac2ef60.chunk.js.LICENSE.txt",
     "static/media/88.jpg": "/strona-piotrb/static/media/88.50506f12.jpg",
     "static/media/style.scss": "/strona-piotrb/static/media/znikam.5bbe7d2b.png",
     "static/media/bio.mp4": "/strona-piotrb/static/media/bio.c2136d97.mp4",
+    "static/media/filmtf.mp4": "/strona-piotrb/static/media/filmtf.1203a65b.mp4",
     "static/media/kulkii.mp4": "/strona-piotrb/static/media/kulkii.2e1bd098.mp4",
-    "static/media/madzia.mp4": "/strona-piotrb/static/media/madzia.f254a7ae.mp4",
     "static/media/tn_08080800.jpg": "/strona-piotrb/static/media/tn_08080800.60d89e94.jpg",
     "static/media/tn_10.jpg": "/strona-piotrb/static/media/tn_10.5934dd0e.jpg",
     "static/media/tn_11.jpg": "/strona-piotrb/static/media/tn_11.2823e6b9.jpg",
@@ -67,7 +67,7 @@
   "entrypoints": [
     "static/js/runtime-main.2f6be557.js",
     "static/js/2.bac2ef60.chunk.js",
-    "static/css/main.252eb683.chunk.css",
-    "static/js/main.4f4efbb3.chunk.js"
+    "static/css/main.2e8a5c9d.chunk.css",
+    "static/js/main.96ffe560.chunk.js"
   ]
 }
