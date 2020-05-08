@@ -19,16 +19,6 @@ class Reactplayer extends React.Component {
                 <div className="player__film__title">
                     dom wariatów
                 </div>
-                {/* <div className="player__film__description">
-                    <div className="pol__desc">
-                        Egzul pracuje, żeby jeść. Je, żeby pracować. A kiedy nie je i nie pracuje to patrzy w księżyc.
-                    </div>
-                    <div className="eng__desc">
-                        Egzul works to eat.
-                        Eat to work.
-                        And when he doesn't eat and work he looks at the moon.
-                    </div>
-                </div> */}
                 <div 
                     className="back__arrow"
                     onClick={() => {

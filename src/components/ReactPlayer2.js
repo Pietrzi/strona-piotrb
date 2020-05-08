@@ -24,11 +24,6 @@ class Reactplayer extends React.Component {
                     <div className="pol__desc">
                     Film ten zdobył nagrodę za najlepszy film krótkometrażowy na festiwalu ShortCutz Amsterdam. Kontemplacyjny film przypominający nieco dokonania małżeństwa Sasnalów bądź Andrzeja Jakimowskiego. Przekonujące studium alienacji, świadectwo rosnącej paranoi, a może pozbawiony protekcjonalnych uproszczeń portret outsidera? Na uwagę zasługuje również wrażliwość plastyczna autorów, którzy potrafią uwznioślić rzekomą brzydotę przedstawionych miejsc i sprawić, by były one hipnotyzujące pisał Piotr Czerkawski. Film możemy zobaczyć na CDA premium. 
                     </div>
-                    {/* <div className="eng__desc">
-                        Egzul works to eat.
-                        Eat to work.
-                        And when he doesn't eat and work he looks at the moon.
-                    </div> */}
                 </div>
                 <div 
                     className="back__arrow"

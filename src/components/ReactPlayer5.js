@@ -23,11 +23,6 @@ class Reactplayer extends React.Component {
                     <div className="pol__desc">
                     Video-artową realizację inspirowaną twórczością Stanisława Dróżdża, z udziałem Chóru Komentujących Wrocławian. "Poezja tradycyjna opisuje obraz. Poezja konkretna pisze obrazem" Stanisław Dróżdż. 
                     </div>
-                    {/* <div className="eng__desc">
-                        Savings kept in harbors on the border of worlds can be seen with a naked eye.
-                        Unqualified staff can be heard with a naked ear. But that's nothing.
-                        The most important thing for a wanderer is to see the light in the gap and not to be scared.
-                    </div> */}
                 </div>
                 <div 
                     className="back__arrow"

@@ -23,11 +23,6 @@ class Reactplayer extends React.Component {
                     <div className="pol__desc">
                     Oszczędności w portach na granicy światów widać gołym okiem, gołym uchem słychać niewykwalifikowany personel. Ale nic to, najważniejsze dla wędrowca to światło w szczelinie zobaczyć i się nie przestraszyć. Scenariusz na motywach opowiadania Tomka Tryzny pod tytułem "Port na granicy światów", inspirowany Tybetańską Księga Umarłych.
                     </div>
-                    {/* <div className="eng__desc">
-                        Savings kept in harbors on the border of worlds can be seen with a naked eye.
-                        Unqualified staff can be heard with a naked ear. But that's nothing.
-                        The most important thing for a wanderer is to see the light in the gap and not to be scared.
-                    </div> */}
                 </div>
                 <div 
                     className="back__arrow"

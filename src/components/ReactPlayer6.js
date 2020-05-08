@@ -23,11 +23,6 @@ class Reactplayer extends React.Component {
                     <div className="pol__desc">
                     Film pt. KULKI Piotra Bartosa i Filipa Zawady opowiada o filozoficznych rozważaniach kulek. Ponieważ słowo filozofia nie kojarzy się z czymś komercyjnym, a kulki są mniejszymi celebrytami niż Tom Cruise animacja ta nie mogła nie powstać. Połączenie czegoś co jest nic nie warte i całkowicie nieznane tworzy wartość, którą ciężko jest zlekceważyć w XXI wieku.
                     </div>
-                    {/* <div className="eng__desc">
-                        Savings kept in harbors on the border of worlds can be seen with a naked eye.
-                        Unqualified staff can be heard with a naked ear. But that's nothing.
-                        The most important thing for a wanderer is to see the light in the gap and not to be scared.
-                    </div> */}
                 </div>
                 <div 
                     className="back__arrow"

@@ -24,11 +24,6 @@ class Reactplayer extends React.Component {
                     <div className="pol__desc">
                     Film braci Bartos to historia instalacji Floodwall poświęconej ofiarom huraganu Katrina autorstwa nowoorleańskiej artystki Jany Napoli. W 2005 roku, dwa miesiące po przejściu huraganu, Jana zaczęła pracę nad Zaporą, składającą się z kilkuset szuflad zabranych ze zniszczonych domów mieszkańców Nowego Orleanu. Instalacja była prezentowana w Nowym Jorku, Houston, Nowym Orleanie, Austin, Hamburgu, Mannheim, Berlinie oraz we Wrocławiu. W 2010 roku Jana postanowiła spalić Floodwall. Film ten miał premierę w New Orelan film festiwal.
                     </div>
-                    {/* <div className="eng__desc">
-                        Savings kept in harbors on the border of worlds can be seen with a naked eye.
-                        Unqualified staff can be heard with a naked ear. But that's nothing.
-                        The most important thing for a wanderer is to see the light in the gap and not to be scared.
-                    </div> */}
                 </div>
                 <div 
                     className="back__arrow"
