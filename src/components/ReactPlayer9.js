@@ -11,14 +11,14 @@ class Reactplayer extends React.Component {
                 <div className='player-wrapper player9'>
                     <ReactPlayer
                     className='react-player'
-                    url='https://vimeo.com/85075420'
+                    url='https://vimeo.com/225879132'
                     width='100%'
                     height='100%'
                     controls={true}
                     />
                 </div>
                 <div className="player__film__title">
-                    samoloty
+                    dom wariatów
                 </div>
                 <div 
                     className="back__arrow"

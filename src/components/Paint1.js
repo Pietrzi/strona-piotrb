@@ -1,6 +1,6 @@
 import React from 'react';
 import Slide from './Slide';
-import Paint1 from "../assets/1/1.1.tif";
+// import Paint1 from "../assets/1/1.1.tif";
 import Paint2 from "../assets/1/1.2.jpg";
 import Paint3 from "../assets/1/1.3.jpg";
 import Paint4 from "../assets/1/1.4.jpg";
@@ -27,7 +27,7 @@ class Paint extends React.Component {
         super();
         this.state = {
           currentIndex: 0,
-          images: [Paint1, Paint2, Paint3, Paint4, Paint5, Paint6, Paint7, Paint8, Paint9, Paint10, Paint11, Paint12, Paint13, Paint14, Paint15, Paint16, Paint17, Paint18, Paint19]
+          images: [Paint2, Paint3, Paint4, Paint5, Paint6, Paint7, Paint8, Paint9, Paint10, Paint11, Paint12, Paint13, Paint14, Paint15, Paint16, Paint17, Paint18, Paint19]
         };
     }
 
@@ -51,10 +51,10 @@ class Paint extends React.Component {
     render() {
 
         const index = this.state.currentIndex;
-        let newImagesArray = this.state.images.slice(index, index + 19);
-        if (newImagesArray.length < 19) {
+        let newImagesArray = this.state.images.slice(index, index + 18);
+        if (newImagesArray.length < 18) {
         newImagesArray = newImagesArray.concat(
-            this.state.images.slice(0, 19 - newImagesArray.length)
+            this.state.images.slice(0, 18 - newImagesArray.length)
         );
         }
 

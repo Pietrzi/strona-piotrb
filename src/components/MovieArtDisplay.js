@@ -25,17 +25,6 @@ const MovieArtDisplay = (props) => {
                             props.movieArtNoHandler();
                             props.filmArt2YesHandler();
                     }}>
-                        <div className="movie__display flagi"></div>
-                    </NavLink>
-                    <div className="movie__title__box">flagi</div>
-                </div>
-                <div className="movie__box">
-                    <NavLink 
-                        to="/film"
-                        onClick={() => {
-                            props.movieArtNoHandler();
-                            props.filmArt3YesHandler();
-                    }}>
                         <div className="movie__display znikam"></div>
                     </NavLink>
                     <div className="movie__title__box">znikam</div>
@@ -45,11 +34,22 @@ const MovieArtDisplay = (props) => {
                         to="/film"
                         onClick={() => {
                             props.movieArtNoHandler();
+                            props.filmArt3YesHandler();
+                    }}>
+                        <div className="movie__display flagi"></div>
+                    </NavLink>
+                    <div className="movie__title__box">flagi</div>
+                </div>
+                <div className="movie__box">
+                    <NavLink 
+                        to="/film"
+                        onClick={() => {
+                            props.movieArtNoHandler();
                             props.filmArt4YesHandler();
                     }}>
-                        <div className="movie__display samoloty"></div>
+                        <div className="movie__display domw"></div>
                     </NavLink>
-                    <div className="movie__title__box">samoloty</div>
+                    <div className="movie__title__box">dom wariatów</div>
                 </div>
                 <div className="movie__box">
                     <NavLink 
@@ -58,9 +58,9 @@ const MovieArtDisplay = (props) => {
                             props.movieArtNoHandler();
                             props.filmArt5YesHandler();
                     }}>
-                        <div className="movie__display domw"></div>
+                        <div className="movie__display samoloty"></div>
                     </NavLink>
-                    <div className="movie__title__box">dom wariatów</div>
+                    <div className="movie__title__box">samoloty</div>
                 </div>
                 {/* <div className="righty"></div> */}
             </div>

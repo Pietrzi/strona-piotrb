@@ -64,7 +64,7 @@ const SideMenu = (props) => {
                                 props.noFilmArt4Handler();
                                 props.noFilmArt5Handler();
                         }}>
-                            <NavLink  to="raz">raz</NavLink>
+                            <NavLink  to="raz">unit 1</NavLink>
                         </div>
                         <div
                             onClick={() => {
@@ -82,7 +82,7 @@ const SideMenu = (props) => {
                                 props.noFilmArt4Handler();
                                 props.noFilmArt5Handler();
                         }}>
-                            <NavLink to="dwa">dwa</NavLink>
+                            <NavLink to="dwa">unit 2</NavLink>
                         </div>
                         <div
                             onClick={() => {
@@ -100,7 +100,7 @@ const SideMenu = (props) => {
                                 props.noFilmArt4Handler();
                                 props.noFilmArt5Handler();
                         }}>
-                            <NavLink to="trzy">trzy</NavLink>
+                            <NavLink to="trzy">unit 3</NavLink>
                         </div>
                     </div>
                 </li>
