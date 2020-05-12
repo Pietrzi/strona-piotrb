@@ -1,16 +1,17 @@
 import React from 'react';
 import Slide from './Slide';
-import Paint34 from "../assets/88.jpg";
-import Paint35 from "../assets/tn_6.jpg";
-import Paint36 from "../assets/tn_11.jpg";
-import Paint37 from "../assets/tn_444.jpg";
-import Paint38 from "../assets/tn_767.jpg";
-import Paint39 from "../assets/tn_7777.jpg";
-import Paint40 from "../assets/tn_777778.jpg";
-import Paint41 from "../assets/tn_08080800.jpg";
-import Paint42 from "../assets/tn_77777777.jpg";
-import Paint43 from "../assets/tn_8585858585.jpg";
-import Paint44 from "../assets/tn_jupiii.jpg";
+import Paint1 from "../assets/3/3.1.jpg";
+import Paint2 from "../assets/3/3.2.jpg";
+import Paint3 from "../assets/3/3.3.jpg";
+import Paint4 from "../assets/3/3.4.jpg";
+import Paint5 from "../assets/3/3.5.jpg";
+import Paint6 from "../assets/3/3.6.jpg";
+import Paint7 from "../assets/3/3.7.jpg";
+import Paint8 from "../assets/3/3.8.jpg";
+import Paint9 from "../assets/3/3.9.jpg";
+import Paint10 from "../assets/3/3.10.jpg";
+import Paint11 from "../assets/3/3.11.jpg";
+import Paint12 from "../assets/3/3.12.jpg";
 
 
 class Paint extends React.Component {
@@ -18,7 +19,7 @@ class Paint extends React.Component {
         super();
         this.state = {
           currentIndex: 0,
-          images: [Paint34, Paint35, Paint36, Paint37, Paint38, Paint39, Paint40, Paint41, Paint42, Paint43, Paint44]
+          images: [Paint1, Paint2, Paint3, Paint4, Paint5, Paint6, Paint7, Paint8, Paint9, Paint10, Paint11, Paint12]
         };
     }
 
@@ -42,10 +43,10 @@ class Paint extends React.Component {
     render() {
 
         const index = this.state.currentIndex;
-        let newImagesArray = this.state.images.slice(index, index + 11);
-        if (newImagesArray.length < 11) {
+        let newImagesArray = this.state.images.slice(index, index + 12);
+        if (newImagesArray.length < 12) {
         newImagesArray = newImagesArray.concat(
-            this.state.images.slice(0, 11 - newImagesArray.length)
+            this.state.images.slice(0, 12 - newImagesArray.length)
         );
         }
 

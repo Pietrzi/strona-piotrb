@@ -1,21 +1,28 @@
 import React from 'react';
 import Slide from './Slide';
-import Paint20 from "../assets/tn_5.jpg";
-import Paint21 from "../assets/tn_6a.jpg";
-import Paint22 from "../assets/tn_8.jpg";
-import Paint23 from "../assets/tn_10.jpg";
-import Paint24 from "../assets/tn_12new.png";
-import Paint25 from "../assets/tn_26.jpg";
-import Paint26 from "../assets/tn_56.jpg";
-import Paint27 from "../assets/tn_111111.jpg";
-import Paint28 from "../assets/tn_12341234.jpg";
-import Paint29 from "../assets/tn_898989898.jpg";
-import Paint30 from "../assets/tn_1111111111111111111.jpg";
-import Paint31 from "../assets/tn_a (7).jpg";
-import Paint32 from "../assets/tn_d1.jpg";
-import Paint33 from "../assets/tn_g1.jpg";
-import Paint34 from "../assets/tn_h1.jpg";
-import Paint35 from "../assets/tn_j.jpg";
+import Paint1 from "../assets/2/2.1.jpg";
+import Paint2 from "../assets/2/2.2.tif";
+import Paint3 from "../assets/2/2.3.jpg";
+import Paint4 from "../assets/2/2.4.tif";
+import Paint5 from "../assets/2/2.5.tif";
+import Paint6 from "../assets/2/2.6.tif";
+import Paint7 from "../assets/2/2.7.tif";
+import Paint8 from "../assets/2/2.8.tif";
+import Paint9 from "../assets/2/2.9.jpg";
+import Paint10 from "../assets/2/2.10.jpg";
+import Paint11 from "../assets/2/2.11.jpg";
+import Paint12 from "../assets/2/2.12.jpg";
+import Paint13 from "../assets/2/2.13.png";
+import Paint14 from "../assets/2/2.14.jpg";
+import Paint15 from "../assets/2/2.15.jpg";
+import Paint16 from "../assets/2/2.16.jpg";
+import Paint17 from "../assets/2/2.17.jpg";
+import Paint18 from "../assets/2/2.18.jpg";
+import Paint19 from "../assets/2/2.19.jpg";
+import Paint20 from "../assets/2/2.20.jpg";
+import Paint21 from "../assets/2/2.21.jpg";
+import Paint22 from "../assets/2/2.22.jpg";
+import Paint23 from "../assets/2/2.23.jpg";
 
 
 class Paint extends React.Component {
@@ -23,7 +30,7 @@ class Paint extends React.Component {
         super();
         this.state = {
           currentIndex: 0,
-          images: [Paint20, Paint21, Paint22, Paint23, Paint24, Paint25, Paint26, Paint27, Paint28, Paint29, Paint30, Paint31, Paint32, Paint33, Paint34, Paint35]
+          images: [Paint1, Paint2, Paint3, Paint4, Paint5, Paint6, Paint7, Paint8, Paint9, Paint10, Paint11, Paint12, Paint13, Paint14, Paint15, Paint16, Paint17, Paint18, Paint19, Paint20, Paint21, Paint22, Paint23]
         };
     }
 
@@ -47,10 +54,10 @@ class Paint extends React.Component {
     render() {
 
         const index = this.state.currentIndex;
-        let newImagesArray = this.state.images.slice(index, index + 16);
-        if (newImagesArray.length < 16) {
+        let newImagesArray = this.state.images.slice(index, index + 23);
+        if (newImagesArray.length < 23) {
         newImagesArray = newImagesArray.concat(
-            this.state.images.slice(0, 16 - newImagesArray.length)
+            this.state.images.slice(0, 23 - newImagesArray.length)
         );
         }
 
