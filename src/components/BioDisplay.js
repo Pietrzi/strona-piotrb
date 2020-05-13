@@ -12,6 +12,7 @@ const BioContact = () => {
                     <p className="bio__title">Piotr Bartos</p>
                     <div className="bio__text__holder">
                         <p>Wrocławski reżyser, operator, grafik i artysta eksperymentujący z ruchomym obrazem. Laureat nagrody filmowej na Festiwalu Nowe Horyzonty za film dokumentalny "Chłopiec z Żabą". Wraz z Tomkiem Tryzną współtworzył foto prozę "Taniec w Skorupkach". Autor wielu filmów video-artowych i krótkometrażowych między innymi "Egzul" z nagrodą główną na festiwalu Shortcutz Amsterdam.  Współtwórca wrocławskiego festiwalu Kinomural. Aktualnie pochłonięty Czerwoną Księgą Carla Gustava Junga.</p>
+                        <p className="email__bio">bartospiotr@gmail.com</p>
                     </div>
                 </div>
             </div>

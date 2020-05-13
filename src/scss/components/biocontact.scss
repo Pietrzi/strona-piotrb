@@ -13,6 +13,7 @@
         height: 500px;
         color: white;
         display: flex;
+        // flex-wrap: wrap;
 
         .bio__left {
             width: 50%;
@@ -85,7 +86,7 @@
                     text-indent: 30px;
 
                     @media(max-width: 1150px) {
-                        font-size: 18px;
+                        font-size: 17px;
                         line-height: 25px;
                         letter-spacing: 2px;
                     }
@@ -94,6 +95,21 @@
                         font-size: 15px;
                         line-height: 20px;
                         letter-spacing: 3px;
+                    }
+                }
+
+                .email__bio {
+                    padding-top: 20px;
+                    letter-spacing: 1px;
+                    font-size: 28px;
+            
+                    @media(max-width: 1000px) {
+                        font-size: 24px;
+                    }
+
+                    @media(max-width: 600px) {
+                        font-size: 22px;
+                        padding-top: 10px;
                     }
                 }
             }
