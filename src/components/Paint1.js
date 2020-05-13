@@ -1,24 +1,18 @@
 import React from 'react';
 import Slide from './Slide';
-// import Paint1 from "../assets/1/1.1.tif";
-import Paint2 from "../assets/1/1.2.jpg";
-import Paint3 from "../assets/1/1.3.jpg";
-import Paint4 from "../assets/1/1.4.jpg";
-import Paint5 from "../assets/1/1.5.jpg";
-import Paint6 from "../assets/1/1.6.jpg";
-import Paint7 from "../assets/1/1.7.jpg";
-import Paint8 from "../assets/1/1.8.jpg";
-import Paint9 from "../assets/1/1.9.jpg";
-import Paint10 from "../assets/1/1.10.jpg";
-import Paint11 from "../assets/1/1.11.png";
-import Paint12 from "../assets/1/1.12.jpg";
-import Paint13 from "../assets/1/1.13.jpg";
-import Paint14 from "../assets/1/1.14.jpg";
-import Paint15 from "../assets/1/1.15.jpg";
-import Paint16 from "../assets/1/1.16.jpg";
-import Paint17 from "../assets/1/1.17.jpg";
-import Paint18 from "../assets/1/1.18.jpg";
-import Paint19 from "../assets/1/1.19.jpg";
+import Paint1 from "../assets/1/1.jpg";
+import Paint2 from "../assets/1/2.jpg";
+import Paint3 from "../assets/1/3.png";
+import Paint4 from "../assets/1/4.jpg";
+import Paint5 from "../assets/1/5.jpg";
+import Paint6 from "../assets/1/6.jpg";
+import Paint7 from "../assets/1/7.jpg";
+import Paint8 from "../assets/1/8.jpg";
+import Paint9 from "../assets/1/9.jpg";
+import Paint11 from "../assets/1/11.jpg";
+import Paint12 from "../assets/1/12.jpg";
+import Paint13 from "../assets/1/13.jpg";
+import Paint14 from "../assets/1/14.jpg";
 
 
 
@@ -27,7 +21,7 @@ class Paint extends React.Component {
         super();
         this.state = {
           currentIndex: 0,
-          images: [Paint2, Paint3, Paint4, Paint5, Paint6, Paint7, Paint8, Paint9, Paint10, Paint11, Paint12, Paint13, Paint14, Paint15, Paint16, Paint17, Paint18, Paint19]
+          images: [Paint1, Paint2, Paint3, Paint4, Paint5, Paint6, Paint7, Paint8, Paint9, Paint11, Paint12, Paint13, Paint14]
         };
     }
 
@@ -51,10 +45,10 @@ class Paint extends React.Component {
     render() {
 
         const index = this.state.currentIndex;
-        let newImagesArray = this.state.images.slice(index, index + 18);
-        if (newImagesArray.length < 18) {
+        let newImagesArray = this.state.images.slice(index, index + 13);
+        if (newImagesArray.length < 13) {
         newImagesArray = newImagesArray.concat(
-            this.state.images.slice(0, 18 - newImagesArray.length)
+            this.state.images.slice(0, 13 - newImagesArray.length)
         );
         }
 
