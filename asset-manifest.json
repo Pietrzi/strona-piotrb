@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/strona-piotrb/static/css/main.721572ac.chunk.css",
-    "main.js": "/strona-piotrb/static/js/main.d80725cf.chunk.js",
-    "main.js.map": "/strona-piotrb/static/js/main.d80725cf.chunk.js.map",
+    "main.css": "/strona-piotrb/static/css/main.511d018f.chunk.css",
+    "main.js": "/strona-piotrb/static/js/main.93786d89.chunk.js",
+    "main.js.map": "/strona-piotrb/static/js/main.93786d89.chunk.js.map",
     "runtime-main.js": "/strona-piotrb/static/js/runtime-main.2f6be557.js",
     "runtime-main.js.map": "/strona-piotrb/static/js/runtime-main.2f6be557.js.map",
     "static/js/2.d384aac4.chunk.js": "/strona-piotrb/static/js/2.d384aac4.chunk.js",
     "static/js/2.d384aac4.chunk.js.map": "/strona-piotrb/static/js/2.d384aac4.chunk.js.map",
     "index.html": "/strona-piotrb/index.html",
-    "precache-manifest.d79e06ae7ca271009e0b6fc4931f4a6f.js": "/strona-piotrb/precache-manifest.d79e06ae7ca271009e0b6fc4931f4a6f.js",
+    "precache-manifest.a083fc12fc4817f8837fa7c24e654cc7.js": "/strona-piotrb/precache-manifest.a083fc12fc4817f8837fa7c24e654cc7.js",
     "service-worker.js": "/strona-piotrb/service-worker.js",
-    "static/css/main.721572ac.chunk.css.map": "/strona-piotrb/static/css/main.721572ac.chunk.css.map",
+    "static/css/main.511d018f.chunk.css.map": "/strona-piotrb/static/css/main.511d018f.chunk.css.map",
     "static/js/2.d384aac4.chunk.js.LICENSE.txt": "/strona-piotrb/static/js/2.d384aac4.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/strona-piotrb/static/media/1.9b2ec830.jpg",
     "static/media/10.jpg": "/strona-piotrb/static/media/10.0d73a0eb.jpg",
@@ -34,14 +34,14 @@
     "static/media/style.scss": "/strona-piotrb/static/media/znikam.5bbe7d2b.png",
     "static/media/9.jpg": "/strona-piotrb/static/media/9.ce2f5a49.jpg",
     "static/media/bio.mp4": "/strona-piotrb/static/media/bio.c2136d97.mp4",
-    "static/media/filmtf.mp4": "/strona-piotrb/static/media/filmtf.1203a65b.mp4",
+    "static/media/filmos.mp4": "/strona-piotrb/static/media/filmos.d8f16756.mp4",
     "static/media/kulkii.mp4": "/strona-piotrb/static/media/kulkii.2e1bd098.mp4",
     "static/media/vid.mp4": "/strona-piotrb/static/media/vid.df628b4b.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.2f6be557.js",
     "static/js/2.d384aac4.chunk.js",
-    "static/css/main.721572ac.chunk.css",
-    "static/js/main.d80725cf.chunk.js"
+    "static/css/main.511d018f.chunk.css",
+    "static/js/main.93786d89.chunk.js"
   ]
 }
