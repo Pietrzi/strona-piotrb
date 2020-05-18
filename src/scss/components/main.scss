@@ -31,6 +31,25 @@ video {
     background-image: url('../../assets/homet.jpg');
 }
 
+.test-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.test-video {
+    min-width: 120%;
+    min-height: 120%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 // .full__screen__video__container {
 //     position: relative;
 //     height: 100vh;

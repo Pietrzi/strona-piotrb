@@ -1,5 +1,5 @@
 import React from 'react';
-import sample from '../assets/filmtf.mp4';
+import sample from '../assets/filmos.mp4';
 
 
 class Movie extends React.Component {
@@ -16,9 +16,9 @@ class Movie extends React.Component {
 
     render() {
         return (
-            <div >
+            <div className="test-container">
                 {/* <video src={sample} autoPlay={true} loop={true} muted></video> */}
-                {this.state.matches && (<video src={sample} autoPlay={true} loop={true} muted></video>)}
+                {this.state.matches && (<video src={sample} autoPlay={true} loop={true} muted className="test-video"></video>)}
                 {!this.state.matches && (<div className="pic__background tower"></div>)}
             </div>
             
