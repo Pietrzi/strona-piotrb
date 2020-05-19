@@ -24,6 +24,16 @@
         transform: translateY(-50%);
         background-image: url('../../assets/899.png');
         background-size: contain;
+
+        @media(min-width: 700px) {
+          width: 70px;
+          height: 70px;
+        }
+
+        @media(min-width: 900px) {
+          width: 90px;
+          height: 90px;
+        }
       }
     
       .right__arrow {
@@ -36,5 +46,15 @@
         transform: translateY(-50%);
         background-image: url('../../assets/890.png');
         background-size: contain;
+
+        @media(min-width: 700px) {
+          width: 70px;
+          height: 70px;
+        }
+
+        @media(min-width: 900px) {
+          width: 90px;
+          height: 90px;
+        }
       }
 }
