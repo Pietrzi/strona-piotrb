@@ -15,9 +15,9 @@ class Main extends React.Component {
 
     render() {
         return (
-            <div >
+            <div className="test-container2">
                 {/* <video src={sample} autoPlay={true} loop={true} muted></video> */}
-                {this.state.matches && (<video src={sample} autoPlay={true} loop={true} muted></video>)}
+                {this.state.matches && (<video src={sample} autoPlay={true} loop={true} muted className="test-video2"></video>)}
                 {!this.state.matches && (<div className="pic__background main"></div>)}
             </div>
             
