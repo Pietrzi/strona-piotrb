@@ -1,5 +1,5 @@
 import React from 'react';
-import sample from '../assets/vid.mp4';
+import sample from '../assets/pies.mp4';
 
 class Main extends React.Component {
     constructor(props) {
