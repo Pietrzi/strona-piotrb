@@ -74,7 +74,7 @@ class Paint extends React.Component {
 
         const newImages = this.state.matches ? this.state.images : this.state.mobileImages;
         const index = this.state.currentIndex;
-        let newImagesArray = this.state.images.slice(index, index + 17);
+        let newImagesArray = this.state.matches ? this.state.images.slice(index, index + 17) : this.state.mobileImages.slice(index, index + 17);
         if (newImagesArray.length < 17) {
         newImagesArray = newImagesArray.concat(
             newImages.slice(0, 17 - newImagesArray.length)

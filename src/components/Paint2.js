@@ -60,19 +60,20 @@ class Paint extends React.Component {
     }
 
     prevSlide = () => {
-    const lastIndex = this.state.matches ? this.state.images.length - 1 : this.state.mobileImages.length - 1;
-    const resetIndex = this.state.currentIndex === 0;
-    const index = resetIndex ? lastIndex : this.state.currentIndex - 1;
-    this.setState({
-        currentIndex: index
+        const lastIndex = this.state.matches ? this.state.images.length - 1 : this.state.mobileImages.length - 1;
+        const resetIndex = this.state.currentIndex === 0;
+        const index = resetIndex ? lastIndex : this.state.currentIndex - 1;
+        this.setState({
+            currentIndex: index
         });
     };
+
     nextSlide = () => {
-    const lastIndex = this.state.matches ? this.state.images.length - 1 : this.state.mobileImages.length - 1;
-    const resetIndex = this.state.currentIndex === lastIndex;
-    const index = resetIndex ? 0 : this.state.currentIndex + 1;
-    this.setState({
-        currentIndex: index
+        const lastIndex = this.state.matches ? this.state.images.length - 1 : this.state.mobileImages.length - 1;
+        const resetIndex = this.state.currentIndex === lastIndex;
+        const index = resetIndex ? 0 : this.state.currentIndex + 1;
+        this.setState({
+            currentIndex: index
         });
     };
     
@@ -80,7 +81,7 @@ class Paint extends React.Component {
 
         const newImages = this.state.matches ? this.state.images : this.state.mobileImages;
         const index = this.state.currentIndex;
-        let newImagesArray = this.state.images.slice(index, index + 19);
+        let newImagesArray = this.state.matches ? this.state.images.slice(index, index + 19) : this.state.mobileImages.slice(index, index + 19);
         if (newImagesArray.length < 19) {
         newImagesArray = newImagesArray.concat(
             newImages.slice(0, 19 - newImagesArray.length)
