@@ -36,9 +36,9 @@ const MovieArtDisplay = (props) => {
                             props.movieArtNoHandler();
                             props.filmArt3YesHandler();
                     }}>
-                        <div className="movie__display flagi"></div>
+                        <div className="movie__display samoloty"></div>
                     </NavLink>
-                    <div className="movie__title__box">flagi</div>
+                    <div className="movie__title__box">lot nr.0</div>
                 </div>
                 <div className="movie__box">
                     <NavLink 
@@ -58,9 +58,9 @@ const MovieArtDisplay = (props) => {
                             props.movieArtNoHandler();
                             props.filmArt5YesHandler();
                     }}>
-                        <div className="movie__display samoloty"></div>
+                        <div className="movie__display flagi"></div>
                     </NavLink>
-                    <div className="movie__title__box">samoloty</div>
+                    <div className="movie__title__box">flagi</div>
                 </div>
                 {/* <div className="righty"></div> */}
             </div>
