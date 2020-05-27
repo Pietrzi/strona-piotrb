@@ -1,10 +1,6 @@
 import React from 'react';
 import './scss/style.scss';
-import {
-  HashRouter,
-  Route,
-  Switch
-} from 'react-router-dom';
+import { Switch, BrowserRouter, Route } from 'react-router-dom';
 import Main from './components/Main';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -292,7 +288,7 @@ class App extends React.Component {
     return (
       <>
       {backdrop}
-      <HashRouter>
+      <BrowserRouter>
         <Navbar 
           movieYesHandler={this.yesForMovieHandler}
           movieNoHandler={this.noForMovieHandler}
@@ -372,7 +368,7 @@ class App extends React.Component {
         {filmArt3Display}
         {filmArt4Display}
         {filmArt5Display}
-      </HashRouter>
+      </BrowserRouter>
       {bioDisplay}
       </>  
   );
