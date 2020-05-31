@@ -50,6 +50,7 @@ class Paint extends React.Component {
     const lastIndex = this.state.matches ? this.state.images.length - 1 : this.state.mobileImages.length - 1;
     const resetIndex = this.state.currentIndex === 0;
     const index = resetIndex ? lastIndex : this.state.currentIndex - 1;
+    console.log(lastIndex);
     this.setState({
         currentIndex: index
         });
