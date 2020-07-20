@@ -9,8 +9,6 @@ const Navbar = (props) => {
                 <div 
                     className="name__container"
                     onClick={() => {
-                        props.movieNoHandler();
-                        props.movieArtNoHandler();
                         props.noBioHandler();
                         props.noFilm1Handler();
                         props.noFilm2Handler();
@@ -28,8 +26,6 @@ const Navbar = (props) => {
                 <div className="navmenu__container">
                     <ul>
                         <li onClick={() => {
-                                props.movieYesHandler();
-                                props.movieArtNoHandler();
                                 props.noBioHandler();
                                 props.noFilm1Handler();
                                 props.noFilm2Handler();
@@ -46,8 +42,6 @@ const Navbar = (props) => {
                         </li>
                         <li 
                             onClick={() => {
-                                props.movieNoHandler();
-                                props.movieArtYesHandler();
                                 props.noBioHandler();
                                 props.noFilm1Handler();
                                 props.noFilm2Handler();
@@ -62,19 +56,11 @@ const Navbar = (props) => {
                         }}>
                             <NavLink className="menu__link__element" to='movieart'>video-art</NavLink>
                         </li>
-                        <li className="dropdown"
-                            // onClick={() => {
-                            //     props.movieNoHandler();
-                            //     props.movieArtNoHandler();
-                            //     props.noBioHandler();
-                        // 
-                        >
+                        <li className="dropdown">
                             <div className="menu__link__element">paint</div>
                             <div className="dropdown__content">
                                 <div
                                     onClick={() => {
-                                        props.movieNoHandler();
-                                        props.movieArtNoHandler();
                                         props.noBioHandler();
                                         props.noFilm1Handler();
                                         props.noFilm2Handler();
@@ -91,8 +77,6 @@ const Navbar = (props) => {
                                 </div>
                                 <div
                                     onClick={() => {
-                                        props.movieNoHandler();
-                                        props.movieArtNoHandler();
                                         props.noBioHandler();
                                         props.noFilm1Handler();
                                         props.noFilm2Handler();
@@ -109,8 +93,6 @@ const Navbar = (props) => {
                                 </div>
                                 <div
                                     onClick={() => {
-                                        props.movieNoHandler();
-                                        props.movieArtNoHandler();
                                         props.noBioHandler();
                                         props.noFilm1Handler();
                                         props.noFilm2Handler();

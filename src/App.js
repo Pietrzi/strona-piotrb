@@ -4,7 +4,6 @@ import { Switch, BrowserRouter, Route } from 'react-router-dom';
 import Main from './components/Main';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Movie from './components/Movie';
 import MovieArt from './components/MovieArt';
 import Paint1 from './components/Paint1';
 import Paint2 from './components/Paint2';
@@ -26,6 +25,8 @@ import MovieDisplay from './components/MovieDisplay';
 import MovieArtDisplay from './components/MovieArtDisplay';
 import BioDisplay from './components/BioDisplay';
 import MovieBackground from './components/MovieBackground';
+import MovieNew from './components/MovieNew';
+import MovieArtNew from './components/MovieArtNew';
 
 
 
@@ -59,29 +60,29 @@ class App extends React.Component {
     })
   }
 
-  yesForMovieHandler = () => {
-    this.setState({
-      movieDisplay: true
-    })
-  }
+  // yesForMovieHandler = () => {
+  //   this.setState({
+  //     movieDisplay: true
+  //   })
+  // }
 
-  noForMovieHandler = () => {
-    this.setState({
-      movieDisplay: false
-    })
-  }
+  // noForMovieHandler = () => {
+  //   this.setState({
+  //     movieDisplay: false
+  //   })
+  // }
 
-  yesForMovieArtHandler = () => {
-    this.setState({
-      movieArtDisplay: true
-    })
-  }
+  // yesForMovieArtHandler = () => {
+  //   this.setState({
+  //     movieArtDisplay: true
+  //   })
+  // }
 
-  noForMovieArtHandler = () => {
-    this.setState({
-      movieArtDisplay: false
-    })
-  }
+  // noForMovieArtHandler = () => {
+  //   this.setState({
+  //     movieArtDisplay: false
+  //   })
+  // }
 
   yesBioHandler = () => {
     this.setState({
@@ -215,8 +216,6 @@ class App extends React.Component {
     })
   }
 
-  // src="/strona-piotrb/static/js/2.e4e2e808.chunk.js"
-
   render() {
     let backdrop;
     if (this.state.sideMenu) {
@@ -330,15 +329,13 @@ class App extends React.Component {
         />
         <Switch>
           <Route exact path='/' component={Main} />
-          <Route path='/movie' component={Movie} />
-          <Route path='/movieart' component={MovieArt} />
+          <Route path='/movie' component={MovieNew} />
+          <Route path='/movieart' component={MovieArtNew} />
           <Route path='/raz' component={Paint1} />
           <Route path='/dwa' component={Paint2} />
           <Route path='/trzy' component={Paint3} />
           <Route path='/biocontact' component={BioContact} />
           <Route path='/film' component={MovieBackground} />
-          {/* <Route path='/filmart1' render={(props) => <FilmArt1 {...props} movieArtYesHandler={this.yesForMovieArtHandler}/>}></Route>
-          <Route path='/filmart2' render={(props) => <FilmArt2 {...props} movieArtYesHandler={this.yesForMovieArtHandler}/>}></Route> */}
         </Switch>
         <Footer
           movieNoHandler={this.noForMovieHandler}
@@ -356,8 +353,8 @@ class App extends React.Component {
           noFilmArt4Handler={this.noFilmArt4Handler}
           noFilmArt5Handler={this.noFilmArt5Handler}
         />
-        {movieDisplay}
-        {movieArtDisplay}
+        {/* {movieDisplay}
+        {movieArtDisplay} */}
         {film1Display}
         {film2Display}
         {film3Display}

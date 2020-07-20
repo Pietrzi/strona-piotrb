@@ -11,8 +11,6 @@ const Footer = (props) => {
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={() => {
-                            props.movieNoHandler();
-                            props.movieArtNoHandler();
                             props.noBioHandler();
                     }}>
                             <div className="footer__icon__container vimeo"></div>
@@ -22,8 +20,6 @@ const Footer = (props) => {
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={() => {
-                            props.movieNoHandler();
-                            props.movieArtNoHandler();
                             props.noBioHandler();
                     }}>
                             <div className="footer__icon__container face"></div>
@@ -33,8 +29,6 @@ const Footer = (props) => {
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={() => {
-                            props.movieNoHandler();
-                            props.movieArtNoHandler();
                             props.noBioHandler();
                     }}>
                             <div className="footer__icon__container insta"></div>
@@ -44,8 +38,6 @@ const Footer = (props) => {
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={() => {
-                            props.movieNoHandler();
-                            props.movieArtNoHandler();
                             props.noBioHandler();
                     }}>
                             <div className="footer__icon__container mural"></div>
@@ -53,8 +45,6 @@ const Footer = (props) => {
                 </div>
                 <div 
                     onClick={() => {
-                        props.movieNoHandler();
-                        props.movieArtNoHandler();
                         props.yesBioHandler();
                         props.noFilm1Handler();
                         props.noFilm2Handler();
@@ -75,7 +65,3 @@ const Footer = (props) => {
 }
 
 export default Footer;
-
-// http://vimeo.com/manifiestafilm
-// https://www.facebook.com/piotr.bartos.84
-// https://www.instagram.com/bartospiotr/

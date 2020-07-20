@@ -19,7 +19,6 @@ class Movie extends React.Component {
         return (
             <>
             <div className="test-container">
-                {/* <video src={sample} autoPlay={true} loop={true} muted></video> */}
                 {this.state.matches && (<video src={sample} autoPlay={true} loop={true} muted className="test-video"></video>)}
                 {!this.state.matches && (<div className="pic__background tower"></div>)}
             </div>
