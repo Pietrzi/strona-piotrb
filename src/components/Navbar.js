@@ -9,7 +9,6 @@ const Navbar = (props) => {
                 <div 
                     className="name__container"
                     onClick={() => {
-                        props.noBioHandler();
                         props.noFilm1Handler();
                         props.noFilm2Handler();
                         props.noFilm3Handler();
@@ -26,7 +25,6 @@ const Navbar = (props) => {
                 <div className="navmenu__container">
                     <ul>
                         <li onClick={() => {
-                                props.noBioHandler();
                                 props.noFilm1Handler();
                                 props.noFilm2Handler();
                                 props.noFilm3Handler();
@@ -42,7 +40,6 @@ const Navbar = (props) => {
                         </li>
                         <li 
                             onClick={() => {
-                                props.noBioHandler();
                                 props.noFilm1Handler();
                                 props.noFilm2Handler();
                                 props.noFilm3Handler();
@@ -61,7 +58,6 @@ const Navbar = (props) => {
                             <div className="dropdown__content">
                                 <div
                                     onClick={() => {
-                                        props.noBioHandler();
                                         props.noFilm1Handler();
                                         props.noFilm2Handler();
                                         props.noFilm3Handler();
@@ -77,7 +73,6 @@ const Navbar = (props) => {
                                 </div>
                                 <div
                                     onClick={() => {
-                                        props.noBioHandler();
                                         props.noFilm1Handler();
                                         props.noFilm2Handler();
                                         props.noFilm3Handler();
@@ -93,7 +88,6 @@ const Navbar = (props) => {
                                 </div>
                                 <div
                                     onClick={() => {
-                                        props.noBioHandler();
                                         props.noFilm1Handler();
                                         props.noFilm2Handler();
                                         props.noFilm3Handler();

@@ -6,7 +6,7 @@ const FilmArt5 = (props) => {
     return (
         <div className="film__container">
             <div className="film__box">
-                <Reactplayer movieArtYesHandler={props.movieArtYesHandler} noFilmArt5Handler={props.noFilmArt5Handler}/>
+                <Reactplayer noFilmArt5Handler={props.noFilmArt5Handler}/>
             </div>
         </div>
     )

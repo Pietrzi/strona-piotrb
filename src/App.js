@@ -4,11 +4,10 @@ import { Switch, BrowserRouter, Route } from 'react-router-dom';
 import Main from './components/Main';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import MovieArt from './components/MovieArt';
 import Paint1 from './components/Paint1';
 import Paint2 from './components/Paint2';
 import Paint3 from './components/Paint3';
-import BioContact from './components/BioContact';
+import BioNew from './components/BioNew';
 import Backdrop from './components/Backdrop';
 import SideMenu from './components/SideMenu';
 import Film1 from './components/Film1';
@@ -21,9 +20,6 @@ import FilmArt2 from './components/FilmArt2';
 import FilmArt3 from './components/FilmArt3';
 import FilmArt4 from './components/FilmArt4';
 import FilmArt5 from './components/FilmArt5';
-import MovieDisplay from './components/MovieDisplay';
-import MovieArtDisplay from './components/MovieArtDisplay';
-import BioDisplay from './components/BioDisplay';
 import MovieBackground from './components/MovieBackground';
 import MovieNew from './components/MovieNew';
 import MovieArtNew from './components/MovieArtNew';
@@ -57,42 +53,6 @@ class App extends React.Component {
   backdropClickHandler = () => {
     this.setState({
       sideMenu: false
-    })
-  }
-
-  // yesForMovieHandler = () => {
-  //   this.setState({
-  //     movieDisplay: true
-  //   })
-  // }
-
-  // noForMovieHandler = () => {
-  //   this.setState({
-  //     movieDisplay: false
-  //   })
-  // }
-
-  // yesForMovieArtHandler = () => {
-  //   this.setState({
-  //     movieArtDisplay: true
-  //   })
-  // }
-
-  // noForMovieArtHandler = () => {
-  //   this.setState({
-  //     movieArtDisplay: false
-  //   })
-  // }
-
-  yesBioHandler = () => {
-    this.setState({
-      bioDisplay: true
-    })
-  }
-
-  noBioHandler = () => {
-    this.setState({
-      bioDisplay: false
     })
   }
 
@@ -217,71 +177,60 @@ class App extends React.Component {
   }
 
   render() {
+
     let backdrop;
     if (this.state.sideMenu) {
       backdrop = <Backdrop click={this.backdropClickHandler}/>
     }
-    let movieDisplay;
-    if (this.state.movieDisplay) {
-      movieDisplay = <MovieDisplay movieNoHandler={this.noForMovieHandler} film1YesHandler={this.yesFilm1Handler} film2YesHandler={this.yesFilm2Handler} film3YesHandler={this.yesFilm3Handler} film4YesHandler={this.yesFilm4Handler} film5YesHandler={this.yesFilm5Handler}/>
-    }
-    let movieArtDisplay;
-    if (this.state.movieArtDisplay) {
-      movieArtDisplay = <MovieArtDisplay movieArtNoHandler={this.noForMovieArtHandler} filmArt1YesHandler={this.yesFilmArt1Handler} filmArt2YesHandler={this.yesFilmArt2Handler} filmArt3YesHandler={this.yesFilmArt3Handler} filmArt4YesHandler={this.yesFilmArt4Handler} filmArt5YesHandler={this.yesFilmArt5Handler}/>
-    }
-    let bioDisplay;
-    if (this.state.bioDisplay) {
-      bioDisplay = <BioDisplay/>
-    }
 
     let film1Display;
     if (this.state.film1) {
-      film1Display = <Film1 movieYesHandler={this.yesForMovieHandler} noFilm1Handler={this.noFilm1Handler}/>
+      film1Display = <Film1 noFilm1Handler={this.noFilm1Handler}/>
     }
 
     let film2Display;
     if (this.state.film2) {
-      film2Display = <Film2 movieYesHandler={this.yesForMovieHandler} noFilm2Handler={this.noFilm2Handler}/>
+      film2Display = <Film2 noFilm2Handler={this.noFilm2Handler}/>
     }
 
     let film3Display;
     if (this.state.film3) {
-      film3Display = <Film3 movieYesHandler={this.yesForMovieHandler} noFilm3Handler={this.noFilm3Handler}/>
+      film3Display = <Film3 noFilm3Handler={this.noFilm3Handler}/>
     }
 
     let film4Display;
     if (this.state.film4) {
-      film4Display = <Film4 movieYesHandler={this.yesForMovieHandler} noFilm4Handler={this.noFilm4Handler}/>
+      film4Display = <Film4 noFilm4Handler={this.noFilm4Handler}/>
     }
 
     let film5Display;
     if (this.state.film5) {
-      film5Display = <Film5 movieYesHandler={this.yesForMovieHandler} noFilm5Handler={this.noFilm5Handler}/>
+      film5Display = <Film5 noFilm5Handler={this.noFilm5Handler}/>
     }
 
     let filmArt1Display;
     if (this.state.filmArt1) {
-      filmArt1Display = <FilmArt1 movieArtYesHandler={this.yesForMovieArtHandler} noFilmArt1Handler={this.noFilmArt1Handler}/>
+      filmArt1Display = <FilmArt1 noFilmArt1Handler={this.noFilmArt1Handler}/>
     }
 
     let filmArt2Display;
     if (this.state.filmArt2) {
-      filmArt2Display = <FilmArt2 movieArtYesHandler={this.yesForMovieArtHandler} noFilmArt2Handler={this.noFilmArt2Handler}/>
+      filmArt2Display = <FilmArt2 noFilmArt2Handler={this.noFilmArt2Handler}/>
     }
 
     let filmArt3Display;
     if (this.state.filmArt3) {
-      filmArt3Display = <FilmArt3 movieArtYesHandler={this.yesForMovieArtHandler} noFilmArt3Handler={this.noFilmArt3Handler}/>
+      filmArt3Display = <FilmArt3 noFilmArt3Handler={this.noFilmArt3Handler}/>
     }
 
     let filmArt4Display;
     if (this.state.filmArt4) {
-      filmArt4Display = <FilmArt4 movieArtYesHandler={this.yesForMovieArtHandler} noFilmArt4Handler={this.noFilmArt4Handler}/>
+      filmArt4Display = <FilmArt4 noFilmArt4Handler={this.noFilmArt4Handler}/>
     }
 
     let filmArt5Display;
     if (this.state.filmArt5) {
-      filmArt5Display = <FilmArt5 movieArtYesHandler={this.yesForMovieArtHandler} noFilmArt5Handler={this.noFilmArt5Handler}/>
+      filmArt5Display = <FilmArt5 noFilmArt5Handler={this.noFilmArt5Handler}/>
     }
 
     return (
@@ -289,12 +238,6 @@ class App extends React.Component {
       {backdrop}
       <BrowserRouter>
         <Navbar 
-          movieYesHandler={this.yesForMovieHandler}
-          movieNoHandler={this.noForMovieHandler}
-          movieArtYesHandler={this.yesForMovieArtHandler}
-          movieArtNoHandler={this.noForMovieArtHandler}
-          yesBioHandler={this.yesBioHandler}
-          noBioHandler={this.noBioHandler}
           menuHandler={this.sideMenuClickHandler}
           noFilm1Handler={this.noFilm1Handler}
           noFilm2Handler={this.noFilm2Handler}
@@ -310,12 +253,6 @@ class App extends React.Component {
           />
         <SideMenu 
           show={this.state.sideMenu}
-          movieYesHandler={this.yesForMovieHandler}
-          movieNoHandler={this.noForMovieHandler}
-          movieArtYesHandler={this.yesForMovieArtHandler}
-          movieArtNoHandler={this.noForMovieArtHandler}
-          yesBioHandler={this.yesBioHandler}
-          noBioHandler={this.noBioHandler}
           noFilm1Handler={this.noFilm1Handler}
           noFilm2Handler={this.noFilm2Handler}
           noFilm3Handler={this.noFilm3Handler}
@@ -334,14 +271,10 @@ class App extends React.Component {
           <Route path='/raz' component={Paint1} />
           <Route path='/dwa' component={Paint2} />
           <Route path='/trzy' component={Paint3} />
-          <Route path='/biocontact' component={BioContact} />
+          <Route path='/biocontact' component={BioNew} />
           <Route path='/film' component={MovieBackground} />
         </Switch>
         <Footer
-          movieNoHandler={this.noForMovieHandler}
-          movieArtNoHandler={this.noForMovieArtHandler}
-          yesBioHandler={this.yesBioHandler}
-          noBioHandler={this.noBioHandler}
           noFilm1Handler={this.noFilm1Handler}
           noFilm2Handler={this.noFilm2Handler}
           noFilm3Handler={this.noFilm3Handler}
@@ -353,8 +286,6 @@ class App extends React.Component {
           noFilmArt4Handler={this.noFilmArt4Handler}
           noFilmArt5Handler={this.noFilmArt5Handler}
         />
-        {/* {movieDisplay}
-        {movieArtDisplay} */}
         {film1Display}
         {film2Display}
         {film3Display}
@@ -366,7 +297,6 @@ class App extends React.Component {
         {filmArt4Display}
         {filmArt5Display}
       </BrowserRouter>
-      {bioDisplay}
       </>  
   );
   }

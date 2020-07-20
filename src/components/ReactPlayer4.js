@@ -29,7 +29,6 @@ class Reactplayer extends React.Component {
                     className="back__arrow zabaarr"
                     onClick={() => {
                         this.props.history.goBack();
-                        this.props.movieYesHandler();
                         this.props.noFilm4Handler();
                     }}>
                 </div>

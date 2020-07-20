@@ -11,7 +11,7 @@ const MovieDisplay = (props) => {
                     <NavLink 
                         to="/film"
                         onClick={() => {
-                            props.movieNoHandler();
+                            // props.movieNoHandler();
                             props.film1YesHandler();
                     }}>
                         <div className="movie__display achgdyby"></div>

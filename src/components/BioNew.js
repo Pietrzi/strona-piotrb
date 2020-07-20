@@ -1,5 +1,6 @@
 import React from 'react';
 import sample from '../assets/bio.mp4';
+import BioDisplay from './BioDisplay';
 
 class BioContact extends React.Component {
     constructor(props) {
@@ -15,12 +16,13 @@ class BioContact extends React.Component {
 
     render() {
         return (
+            <>
             <div >
-                {/* <video src={sample} autoPlay={true} loop={true} muted></video> */}
                 {this.state.matches && (<video src={sample} autoPlay={true} loop={true} muted></video>)}
                 {!this.state.matches && (<div className="pic__background bio-pic"></div>)}
             </div>
-            
+            <BioDisplay />
+            </>
         )
     }
 }

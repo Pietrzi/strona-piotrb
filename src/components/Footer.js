@@ -10,42 +10,33 @@ const Footer = (props) => {
                         href="http://vimeo.com/manifiestafilm"
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={() => {
-                            props.noBioHandler();
-                    }}>
+                    >
                             <div className="footer__icon__container vimeo"></div>
                     </a>
                     <a
                         href="https://www.facebook.com/piotr.bartos.84"
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={() => {
-                            props.noBioHandler();
-                    }}>
+                    >
                             <div className="footer__icon__container face"></div>
                     </a>
                     <a
                         href="https://www.instagram.com/bartospiotr/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={() => {
-                            props.noBioHandler();
-                    }}>
+                    >
                             <div className="footer__icon__container insta"></div>
                     </a>
                     <a
                         href="http://kinomural.com/pl"
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={() => {
-                            props.noBioHandler();
-                    }}>
+                    >
                             <div className="footer__icon__container mural"></div>
                     </a>
                 </div>
                 <div 
                     onClick={() => {
-                        props.yesBioHandler();
                         props.noFilm1Handler();
                         props.noFilm2Handler();
                         props.noFilm3Handler();
