@@ -4,9 +4,11 @@ import Reactplayer from './ReactPlayer5';
 
 const Film5 = (props) => {
     return (
-        <div className="film__container">
-            <div className="film__box">
-                <Reactplayer noFilm5Handler={props.noFilm5Handler}/>
+        <div className="movie__background_black">
+            <div className="film__container">
+                <div className="film__box">
+                    <Reactplayer noFilm1Handler={props.noFilm1Handler}/>
+                </div>
             </div>
         </div>
     )

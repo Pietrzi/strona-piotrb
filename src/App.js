@@ -20,7 +20,6 @@ import FilmArt2 from './components/FilmArt2';
 import FilmArt3 from './components/FilmArt3';
 import FilmArt4 from './components/FilmArt4';
 import FilmArt5 from './components/FilmArt5';
-import MovieBackground from './components/MovieBackground';
 import MovieNew from './components/MovieNew';
 import MovieArtNew from './components/MovieArtNew';
 
@@ -53,66 +52,6 @@ class App extends React.Component {
   backdropClickHandler = () => {
     this.setState({
       sideMenu: false
-    })
-  }
-
-  yesFilm1Handler = () => {
-    this.setState({
-      film1: true
-    })
-  }
-
-  noFilm1Handler = () => {
-    this.setState({
-      film1: false
-    })
-  }
-
-  yesFilm2Handler = () => {
-    this.setState({
-      film2: true
-    })
-  }
-
-  noFilm2Handler = () => {
-    this.setState({
-      film2: false
-    })
-  }
-
-  yesFilm3Handler = () => {
-    this.setState({
-      film3: true
-    })
-  }
-
-  noFilm3Handler = () => {
-    this.setState({
-      film3: false
-    })
-  }
-
-  yesFilm4Handler = () => {
-    this.setState({
-      film4: true
-    })
-  }
-
-  noFilm4Handler = () => {
-    this.setState({
-      film4: false
-    })
-  }
-
-  yesFilm5Handler = () => {
-    this.setState({
-      film5: true
-    })
-  }
-
-  noFilm5Handler = () => {
-    this.setState({
-      film5: false
     })
   }
 
@@ -183,31 +122,6 @@ class App extends React.Component {
       backdrop = <Backdrop click={this.backdropClickHandler}/>
     }
 
-    let film1Display;
-    if (this.state.film1) {
-      film1Display = <Film1 noFilm1Handler={this.noFilm1Handler}/>
-    }
-
-    let film2Display;
-    if (this.state.film2) {
-      film2Display = <Film2 noFilm2Handler={this.noFilm2Handler}/>
-    }
-
-    let film3Display;
-    if (this.state.film3) {
-      film3Display = <Film3 noFilm3Handler={this.noFilm3Handler}/>
-    }
-
-    let film4Display;
-    if (this.state.film4) {
-      film4Display = <Film4 noFilm4Handler={this.noFilm4Handler}/>
-    }
-
-    let film5Display;
-    if (this.state.film5) {
-      film5Display = <Film5 noFilm5Handler={this.noFilm5Handler}/>
-    }
-
     let filmArt1Display;
     if (this.state.filmArt1) {
       filmArt1Display = <FilmArt1 noFilmArt1Handler={this.noFilmArt1Handler}/>
@@ -239,11 +153,6 @@ class App extends React.Component {
       <BrowserRouter>
         <Navbar 
           menuHandler={this.sideMenuClickHandler}
-          noFilm1Handler={this.noFilm1Handler}
-          noFilm2Handler={this.noFilm2Handler}
-          noFilm3Handler={this.noFilm3Handler}
-          noFilm4Handler={this.noFilm4Handler}
-          noFilm5Handler={this.noFilm5Handler}
           noFilmArt1Handler={this.noFilmArt1Handler}
           noFilmArt2Handler={this.noFilmArt2Handler}
           noFilmArt3Handler={this.noFilmArt3Handler}
@@ -253,11 +162,6 @@ class App extends React.Component {
           />
         <SideMenu 
           show={this.state.sideMenu}
-          noFilm1Handler={this.noFilm1Handler}
-          noFilm2Handler={this.noFilm2Handler}
-          noFilm3Handler={this.noFilm3Handler}
-          noFilm4Handler={this.noFilm4Handler}
-          noFilm5Handler={this.noFilm5Handler}
           noFilmArt1Handler={this.noFilmArt1Handler}
           noFilmArt2Handler={this.noFilmArt2Handler}
           noFilmArt3Handler={this.noFilmArt3Handler}
@@ -267,30 +171,25 @@ class App extends React.Component {
         <Switch>
           <Route exact path='/' component={Main} />
           <Route path='/movie' component={MovieNew} />
+          <Route path='/film1' component={Film1} />
+          <Route path='/film2' component={Film2} />
+          <Route path='/film3' component={Film3} />
+          <Route path='/film4' component={Film4} />
+          <Route path='/film5' component={Film5} />
           <Route path='/movieart' component={MovieArtNew} />
           <Route path='/raz' component={Paint1} />
           <Route path='/dwa' component={Paint2} />
           <Route path='/trzy' component={Paint3} />
           <Route path='/biocontact' component={BioNew} />
-          <Route path='/film' component={MovieBackground} />
+          {/* <Route path='/film' component={MovieBackground} /> */}
         </Switch>
         <Footer
-          noFilm1Handler={this.noFilm1Handler}
-          noFilm2Handler={this.noFilm2Handler}
-          noFilm3Handler={this.noFilm3Handler}
-          noFilm4Handler={this.noFilm4Handler}
-          noFilm5Handler={this.noFilm5Handler}
           noFilmArt1Handler={this.noFilmArt1Handler}
           noFilmArt2Handler={this.noFilmArt2Handler}
           noFilmArt3Handler={this.noFilmArt3Handler}
           noFilmArt4Handler={this.noFilmArt4Handler}
           noFilmArt5Handler={this.noFilmArt5Handler}
         />
-        {film1Display}
-        {film2Display}
-        {film3Display}
-        {film4Display}
-        {film5Display}
         {filmArt1Display}
         {filmArt2Display}
         {filmArt3Display}
