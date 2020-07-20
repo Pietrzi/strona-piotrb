@@ -27,20 +27,7 @@ import MovieArtNew from './components/MovieArtNew';
 
 class App extends React.Component {
   state = {
-    sideMenu: false,
-    movieDisplay: false,
-    movieArtDisplay: false,
-    bioDisplay: false,
-    film1: false,
-    film2: false,
-    film3: false,
-    film4: false,
-    film5: false,
-    filmArt1: false,
-    filmArt2: false,
-    filmArt3: false,
-    filmArt4: false,
-    filmArt5: false
+    sideMenu: false
   }
 
   sideMenuClickHandler = () => {

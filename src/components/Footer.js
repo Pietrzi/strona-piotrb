@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const Footer = (props) => {
+const Footer = () => {
     return (
         <footer>
             <div className="centering__container">
@@ -35,19 +35,7 @@ const Footer = (props) => {
                             <div className="footer__icon__container mural"></div>
                     </a>
                 </div>
-                <div 
-                    onClick={() => {
-                        props.noFilm1Handler();
-                        props.noFilm2Handler();
-                        props.noFilm3Handler();
-                        props.noFilm4Handler();
-                        props.noFilm5Handler();
-                        props.noFilmArt1Handler();
-                        props.noFilmArt2Handler();
-                        props.noFilmArt3Handler();
-                        props.noFilmArt4Handler();
-                        props.noFilmArt5Handler();
-                    }}>
+                <div >
                     <NavLink to="/biocontact" className="bio__text">bio & kontakt</NavLink>
                 </div>
             </div>

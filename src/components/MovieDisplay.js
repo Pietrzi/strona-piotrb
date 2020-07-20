@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 
 
-const MovieDisplay = (props) => {
+const MovieDisplay = () => {
     return (
         <div className="movies__container">
             <div className="movies__box">
