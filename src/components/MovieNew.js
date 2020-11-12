@@ -1,6 +1,7 @@
 import React from 'react';
 import sample from '../assets/filmos.mp4';
 import MovieDisplay from './MovieDisplay';
+import NewMovieDisplay from './NewMovieDisplay';
 
 
 class Movie extends React.Component {
@@ -22,7 +23,7 @@ class Movie extends React.Component {
                 {this.state.matches && (<video src={sample} autoPlay={true} loop={true} muted className="test-video"></video>)}
                 {!this.state.matches && (<div className="pic__background tower"></div>)}
             </div>
-            <MovieDisplay/>
+            <NewMovieDisplay/>
             </>
         )
     }

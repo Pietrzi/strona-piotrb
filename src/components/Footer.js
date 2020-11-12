@@ -6,12 +6,12 @@ const Footer = () => {
         <footer>
             <div className="centering__container">
                 <div className="icons__container">
-                    <a 
-                        href="http://vimeo.com/manifiestafilm"
+                <a
+                        href="http://kinomural.com/pl"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                            <div className="footer__icon__container vimeo"></div>
+                            <div className="footer__icon__container mural"></div>
                     </a>
                     <a
                         href="https://www.facebook.com/piotr.bartos.84"
@@ -27,12 +27,12 @@ const Footer = () => {
                     >
                             <div className="footer__icon__container insta"></div>
                     </a>
-                    <a
-                        href="http://kinomural.com/pl"
+                    <a 
+                        href="http://vimeo.com/manifiestafilm"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                            <div className="footer__icon__container mural"></div>
+                            <div className="footer__icon__container vimeo"></div>
                     </a>
                 </div>
                 <div >
