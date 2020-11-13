@@ -23,7 +23,7 @@ class Movie extends React.Component {
                 {this.state.matches && (<video src={sample} autoPlay={true} loop={true} muted className="test-video"></video>)}
                 {!this.state.matches && (<div className="pic__background tower"></div>)}
             </div>
-            <NewMovieDisplay/>
+            <NewMovieDisplay clickRight={this.props.goRight} clickLeft={this.props.goLeft} right={this.props.right}/>
             </>
         )
     }

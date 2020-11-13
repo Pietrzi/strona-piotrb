@@ -27,13 +27,30 @@ import MovieArtNew from './components/MovieArtNew';
 
 class App extends React.Component {
   state = {
-    sideMenu: false
+    sideMenu: false,
+    goRight: false
   }
 
   sideMenuClickHandler = () => {
     this.setState(prevState => {
       return { sideMenu: !prevState.sideMenu }
     })
+  }
+
+  goRightClickHandler = () => {
+    if (this.state.goRight) {
+      this.setState({
+        goRight: true
+      })
+    }
+  }
+
+  goLeftClickHandler = () => {
+    if (!this.state.goRight) {
+      this.setState({
+        goRight: false
+      })
+    }
   }
 
   backdropClickHandler = () => {
@@ -57,7 +74,9 @@ class App extends React.Component {
         <SideMenu show={this.state.sideMenu} />
         <Switch>
           <Route exact path='/' component={Main} />
-          <Route path='/movie' component={MovieNew} />
+          {/* <Route path='/movie' component={MovieNew goRight={this.goRightClickHandler}}/>
+          <Route path='/app/pulpit' render={(props) => <Pulpit {...props} addPlan={this.showAddPlan} />}></Route> */}
+          <Route path='/movie' render={(props) => <MovieNew {...props} goRight={this.goRightClickHandler} goLeft={this.goLeftClickHandler} right={this.state.goRight} />}></Route>
           <Route path='/film1' component={Film1} />
           <Route path='/film2' component={Film2} />
           <Route path='/film3' component={Film3} />
