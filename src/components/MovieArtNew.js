@@ -1,6 +1,6 @@
 import React from 'react';
 import sample from '../assets/kulkii.mp4';
-import MovieArtDisplay from './MovieArtDisplay';
+import MovieArtSlider from './MovieArtSlider';
 
 class MovieArt extends React.Component {
     constructor(props) {
@@ -21,7 +21,7 @@ class MovieArt extends React.Component {
                 {this.state.matches && (<video src={sample} autoPlay={true} loop={true} muted></video>)}
                 {!this.state.matches && (<div className="pic__background kulki-pic"></div>)}
             </div>
-            <MovieArtDisplay />
+            <MovieArtSlider />
             </>
         )
     }

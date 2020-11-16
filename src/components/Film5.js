@@ -1,5 +1,5 @@
 import React from 'react';
-import Reactplayer from './ReactPlayer5';
+import Reactplayer from './ReactPlayer4';
 
 
 const Film5 = () => {

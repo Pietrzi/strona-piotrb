@@ -1,8 +1,8 @@
 import React from 'react';
-import Reactplayer from './ReactPlayer11';
+import Reactplayer from './ReactPlayer12';
 
 
-const Film1 = () => {
+const FilmArt6 = () => {
     return (
         <div className="movie__background_black">
             <div className="film__container">
@@ -14,4 +14,4 @@ const Film1 = () => {
     )
 }
 
-export default Film1;
+export default FilmArt6;

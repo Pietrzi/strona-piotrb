@@ -21,6 +21,7 @@ import FilmArt2 from './components/FilmArt2';
 import FilmArt3 from './components/FilmArt3';
 import FilmArt4 from './components/FilmArt4';
 import FilmArt5 from './components/FilmArt5';
+import FilmArt6 from './components/FilmArt6';
 import MovieNew from './components/MovieNew';
 import MovieArtNew from './components/MovieArtNew';
 
@@ -73,6 +74,7 @@ class App extends React.Component {
           <Route path='/video-art3' component={FilmArt3} />
           <Route path='/video-art4' component={FilmArt4} />
           <Route path='/video-art5' component={FilmArt5} />
+          <Route path='/video-art6' component={FilmArt6} />
           <Route path='/movieart' component={MovieArtNew} />
           <Route path='/raz' component={Paint1} />
           <Route path='/dwa' component={Paint2} />

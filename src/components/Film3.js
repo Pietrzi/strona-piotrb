@@ -1,5 +1,5 @@
 import React from 'react';
-import Reactplayer from './ReactPlayer3';
+import Reactplayer from './ReactPlayer2';
 
 
 const Film3 = () => {

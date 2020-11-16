@@ -20,8 +20,7 @@ class Movie extends React.Component {
             <>
             <div className="test-container">
                 {this.state.matches && (<video src={sample} autoPlay={true} loop={true} muted className="test-video"></video>)}
-                {!this.state.matches && (<div className="pic__background tower"></div>)}
-                
+                {!this.state.matches && (<div className="pic__background tower"></div>)}   
             </div>
             <MovieSlider />
             </>

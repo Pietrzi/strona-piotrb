@@ -174,15 +174,23 @@
 }
 
 .movies__boxi {
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
 }
 
 .slick-container {
-    width: 850px;
+    width: 1400px;
     margin: 0 auto;
 
-    @media (max-width: 1056px) {
+    @media (max-width: 1510px) {
+        width: 1100px;
+    }
+
+    @media (max-width: 1240px) {
+        width: 920px;
+    }
+
+    @media (max-width: 1026px) {
         width: 600px;
     }
 
