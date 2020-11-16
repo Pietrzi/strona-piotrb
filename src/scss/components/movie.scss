@@ -15,142 +15,6 @@
         justify-content: center;
         color: white;
 
-        .movie__box {
-            width: 250px;
-            height: auto;
-
-            .movie__display {
-                background-size: cover;
-                background-position: center;
-                width: 222px;
-                height: 222px;
-                margin: 14px auto 13px;
-
-                @media (max-width: 1300px) {
-                    height: 200px;
-                    width: 200px;
-                }
-
-                @media (max-width: 1150px) {
-                    height: 300px;
-                    width: 350px;
-                }
-
-                @media (max-width: 736px) {
-                    height: 280px;
-                    width: 280px;
-                }
-
-                @media (max-width: 1200px) {
-                    height: 230px;
-                    width: 230px;
-                }
-
-                @media (max-width: 1000px) {
-                    height: 400px;
-                    width: 100%;
-                }
-
-                @media (max-width: 700px) {
-                    height: 300px;
-                }
-            }
-
-            .achgdyby {
-                background-image: url('../../assets/Ach2.png');
-            }
-    
-            .egzul {
-                background-image: url('../../assets/Egzul2.png');
-            }
-
-            .flowfol {
-                background-image: url('../../assets/floofwall2.png');
-            }
-
-            .zaba {
-                background-image: url('../../assets/zaba2.png');
-            }
-
-            .sciezki {
-                background-image: url('../../assets/sciezki2.png');
-            }
-
-            .kulki {
-                background-image: url('../../assets/kulki.png');
-            }
-
-            .tangere {
-                background-image: url('../../assets/tangere.jpg');
-            }
-
-            .flagi {
-                background-image: url('../../assets/flagi.png');
-            }
-
-            .znikam {
-                background-image: url('../../assets/znikam.png');
-            }
-
-            .samoloty {
-                background-image: url('../../assets/samoloty.png');
-            }
-
-            .domw {
-                background-image: url('../../assets/asia.png');
-            }
-
-            .movie__title__box {
-                width: 90%;
-                margin: 0 auto;
-                font-size: 24px;
-                text-align: center;
-                text-transform: uppercase;
-
-                @media (max-width: 1300px) {
-                    font-size: 20px;
-                }
-            }
-
-            
-
-            @media (max-width: 1300px) {
-                width: 230px;
-            }
-
-            @media (max-width: 1150px) {
-                width: 400px;
-                margin-bottom: 70px;
-                position: relative;
-                top: 480px;
-            }
-
-            @media (max-width: 736px) {
-                width: 400px;
-                margin-bottom: 40px;
-                position: relative;
-                top: 560px;
-            }
-        }
-
-        @media (max-width: 1200px) {
-            width: 100%;
-        }
-
-        @media (max-width: 1150px) {
-            height: 800px;
-            overflow-y: scroll;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding-top: 400px;
-        }
-
-        @media (max-width: 736px) {
-            height: 400px;
-            padding-top: 420px;
-            overflow-x: hidden;
-        }
     }
 
     @media (max-width: 1150px) {
@@ -209,19 +73,19 @@
     }
   }
   
-  .slider-img {
-    width: 220px;
-    height: 220px;
-    margin: 0 auto;
-  }
+.slider-img {
+width: 220px;
+height: 220px;
+margin: 0 auto;
+}
 
-  .slider-title {
-      color: white;
-      text-align: center;
-      padding-top: 10px;
-      font-size: 20px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-  }
+.slider-title {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 
   
