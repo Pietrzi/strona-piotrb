@@ -20,7 +20,6 @@ class Main extends React.Component {
                 {this.state.matches && (<video src={sample} autoPlay={true} loop={true} muted className="test-video2"></video>)}
                 {!this.state.matches && (<div className="pic__background main"></div>)}
             </div>
-            
         )
     }
 }

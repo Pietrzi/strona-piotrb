@@ -11,6 +11,8 @@
 @import './components/film';
 @import './components/reactplayer.scss';
 @import './components/biocontact.scss';
+@import './components/slick-theme.scss';
+@import './components/slick.scss';
 
 
 * {
@@ -25,4 +27,3 @@ body {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
 }
-

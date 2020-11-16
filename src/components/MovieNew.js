@@ -2,6 +2,7 @@ import React from 'react';
 import sample from '../assets/filmos.mp4';
 import MovieDisplay from './MovieDisplay';
 import NewMovieDisplay from './NewMovieDisplay';
+import MovieSlider from './MovieSlider';
 
 
 class Movie extends React.Component {
@@ -22,8 +23,10 @@ class Movie extends React.Component {
             <div className="test-container">
                 {this.state.matches && (<video src={sample} autoPlay={true} loop={true} muted className="test-video"></video>)}
                 {!this.state.matches && (<div className="pic__background tower"></div>)}
+                
             </div>
-            <NewMovieDisplay clickRight={this.props.goRight} clickLeft={this.props.goLeft} right={this.props.right}/>
+            <MovieSlider />
+            {/* <MovieSlider clickRight={this.props.goRight} clickLeft={this.props.goLeft} right={this.props.right}/> */}
             </>
         )
     }

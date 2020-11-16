@@ -41,19 +41,19 @@
                     width: 280px;
                 }
 
-                // @media (max-width: 1200px) {
-                //     height: 230px;
-                //     width: 230px;
-                // }
+                @media (max-width: 1200px) {
+                    height: 230px;
+                    width: 230px;
+                }
 
-                // @media (max-width: 1000px) {
-                //     height: 400px;
-                //     width: 100%;
-                // }
+                @media (max-width: 1000px) {
+                    height: 400px;
+                    width: 100%;
+                }
 
-                // @media (max-width: 700px) {
-                //     height: 300px;
-                // }
+                @media (max-width: 700px) {
+                    height: 300px;
+                }
             }
 
             .achgdyby {
@@ -78,6 +78,10 @@
 
             .kulki {
                 background-image: url('../../assets/kulki.png');
+            }
+
+            .tangere {
+                background-image: url('../../assets/tangere.jpg');
             }
 
             .flagi {
@@ -168,3 +172,36 @@
 .kulki-pic {
     background-image: url('../../assets/kulkit.jpg');
 }
+
+.movies__boxi {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slick-container {
+    width: 850px;
+    margin: 0 auto;
+  }
+
+.slide-box {
+    width: 250px;
+    height: 280px;
+    color: white;
+  }
+  
+  .slider-img {
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+  }
+
+  .slider-title {
+      color: white;
+      text-align: center;
+      padding-top: 10px;
+      font-size: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+  }
+
+  

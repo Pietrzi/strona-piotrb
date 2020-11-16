@@ -12,7 +12,7 @@ const MovieDisplay = (props) => {
     return (
         <div className="nmovies__container">
             <div className="nmovies__box">
-                <div className="lefty" onClick={props.clickRght}></div>
+                <div className="lefty" onClick={props.clickLeft}></div>
                 <div className="nslider-container">
                     <div className={sliderClasses}>
                         <div className="nmovie__box">
@@ -47,7 +47,7 @@ const MovieDisplay = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="righty" onClick={props.clickRght}></div>
+                <div className="righty" onClick={props.clickRight}></div>
             </div>
         </div>
     )
