@@ -40,23 +40,6 @@ class App extends React.Component {
       return { sideMenu: !prevState.sideMenu }
     })
   }
-
-  goRightClickHandler = () => {
-    if (this.state.goRight) {
-      this.setState({
-        goRight: true
-      })
-    }
-  }
-
-  goLeftClickHandler = () => {
-    if (!this.state.goRight) {
-      this.setState({
-        goRight: false
-      })
-    }
-  }
-
   backdropClickHandler = () => {
     this.setState({
       sideMenu: false
@@ -75,12 +58,9 @@ class App extends React.Component {
       {backdrop}
       <BrowserRouter>
         <Navbar menuHandler={this.sideMenuClickHandler} />
-        <SideMenu show={this.state.sideMenu} />
+        <SideMenu show={this.state.sideMenu} click={this.backdropClickHandler}/>
         <Switch>
           <Route exact path='/' component={Main} />
-          {/* <Route path='/movie' component={MovieNew goRight={this.goRightClickHandler}}/>
-          <Route path='/app/pulpit' render={(props) => <Pulpit {...props} addPlan={this.showAddPlan} />}></Route> */}
-          {/* <Route path='/movie' render={(props) => <MovieNew {...props} goRight={this.goRightClickHandler} goLeft={this.goLeftClickHandler} right={this.state.goRight} />}></Route> */}
           <Route path='/movie' component={MovieNew} />
           <Route path='/film1' component={Film1} />
           <Route path='/film2' component={Film2} />

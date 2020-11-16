@@ -181,12 +181,24 @@
 .slick-container {
     width: 850px;
     margin: 0 auto;
-  }
+
+    @media (max-width: 1056px) {
+        width: 600px;
+    }
+
+    @media (max-width: 724px) {
+        width: 260px;
+    }
+}
 
 .slide-box {
     width: 250px;
     height: 280px;
     color: white;
+
+    @media (max-width: 724px) {
+        width: 240px;
+    }
   }
   
   .slider-img {

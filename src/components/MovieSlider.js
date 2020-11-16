@@ -3,34 +3,13 @@ import { NavLink } from 'react-router-dom';
 
 import Slider from "react-slick";
 
-function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "red" }}
-      onClick={onClick}
-    />
-  );
-}
-
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "green" }}
-      onClick={onClick}
-    />
-  );
-}
-
 function SampleMyPrev(props) {
   const { className, style, onClick } = props;
   return (
     <img
       src={require('../assets/899.png')}
       className={className}
+      alt={"arrow"}
       style={{ ...style, 
             display: "block",
             width: 55,
@@ -47,6 +26,7 @@ function SampleMyNext(props) {
     <img
       src={require('../assets/890.png')}
       className={className}
+      alt={"arrow"}
       style={{ ...style,
              display: "block", 
              width: 50,
@@ -68,7 +48,21 @@ export default class SimpleSlider extends Component {
       slidesToShow: 3,
       slidesToScroll: 1,
       nextArrow: <SampleMyNext />,
-      prevArrow: <SampleMyPrev />
+      prevArrow: <SampleMyPrev />,
+      responsive: [
+        {
+          breakpoint: 1075,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+            breakpoint: 724,
+            settings: {
+              slidesToShow: 1
+            }
+        }
+      ]
     };
     return (
       <div className="movies__container">
@@ -149,8 +143,8 @@ export default class SimpleSlider extends Component {
             </div> */}
         </Slider>
         </div>
-    //     </div>
-    //   </div>
+        </div>
+      </div>
     );
   }
 }

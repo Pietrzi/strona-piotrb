@@ -1,7 +1,5 @@
 import React from 'react';
 import sample from '../assets/filmos.mp4';
-import MovieDisplay from './MovieDisplay';
-import NewMovieDisplay from './NewMovieDisplay';
 import MovieSlider from './MovieSlider';
 
 
@@ -26,7 +24,6 @@ class Movie extends React.Component {
                 
             </div>
             <MovieSlider />
-            {/* <MovieSlider clickRight={this.props.goRight} clickLeft={this.props.goLeft} right={this.props.right}/> */}
             </>
         )
     }
