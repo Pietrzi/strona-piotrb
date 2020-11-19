@@ -69,12 +69,12 @@ class App extends React.Component {
           <Route path='/film4' component={Film4} />
           <Route path='/film5' component={Film5} />
           <Route path='/film6' component={Film6} />
-          <Route path='/video-art1' component={FilmArt1} />
-          <Route path='/video-art2' component={FilmArt2} />
-          <Route path='/video-art3' component={FilmArt3} />
-          <Route path='/video-art4' component={FilmArt4} />
-          <Route path='/video-art5' component={FilmArt5} />
-          <Route path='/video-art6' component={FilmArt6} />
+          <Route path='/video-art1' component={FilmArt6} />
+          <Route path='/video-art2' component={FilmArt1} />
+          <Route path='/video-art3' component={FilmArt2} />
+          <Route path='/video-art4' component={FilmArt3} />
+          <Route path='/video-art5' component={FilmArt4} />
+          <Route path='/video-art6' component={FilmArt5} />
           <Route path='/movieart' component={MovieArtNew} />
           <Route path='/raz' component={Paint1} />
           <Route path='/dwa' component={Paint2} />
