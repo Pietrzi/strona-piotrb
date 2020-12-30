@@ -10,7 +10,7 @@ class Reactplayer extends React.Component {
                 <div className='player-wrapper player6'>
                     <ReactPlayer
                     className='react-player'
-                    url='https://vimeo.com/362426611?fbclid=IwAR2-EgIZF6zO-1rrLOKnw01loBDEsffW-IyzGa5ck6_nypLa0HO8NZGmaoY'
+                    url='https://vimeo.com/494956812'
                     width='100%'
                     height='100%'
                     controls={true}
