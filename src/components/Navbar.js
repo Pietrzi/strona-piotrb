@@ -31,6 +31,9 @@ const Navbar = (props) => {
                                 </div>
                             </div>
                         </li>
+                        <li >
+                            <NavLink className="menu__link__element" to='emotes'>emotes</NavLink>
+                        </li>
                     </ul>
                     <Hamburger click={props.menuHandler}/>
                 </div>

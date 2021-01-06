@@ -31,6 +31,9 @@ const SideMenu = (props) => {
                         </div>
                     </div>
                 </li>
+                <li onClick={props.click}>
+                    <NavLink className="menu__link__element" to='emotes'>emotes</NavLink>
+                </li>
             </ul>
         </div>
     )

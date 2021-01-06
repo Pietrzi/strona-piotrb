@@ -24,6 +24,7 @@ import FilmArt5 from './components/FilmArt5';
 import FilmArt6 from './components/FilmArt6';
 import MovieNew from './components/MovieNew';
 import MovieArtNew from './components/MovieArtNew';
+import Emotes from './components/Emotes';
 
 import "slick-carousel/slick/slick.scss"; 
 import "slick-carousel/slick/slick-theme.scss";
@@ -79,7 +80,9 @@ class App extends React.Component {
           <Route path='/raz' component={Paint1} />
           <Route path='/dwa' component={Paint2} />
           <Route path='/trzy' component={Paint3} />
+          <Route path='/emotes' component={Emotes} />
           <Route path='/biocontact' component={BioNew} />
+
         </Switch>
         <Footer />
       </BrowserRouter>
