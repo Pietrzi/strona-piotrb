@@ -1,25 +1,22 @@
 import React from 'react';
 import Slide from './Slide';
 
-import Paint1 from "../assets/emotes/1a.jpg";
-import Paint2 from "../assets/emotes/2a.jpg";
-import Paint3 from "../assets/emotes/3a.jpg";
-import Paint4 from "../assets/emotes/4a.jpg";
-import Paint5 from "../assets/emotes/5a.jpg";
-import Paint6 from "../assets/emotes/6a.jpg";
+import img1 from "../assets/img1.jpg";
+import img2 from "../assets/img2.jpg";
+import img3 from "../assets/img3.jpg";
+import img4 from "../assets/img4.jpg";
+import img5 from "../assets/img5.jpg";
+import img6 from "../assets/img6.jpg";
 
 
 
-class Emotes extends React.Component {
-    constructor() {
-        super();
-        this.state = {
+class Test extends React.Component {
+        state = {
         currentIndex: 0,
-        images: [Paint1, Paint2, Paint3, Paint4, Paint5, Paint6]
-        };
-    }
+        images: [img1, img2, img3, img4, img5, img6]
+        }
 
-    prevSlide = () => {
+        prevSlide = () => {
         const lastIndex = this.state.images.length - 1;
         const resetIndex = this.state.currentIndex === 0;
         const index = resetIndex ? lastIndex : this.state.currentIndex - 1;
@@ -27,6 +24,7 @@ class Emotes extends React.Component {
           currentIndex: index
         });
       };
+
       nextSlide = () => {
         const lastIndex = this.state.images.length - 1;
         const resetIndex = this.state.currentIndex === lastIndex;
@@ -35,15 +33,6 @@ class Emotes extends React.Component {
           currentIndex: index
         });
       };
-
-      nextSlide = () => {
-          const index = this.state.currentIndex;
-          if (index === this.state.images.length -1) {
-              this.setState({
-                  currentIndex: 0
-              })
-          }
-      }
     
       render() {
         const index = this.state.currentIndex;
@@ -67,4 +56,4 @@ class Emotes extends React.Component {
     }
 }
 
-export default Emotes;
+export default Test;
