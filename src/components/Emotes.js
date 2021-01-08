@@ -27,6 +27,7 @@ class Emotes extends React.Component {
           currentIndex: index
         });
       };
+      
       nextSlide = () => {
         const lastIndex = this.state.images.length - 1;
         const resetIndex = this.state.currentIndex === lastIndex;
@@ -36,35 +37,19 @@ class Emotes extends React.Component {
         });
       };
 
-      nextSlide = () => {
-          const index = this.state.currentIndex;
-          if (index === this.state.images.length -1) {
-              this.setState({
-                  currentIndex: 0
-              })
-          }
-      }
-    
       render() {
         const index = this.state.currentIndex;
-        let newImagesArray = this.state.images.slice(index, index + 6);
-        if (newImagesArray.length < 6) {
-          newImagesArray = newImagesArray.concat(
-            this.state.images.slice(0, 6 - newImagesArray.length)
-          );
-        }
+        const images = this.state.images;
+    
         return (
-          <div className="paint__container">
-            {newImagesArray.map((image, i) =>
-              this.state.currentIndex === i ? (
-                <Slide key={i} url={image} alt="" />
-              ) : null
-            )}
+            <div className="paint__container">
+                <Slide url={images[index]} alt="" />
                 <div className="left__arrow" onClick={this.prevSlide}></div>
                 <div className="right__arrow" onClick={this.nextSlide}></div>
-          </div>
+            </div>
         );
     }
+    
 }
 
 export default Emotes;
