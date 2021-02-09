@@ -83,6 +83,12 @@ export default class SimpleSlider extends Component {
             <div className="slick-container">
                 <Slider {...settings}>
                   <div className="slide-box">
+                      <NavLink to="/video-art7">
+                        <img className="slider-img" src={require('../assets/kiv.jpg')} alt="obrazek"/>
+                      </NavLink>
+                    <h3 className="slider-title">fantasy on prokofiev's</h3>
+                  </div>
+                  <div className="slide-box">
                     <NavLink to="/video-art1">
                       <img className="slider-img" src={require('../assets/buzki.jpg')} alt="obrazek"/>
                     </NavLink>

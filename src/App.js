@@ -16,12 +16,14 @@ import Film3 from './components/Film3';
 import Film4 from './components/Film4';
 import Film5 from './components/Film5';
 import Film6 from './components/Film6';
+import Film7 from './components/Film7';
 import FilmArt1 from './components/FilmArt1';
 import FilmArt2 from './components/FilmArt2';
 import FilmArt3 from './components/FilmArt3';
 import FilmArt4 from './components/FilmArt4';
 import FilmArt5 from './components/FilmArt5';
 import FilmArt6 from './components/FilmArt6';
+import FilmArt7 from './components/FilmArt7';
 import MovieNew from './components/MovieNew';
 import MovieArtNew from './components/MovieArtNew';
 import Emotes from './components/Emotes';
@@ -70,12 +72,14 @@ class App extends React.Component {
           <Route path='/film4' component={Film4} />
           <Route path='/film5' component={Film5} />
           <Route path='/film6' component={Film6} />
+          <Route path='/film7' component={Film7} />
           <Route path='/video-art1' component={FilmArt6} />
           <Route path='/video-art2' component={FilmArt1} />
           <Route path='/video-art3' component={FilmArt2} />
           <Route path='/video-art4' component={FilmArt3} />
           <Route path='/video-art5' component={FilmArt4} />
           <Route path='/video-art6' component={FilmArt5} />
+          <Route path='/video-art7' component={FilmArt7} />
           <Route path='/movieart' component={MovieArtNew} />
           <Route path='/raz' component={Paint1} />
           <Route path='/dwa' component={Paint2} />

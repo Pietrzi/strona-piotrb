@@ -10,18 +10,18 @@ class Reactplayer extends React.Component {
                 <div className='player-wrapper player5'>
                     <ReactPlayer
                     className='react-player'
-                    url='https://vimeo.com/497429054'
+                    url='https://vimeo.com/507050183'
                     width='100%'
                     height='100%'
                     controls={true}
                     />
                 </div>
                 <div className="player__film__title">
-                    ścieżki tekstu
+                    fantasy on prokofiev's
                 </div>
                 <div className="player__film__description">
                     <div className="pol__desc">
-                    Video-artową realizację inspirowaną twórczością Stanisława Dróżdża, z udziałem Chóru Komentujących Wrocławian. "Poezja tradycyjna opisuje obraz. Poezja konkretna pisze obrazem" Stanisław Dróżdż. 
+                    Wideo klip do utworu Katarzyny Borek i Vojto Montuer FANTASY ON PROKOFIEV'S VIOLIN SONATE OP.80 który był nominowany do nagrody YACH 2014 
                     </div>
                 </div>
                 <div 

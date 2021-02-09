@@ -118,6 +118,12 @@ export default class SimpleSlider extends Component {
                   </NavLink>
                   <h3 className="slider-title">ścieżki tekstu</h3>
                 </div>
+                <div className="slide-box">
+                  <NavLink to="/film7">
+                      <img className="slider-img" src={require('../assets/ewolu.jpg')} alt="obrazek"/>
+                  </NavLink>
+                  <h3 className="slider-title">ewolucja gwiazd</h3>
+                </div>
               </Slider>
             </div>
         </div>
